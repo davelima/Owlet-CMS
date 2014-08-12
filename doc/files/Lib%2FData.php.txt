@@ -1,0 +1,232 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Lib;
+
+/**
+ * DataMapper class
+ *
+ * @author David Lima
+ * @copyright 2014,David Lima
+ * @namespace Lib
+ * @version r1.0
+ * @license Apache 2.0
+ * @abstract
+ *
+ */
+abstract class Data
+{
+
+    /**
+     * The database instance
+     *
+     * @staticvar \PDO
+     */
+    public static $db;
+
+    /**
+     * The Database Management System to use
+     *
+     * @staticvar string mysql | pgsql
+     */
+    private static $dbms = "pgsql";
+
+    /**
+     * The database to use
+     *
+     * @staticvar string
+     */
+    private static $database = "go";
+
+    /**
+     * The host to conenct
+     *
+     * @staticvar string
+     */
+    private static $host = "localhost";
+
+    /**
+     * The user to authenticate
+     *
+     * @staticvar string
+     */
+    private static $user = "go";
+
+    /**
+     * The password to authenticate
+     *
+     * @staticvar string
+     */
+    private static $password = "batman";
+
+    /**
+     * Opens an connection and put it on self::$db
+     *
+     * @static
+     *
+     */
+    public static function Open()
+    {
+        self::$db = Connector::getInstance(self::$dbms, self::$database, self::$host, self::$user, self::$password);
+    }
+
+    /**
+     * Opens the PDO transaction
+     */
+    public static function beginTransaction()
+    {
+        self::Open();
+        self::$db->beginTransaction();
+    }
+
+    /**
+     * Rollbacks the PDO transaction and cancel the query
+     */
+    public static function rollBack()
+    {
+        self::$db->rollBack();
+    }
+
+    /**
+     * Commit the PDO transaction
+     */
+    public static function Commit()
+    {
+        self::$db->commit();
+    }
+
+    /**
+     * Call self::Update if !is_null($object->id) and
+     * self::Insert in other case
+     *
+     * @param mixed $object            
+     */
+    public static function Save($object)
+    {
+        if (! is_null($object->id)) {
+            return self::Update($object);
+        } else {
+            unset($object->id);
+            return self::Insert($object);
+        }
+        if (isset($object->datetime)) {
+            unset($object->datetime);
+        }
+    }
+
+    /**
+     * Realize an delete query
+     *
+     * @param mixed $object            
+     * @param string $condition            
+     */
+    public static function Delete($object)
+    {
+        self::beginTransaction();
+        if (self::$db->query("DELETE FROM $object WHERE id = {$object->getId()}")) {
+            self::Commit();
+            return true;
+        }
+        self::rollBack();
+        return false;
+    }
+
+    /**
+     * Perform a select query
+     *
+     * @param mixed $object            
+     * @param string $condition            
+     * @param string $limit            
+     */
+    public static function Select($object, $condition, $limit, $orderBy = "id")
+    {
+        self::Open();
+        $condition = ($condition ? " WHERE $condition " : "");
+        $limit = ($limit ? " LIMIT $limit " : "");
+        $query = self::$db->query("SELECT * FROM $object $condition ORDER BY $orderBy DESC $limit");
+        return $query->fetchAll(\PDO::FETCH_CLASS, get_class($object));
+    }
+
+    /**
+     * Perform a custom query
+     *
+     * @param string $query            
+     */
+    public static function customQuery($query)
+    {
+        self::Open();
+        return self::$db->query($query);
+    }
+
+    /**
+     * Realize an insert query
+     *
+     * @param mixed $object            
+     * @access private
+     * @static
+     *
+     */
+    private static function Insert($object)
+    {
+        self::beginTransaction();
+        
+        $data = $object->getData();
+        $columns = array_keys($data);
+        $values = array_values($data);
+        
+        $placeholders = implode(",", array_fill(0, count($columns), "?"));
+        $columns = implode(",", $columns);
+        $query = self::$db->prepare("INSERT INTO $object ($columns) VALUES ($placeholders)");
+        
+        if ($query->execute($values)) {
+            self::Commit();
+            return true;
+        } else {
+            self::rollBack();
+            return false;
+        }
+    }
+
+    /**
+     * Realize an update query
+     *
+     * @param mixed $object            
+     * @access private
+     * @static
+     *
+     */
+    private static function Update($object)
+    {
+        self::beginTransaction();
+        $data = $object->getData();
+        $columns = array_keys($data);
+        $values = array_values($data);
+        $sets = array();
+        foreach ($columns as $col) {
+            $sets[] = "$col = ?";
+        }
+        $sets = implode(",", $sets);
+        $query = self::$db->prepare("UPDATE $object SET $sets WHERE id = {$object->getId()}");
+        if ($query->execute($values)) {
+            self::Commit();
+            return true;
+        }
+        self::rollBack();
+        return false;
+    }
+}

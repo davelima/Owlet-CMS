@@ -1,0 +1,87 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Extensions;
+
+/**
+ * Manage website configurations
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @version dev 1.0
+ * @namespace Extensions
+ * @license Apache 2.0
+ */
+class Config
+{
+
+    /**
+     * Relative path to config.xml file
+     */
+    const CONFIG_FILE = "../../config.xml";
+
+    /**
+     * Configurations object
+     *
+     * @staticvar \SimpleXMLElement
+     */
+    public static $config;
+
+    /**
+     * Set self::$config var
+     * Should not be called directly: this class uses Singleton pattern, call get() method
+     *
+     * @throws \Exception
+     */
+    private function __construct()
+    {
+        $configFile = __DIR__ . "/" . self::CONFIG_FILE;
+        if (! file_exists($configFile)) {
+            throw new \Exception("Arquivo de configurações não encontrado.");
+        }
+        
+        self::$config = new \SimpleXMLElement($configFile, false, 1);
+    }
+
+    /**
+     * Save new configurations
+     *
+     * @return void
+     */
+    public static function Save()
+    {
+        $file = fopen(__DIR__ . "/" . self::CONFIG_FILE, "w");
+        fwrite($file, trim(self::$config->asXML()));
+        fclose($file);
+    }
+
+    /**
+     * Return a singleton instance of self::$config
+     * 
+     * @return \SimpleXMLElement
+     */
+    public static function get()
+    {
+        if (self::$config) {
+            return self::$config;
+        } else {
+            $conf = new Config();
+            return self::$config;
+        }
+    }
+}

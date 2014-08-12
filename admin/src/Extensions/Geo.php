@@ -1,0 +1,67 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Extensions;
+
+/**
+ * Stores geographic data like countries, states, provincies names
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @namespace Extensions
+ * @version r1.0
+ * @license Apache 2.0
+ */
+class Geo
+{
+
+    /**
+     * Brazilian states
+     *
+     * @staticvar array
+     */
+    public static $brazilianStates = array(
+        "AC" => "Acre",
+        "AL" => "Alagoas",
+        "AP" => "Amapá",
+        "AM" => "Amazonas",
+        "BA" => "Bahia",
+        "CE" => "Ceará",
+        "DF" => "Distrito Federal",
+        "ES" => "Espirito Santo",
+        "GO" => "Goiás",
+        "MA" => "Maranhão",
+        "MT" => "Mato Grosso",
+        "MS" => "Mato Grosso do Sul",
+        "MG" => "Minas Gerais",
+        "PA" => "Pará",
+        "PB" => "Paraíba",
+        "PE" => "Pernambuco",
+        "PR" => "Paraná",
+        "PI" => "Piauí",
+        "RJ" => "Rio de Janeiro",
+        "RN" => "Rio Grande do Norte",
+        "RS" => "Rio Grande do Sul",
+        "RO" => "Rondônia",
+        "RR" => "Roraima",
+        "SC" => "Santa Catarina",
+        "SP" => "São Paulo",
+        "SE" => "Sergipe",
+        "TO" => "Tocantis"
+    );
+}

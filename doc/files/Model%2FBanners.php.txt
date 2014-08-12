@@ -1,0 +1,171 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Model;
+
+use \Lib\Data;
+
+/**
+ * Manage banners on the website
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @namespace Model
+ * @uses \Lib\Data
+ * @version r1.0
+ * @license Apache 2.0
+ */
+class Banners extends Base
+{
+
+    /**
+     * Table to save data
+     */
+    const TABLE = "banners";
+
+    /**
+     * Fixed width of the banners to upload
+     */
+    const WIDTH = 800;
+
+    /**
+     * Fixed height of the banners to upload
+     */
+    const HEIGHT = 200;
+
+    /**
+     * Available properties
+     *
+     * @var array
+     */
+    public $properties = array(
+        "title" => null,
+        "since" => null,
+        "until" => null,
+        "permanent" => null,
+        "src" => null,
+        "position" => null,
+        "link" => null,
+        "id" => null
+    );
+
+    /**
+     * Extension of the Save method
+     *
+     * @see \Model\Base::Save()
+     */
+    public function Save()
+    {
+        $required = array(
+            "title" => "Título",
+            "src" => "Imagem"
+        );
+        $this->validateData($required);
+        parent::Save();
+    }
+
+    /**
+     * Return all banners that have "since" column lower than actual datetime
+     * AND have the column "until" greater than actual datetime
+     * OR "permament" column is setted to true
+     * ORDERING by position
+     *
+     * @return array
+     */
+    public function getActives()
+    {
+        $condition = "since <= '" . date("Y-m-d H:i:s") . "' AND until > '" . date("Y-m-d H:i:s") . "' OR permanent";
+        return parent::get($condition, "position", false);
+    }
+
+    /**
+     * Checks if the Banner object satisfies the conditions to be enabled
+     *
+     * @return boolean
+     * @see \Model\Banners::getActives()
+     */
+    public function isActive()
+    {
+        $now = new \DateTime();
+        return ($this->getSince() <= $now && $this->getUntil() > $now || $this->getPermanent());
+    }
+
+    /**
+     * Extension of the Remove method
+     * This checks and remove the image file too
+     *
+     * @see \Model\Base::Remove()
+     */
+    public function Remove()
+    {
+        $file = __DIR__ . \Extensions\PHPImageWorkshop\ImageWorkshop::UPLOAD_PATH . "/banners/" . $this->getSrc();
+        if (file_exists($file)) {
+            unlink($file);
+        }
+        parent::Remove();
+    }
+
+    /**
+     * Extension of the __get method
+     *
+     * @see \Model\Base::__get()
+     */
+    public function __get($key)
+    {
+        if ($key == "since") {
+            return new \DateTime($this->properties['since']);
+        }
+        if ($key == "until") {
+            return new \DateTime($this->properties['until']);
+        }
+        return parent::__get($key);
+    }
+
+    /**
+     * Extension of the validateData method
+     *
+     * @see \Model\Base::validateData()
+     */
+    protected function validateData(array $required)
+    {
+        parent::validateData($required);
+        $savePath = __DIR__ . \Extensions\PHPImageWorkshop\ImageWorkshop::UPLOAD_PATH . "/banners";
+        if ($this->id) {
+            $info = $this->getById($this->id);
+            if (is_array($this->src)) {
+                $img = \Extensions\PHPImageWorkshop\ImageWorkshop::initFromPath($this->src['tmp_name']);
+                
+                $img->resizeInPixel(self::WIDTH, self::HEIGHT, true, 0, 0, "MM");
+                
+                $img->save($savePath, $info->getSrc(), true, null, 95);
+                
+                $this->src = $info->getSrc();
+            }
+        } else {
+            $fileName = uniqid("banner-") . ".png";
+            
+            $img = \Extensions\PHPImageWorkshop\ImageWorkshop::initFromPath($this->src['tmp_name']);
+            
+            $img->resizeInPixel(self::WIDTH, self::HEIGHT, true, 0, 0, "MM");
+            
+            $img->save($savePath, $fileName, true, null, 95);
+            
+            $this->src = $fileName;
+        }
+    }
+}
