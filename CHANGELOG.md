@@ -1,6 +1,10 @@
 # CHANGELOG
 
 ## 13/08/2014
+### Implementação do indicador de pagina ativa no menu da sidebar
++ Atualização do Controller principal (v1.0 > v1.0.1)
+
+## 13/08/2014
 ### Atualizações diversas
 + Remoção do arquivo admin/js/devoops.min.js
 + Atualização da extensão Mailer (v dev1.0 > v1.0)

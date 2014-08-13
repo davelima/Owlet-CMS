@@ -581,6 +581,10 @@ function confirm(message, callback){
   });
 }
 
+function showEnabledPage(page){
+  $('li a[data-model="'+page+'"]').click();
+}
+
 $(document).ready(function () {
   
  $.ajaxSetup({
