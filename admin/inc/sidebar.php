@@ -32,11 +32,17 @@
 			<li>
 				<a href="blog/comments/">Comentários</a>
 			</li>
+			<li>
+				<a href="blog/configurations/">Configurações</a>
+			</li>
 		</ul>
 	
 <?php
-if($headerAdmin->isRoot()){
-?>
+if ($headerAdmin->isRoot()) {
+    ?>
+	
+	
+	
 	<li class="dropdown">
 		<a href="#" class="dropdown-toggle">
 			<i class="fa fa-user"></i>
@@ -56,69 +62,61 @@ if($headerAdmin->isRoot()){
 ?>
 	
 	<li class="dropdown">
-	   <a href="#" class="dropdown-toggle">
-	       <i class="fa fa-users"></i>
-	       <span class="hidden-xs">Usuários do site</span>
-	   </a>
-	   <ul class="dropdown-menu">
-	       <li>
-	           <a href="users/dashboard/">Visualizar usuários registrados</a>
-	       </li>
-	       <li>
-	           <a href="users/register/">Registrar usuário</a>
-	       </li>
-	   </ul>
+		<a href="#" class="dropdown-toggle">
+			<i class="fa fa-users"></i>
+			<span class="hidden-xs">Usuários do site</span>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="users/dashboard/">Visualizar usuários registrados</a>
+			</li>
+			<li>
+				<a href="users/register/">Registrar usuário</a>
+			</li>
+		</ul>
 	</li>
-    
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle">
-            <i class="fa fa-credit-card"></i>
-            <span class="hidden-xs">Formas de pagamento</span>
-        </a>
-        <ul class="dropdown-menu">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle">
-                    PagSeguro
-                </a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="pagseguroconfig/edit/1/">Configurações</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle">
-            <i class="fa fa-th-large"></i>
-            <span class="hidden-xs">Banners</span>
-        </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="banners/dashboard/">
-                    Visualizar banners
-                </a>
-            </li>
-            <li>
-                <a href="banners/add/">
-                    Adicionar banner
-                </a>
-            </li>
-        </ul>
-    </li>
-    
-    <li class="dropdown">
-        <a href="#" class="dropdown-toggle">
-            <i class="fa fa-envelope"></i>
-            <span class="hidden-xs">Mailing</span>
-        </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="mailing/dashboard/">
-                    Visualizar mailing
-                </a>
-            </li>
-        </ul>
-    </li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle">
+			<i class="fa fa-credit-card"></i>
+			<span class="hidden-xs">Formas de pagamento</span>
+		</a>
+		<ul class="dropdown-menu">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle"> PagSeguro </a>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="pagseguroconfig/edit/1/">Configurações</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle">
+			<i class="fa fa-th-large"></i>
+			<span class="hidden-xs">Banners</span>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="banners/dashboard/"> Visualizar banners </a>
+			</li>
+			<li>
+				<a href="banners/add/"> Adicionar banner </a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle">
+			<i class="fa fa-envelope"></i>
+			<span class="hidden-xs">Mailing</span>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="mailing/dashboard/"> Visualizar mailing </a>
+			</li>
+		</ul>
+	</li>
 </ul>

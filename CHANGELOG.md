@@ -1,6 +1,14 @@
 # CHANGELOG
 
 ## 13/08/2014
+### Atualizações diversas
++ Remoção do arquivo admin/js/devoops.min.js
++ Atualização da extensão Mailer (v dev1.0 > v1.0)
++ Documentação revisada
++ Atualização do módulo Blog (v1.0.1 > v1.0.2)
+  + Ativação da função de disparo de e-mail notificativo para assinantes do Mailing
+
+## 13/08/2014
 ### Atualização do módulo Blog (v1.0 > v1.0.1)
 Bug corrigido:
 + Ao publicar/salvar um post, as tags do mesmo não eram armazenadas;

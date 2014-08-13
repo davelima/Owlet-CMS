@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <owletConfig>
 	<blog>
-		<sendNotificationToMailing>0</sendNotificationToMailing>
-		<postsPerPage>5</postsPerPage>
+		<sendNotificationToMailing>1</sendNotificationToMailing>
+		<postsPerPage>6</postsPerPage>
 	</blog>
 
 	<mailer>
@@ -10,8 +10,8 @@
 		<senderName></senderName>
 		<receiver></receiver>
 		<host></host>
-		<port>465</port>
-		<auth>ssl</auth>
+		<port></port>
+		<auth></auth>
 		<username></username>
 		<password></password>
 	</mailer>

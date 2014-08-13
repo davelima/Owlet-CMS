@@ -24,7 +24,7 @@ namespace Extensions;
  *
  * @author David Lima
  * @copyright 2014, David Lima
- * @version dev 1.0
+ * @version r1.0
  * @namespace Extensions
  * @license Apache 2.0
  * @see Config
@@ -101,13 +101,14 @@ class Mailer
         $this->PHPMailerObj->addAddress($this->recipient['email'], $this->recipient['name']);
         $this->PHPMailerObj->CharSet = "UTF-8";
         $this->PHPMailerObj->IsHTML(1);
-        $this->PHPMailerObj->IsSMTP(1);
-        $this->PHPMailerObj->SMTPDebug = true;
+        $this->PHPMailerObj->IsSMTP();
         if ($this->config->mailer->auth != "none") {
             $this->PHPMailerObj->SMTPAuth = true;
-            $this->PHPMailerObj->AuthType = $this->config->mailer->auth;
-            $this->PHPMailerObj->Username = $this->config->mailer->username;
-            $this->PHPMailerObj->Password = $this->config->mailer->password;
+            $this->PHPMailerObj->Host = $this->config->mailer->host->__toString();
+            $this->PHPMailerObj->Port = $this->config->mailer->port->__toString();
+            $this->PHPMailerObj->SMTPSecure = $this->config->mailer->auth->__toString();
+            $this->PHPMailerObj->Username = $this->config->mailer->username->__toString();
+            $this->PHPMailerObj->Password = $this->config->mailer->password->__toString();
         }
         
         $this->PHPMailerObj->Subject = $this->subject;
