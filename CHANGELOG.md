@@ -1,4 +1,10 @@
 # CHANGELOG
+
+## 13/08/2014
+### Atualização do módulo Blog (v1.0 > v1.0.1)
+Bug corrigido:
++ Ao publicar/salvar um post, as tags do mesmo não eram armazenadas;
+
 ## 12/08/2014
 ### Versão inicial implementada
 

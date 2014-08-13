@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0
+ * @version r1.0.1
  * @license Apache 2.0
  */
 class Blog extends Base
@@ -56,7 +56,7 @@ class Blog extends Base
 
     /**
      * Extension of the Save method
-     * 
+     *
      * @see \Model\Base::Save()
      */
     public function Save()
@@ -68,5 +68,24 @@ class Blog extends Base
         $this->setSlug(\Extensions\Strings::Slug($this->title));
         $this->validateData($required);
         parent::Save();
+    }
+
+    /**
+     * Extension of validateData method
+     * 
+     * @see \Model\Base::validateData()
+     */
+    protected function validateData(array $required)
+    {
+        if (is_array($this->getTags())) {
+            $tags = new Tags();
+            foreach ($this->getTags() as $tag) {
+                if (! $tags->getByColumn("title", $tag)) {
+                    $tags->setTitle($tag);
+                    $tags->Save();
+                }
+            }
+        }
+        parent::validateData($required);
     }
 }
