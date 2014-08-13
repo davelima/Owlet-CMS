@@ -2,7 +2,7 @@
 $breadcrumbs = array(
     "Home" => "/admin/",
     "Blog" => "/admin/blog/dashboard/",
-    "Escrever publicação" => "/admin/blog/compose/"
+    "Escrever publicação" => $_SERVER['REQUEST_URI']
 );
 require_once ("inc/breadcrumbs.php");
 $tags = new Model\Tags();

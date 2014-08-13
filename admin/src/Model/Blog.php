@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0.1
+ * @version r1.0.2
  * @license Apache 2.0
  */
 class Blog extends Base
@@ -67,12 +67,28 @@ class Blog extends Base
         );
         $this->setSlug(\Extensions\Strings::Slug($this->title));
         $this->validateData($required);
+        $config = \Extensions\Config::get();
+        $config = $config->blog;
         parent::Save();
+        if ($config->sendNotificationToMailing) {
+            $mailing = new Mailing();
+            $mailing = $mailing->getAll();
+            $mailer = new \Extensions\Mailer();
+            $mailer->subject = $this->getTitle();
+            $mailer->message = $this->getBody();
+            foreach ($mailing as $email) {
+                $mailer->recipient = array(
+                    "name" => $email,
+                    "email" => $email
+                );
+                $mailer->Send();
+            }
+        }
     }
 
     /**
      * Extension of validateData method
-     * 
+     *
      * @see \Model\Base::validateData()
      */
     protected function validateData(array $required)
