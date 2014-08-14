@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 14/08/2014
+### Remoção de arquivos de teste e implementação de nova extensão
++ Arquivos de teste em templates/Examples removidos
++ Extensão Weather implementada (previsão do tempo)
+
 ## 13/08/2014
 ### Implementação do indicador de pagina ativa no menu da sidebar
 + Atualização do Controller principal (v1.0 > v1.0.1)

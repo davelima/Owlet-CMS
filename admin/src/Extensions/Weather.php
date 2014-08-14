@@ -1,0 +1,221 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Extensions;
+
+/**
+ * Weather retriever
+ * This extension use Wunderdground API and requires an free account to run.
+ * Please access wunderground.com/weather/api and register before use
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @namespace Extensions
+ * @version r1.0
+ * @license Apache 2.0
+ */
+class Weather
+{
+
+    /**
+     * Your API Key.
+     * Register at wunderground.com/weather/api to get one
+     */
+    const API_KEY = "3cc0811eb2b682dd";
+
+    /**
+     * Base URL of the API
+     */
+    const API_URL = "http://api.wunderground.com/api/";
+
+    /**
+     * API response format
+     *
+     * @var string json|xml
+     */
+    public $format = "json";
+
+    /**
+     * User country (ISO3166: BR, US, UK, JP...)
+     *
+     * @var string
+     */
+    public $country;
+
+    /**
+     * User city
+     *
+     * @var string
+     */
+    public $city;
+
+    /**
+     * Language of the result (need to be uppercase)
+     *
+     * @var string
+     */
+    public $lang = "BR";
+
+    /**
+     * Variables to get
+     * Available: forecast
+     *
+     * @var array
+     */
+    public $variables;
+
+    /**
+     * Query result
+     *
+     * @var \stdClass
+     */
+    public $result;
+
+    /**
+     * Constructor
+     */
+    public function __construct($country, $city)
+    {
+        $country = \Extensions\Strings::Slug($country);
+        $country = str_replace("-", "_", $country);
+        
+        $city = \Extensions\Strings::Slug($city);
+        $city = str_replace("-", "_", $city);
+        
+        $this->country = $country;
+        $this->city = $city;
+    }
+
+    /**
+     * Run the default query and set $this->result variable
+     * This method should be called before any other
+     *
+     * @return void
+     */
+    public function Query()
+    {
+        $this->validateData();
+        $variables = ($this->variables ? $this->variables : array(
+            "conditions"
+        ));
+        $variables = implode("/", $variables) . "/";
+        $lang = ($this->lang ? "lang:{$this->lang}" : "lang:EN") . "/";
+        $country = $this->country . "/";
+        $city = $this->city;
+        $url = self::API_URL . self::API_KEY . "/" . $variables . $lang . "q/" . $country . $city . ".json";
+        $ch = curl_init($url);
+        $curlOptions = array(
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_RETURNTRANSFER => true
+        );
+        curl_setopt_array($ch, $curlOptions);
+        $exec = curl_exec($ch);
+        $this->result = json_decode($exec);
+    }
+
+    /**
+     * Return the actual temperature on defined place
+     *
+     * @param string $meterage
+     *            Unit to return data ("c" or "f")
+     * @return integer
+     */
+    public function getTemperature($meterage = "c")
+    {
+        $this->needs(array(
+            "conditions"
+        ));
+        
+        $meterage = "temp_" . $meterage;
+        return $this->result->current_observation->{$meterage};
+    }
+
+    /**
+     * Return min temperature of the day
+     *
+     * @param string $meterage
+     *            Unit to return data ("c" or "f")
+     * @return integer
+     */
+    public function getMinTemperature($meterage = "c")
+    {
+        $this->needs(array(
+            "almanac"
+        ));
+        if ($meterage != "c" && $meterage != "f") {
+            $meterage = "c";
+        }
+        $meterage = strtoupper($meterage);
+        return $this->result->almanac->temp_low->normal->{$meterage};
+    }
+
+    /**
+     * Return max temperature of the day
+     *
+     * @param string $meterage            
+     * @return integer
+     */
+    public function getMaxTemperature($meterage = "c")
+    {
+        $this->needs(array(
+            "almanac"
+        ));
+        if ($meterage != "c" && $meterage != "f") {
+            $meterage = "c";
+        }
+        $meterage = strtoupper($meterage);
+        return $this->result->almanac->temp_high->normal->{$meterage};
+    }
+
+    /**
+     * Validate $this->country and $this->city variables
+     *
+     * @throws \Exception
+     * @return void
+     */
+    private function validateData()
+    {
+        if (! $this->country) {
+            throw new \Exception("É necessário informar um país");
+        }
+        if (! $this->city) {
+            throw new \Exception("É necessário informar uma cidade");
+        }
+    }
+
+    /**
+     * Check dependences of methods
+     *
+     * @param array $needs
+     *            array with dependences of a method
+     * @throws \Exception
+     */
+    private function needs(array $needs)
+    {
+        $keys = array(
+            "conditions" => "current_observation",
+            "almanac" => "almanac"
+        );
+        foreach ($needs as $item) {
+            $value = $keys[$item];
+            if (! isset($this->result->$value)) {
+                throw new \Exception("Este método depende de {$item}.");
+            }
+        }
+    }
+}
