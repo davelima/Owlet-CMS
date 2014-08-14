@@ -26,7 +26,7 @@ use \View\View;
  * @author David Lima
  * @copyright 2014, David Lima
  * @namespace Controller
- * @version r1.0
+ * @version r1.0.1
  * @license Apache 2.0
  */
 class Controller
@@ -66,5 +66,15 @@ class Controller
         $model = "Model\\" . $this->model;
         $action = $this->action;
         View::load($this->view);
+        /*
+         * Set the "active" menu item on the sidebar
+         */
+echo <<<SCRIPT
+<script type="text/javascript">
+$(document).ready(function(){
+    showEnabledPage("{$this->model}");
+});
+</script>
+SCRIPT;
     }
 }
