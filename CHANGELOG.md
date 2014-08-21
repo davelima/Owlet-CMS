@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 21/08/2014
+### Melhorias no módulo Blog
++ Melhoria no campo *Tags* do módulo Blog. Agora as tags conhecidas são exibidas logo abaixo do input e podem ser clicadas
++ Correção no código de armazenamento de tags
+
 ## 14/08/2014
 ### Remoção de arquivos de teste e implementação de nova extensão
 + Arquivos de teste em templates/Examples removidos

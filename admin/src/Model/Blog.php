@@ -101,6 +101,7 @@ class Blog extends Base
                     $tags->Save();
                 }
             }
+            $this->setTags(implode(",", $this->getTags()));
         }
         parent::validateData($required);
     }
