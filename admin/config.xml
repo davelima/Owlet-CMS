@@ -3,6 +3,8 @@
 	<blog>
 		<sendNotificationToMailing>1</sendNotificationToMailing>
 		<postsPerPage>6</postsPerPage>
+		<blogName>Blog de teste</blogName>
+		<blogDescription>Só testes testes e testes</blogDescription>
 	</blog>
 
 	<mailer>

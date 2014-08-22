@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 22/08/2014
+### Atualização no módulo Blog (v1.0.3)
++ Inclusão do método getRSS(), que retorna os posts do blog formatados em XML para RSS Feeds
++ Criação do arquivo /blogrss.php para visualização do RSS
++ Atualização das configurações do blog em config.xml
+
 ## 21/08/2014
 ### Melhorias no módulo Blog
 + Melhoria no campo *Tags* do módulo Blog. Agora as tags conhecidas são exibidas logo abaixo do input e podem ser clicadas
