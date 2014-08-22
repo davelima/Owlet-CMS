@@ -5,6 +5,7 @@
 + Inclusão do método getRSS(), que retorna os posts do blog formatados em XML para RSS Feeds
 + Criação do arquivo /blogrss.php para visualização do RSS
 + Atualização das configurações do blog em config.xml
++ Implementação da API de senhas do PHP 5.5 para versões inferiores.
 
 ## 21/08/2014
 ### Melhorias no módulo Blog

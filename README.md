@@ -1,5 +1,5 @@
 # Owlet CMS
-#### v1.0
+#### v1.0.1
 ##### PHP >= 5.4.0
 
 Owlet é um CMS de código aberto em PHP. Utiliza MVC e foi escrito de forma a viabilizar a extensão de bibliotecas, permitindo criar instalações personalizadas e leves.
@@ -28,6 +28,7 @@ Além dos módulos, o Owlet utiliza algumas extensões externas:
 + PHPImageWorkshop
 + PHPMailer
 + SimpleCaptcha
++ Password Hashing API (implementação para versões inferiores ao PHP 5.5)
 
 #### Extensões nativas disponíveis nesta versão
 + Buscador de CEPs (CEP)
@@ -37,7 +38,6 @@ Além dos módulos, o Owlet utiliza algumas extensões externas:
 + Notificações no CMS (Messages)
 + Gerenciador de hashes (Security)
 + Gerenciador de strings (Strings)
-
 
 O objetivo das extensões nativas é facilitar o desenvolvimento e a integração com bibliotecas e webservices externos.
 
