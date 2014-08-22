@@ -108,10 +108,10 @@ class Blog extends Base
 
     /**
      * Get blog posts and return in XML (RSS) format
-     *
-     * @param
-     *            @limit Limit of posts to show
-     * @return string
+     * 
+     * @param number $limit
+     *            Limit of posts to return
+     * @return mixed
      */
     public function getRSS($limit = 10)
     {
