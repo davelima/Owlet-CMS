@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0.2
+ * @version r1.0.3
  * @license Apache 2.0
  */
 class Blog extends Base
@@ -101,7 +101,43 @@ class Blog extends Base
                     $tags->Save();
                 }
             }
+            $this->setTags(implode(",", $this->getTags()));
         }
         parent::validateData($required);
+    }
+
+    /**
+     * Get blog posts and return in XML (RSS) format
+     * 
+     * @param number $limit
+     *            Limit of posts to return
+     * @return mixed
+     */
+    public function getRSS($limit = 10)
+    {
+        $base = new \SimpleXMLElement("<rss></rss>");
+        $base->addAttribute("version", "2.0");
+        $base->addAttribute("xmlns:xmlns:atom", "http://www.w3.org/2005/Atom");
+        $channel = $base->addChild('channel');
+        $atomLink = $channel->addChild('atom:atom:link');
+        $atomLink->addAttribute('href', "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+        $atomLink->addAttribute('rel', 'self');
+        $atomLink->addAttribute('type', 'application/rss+xml');
+        $config = \Extensions\Config::get();
+        $config = $config->blog;
+        $channel->addChild('title', $config->blogName);
+        $channel->addChild('link', "http://" . $_SERVER['HTTP_HOST']);
+        $channel->addChild('description', $config->blogDescription);
+        $items = $this->get(false, "timestamp DESC, id", $limit);
+        foreach ($items as $item) {
+            $it = $channel->addChild('item');
+            $it->addChild('title', $item->getTitle());
+            $it->addChild('link', 'http://localhost.com');
+            $it->addChild('guid', 'http://localhost.com?' . rand(0, 450));
+            $it->addChild('pubDate', $item->getTimestamp()
+                ->format(\DateTime::RSS));
+            $it->addChild('description', htmlspecialchars($item->getPreview()));
+        }
+        return $base->asXML();
     }
 }

@@ -761,6 +761,13 @@ $(document).ready(function () {
  });
 
  $('#tags').tagsinput();
+ 
+ $('.link-tag').on('click', function(e){
+   e.preventDefault();
+   var tag = $(this).text();
+    $('#tags').tagsinput('add', tag);
+ });
+ $('.link-tag').last().next('i').remove();
 
  $('.check').bind('change', function() {
    var el = $($(this).attr('data-toggle'));

@@ -65,6 +65,14 @@ if ($_POST) {
 				<div class="form-group" id="divtags">
 					<label for="tags">Tags</label>
 					<input type="text" name="tags" id="tags">
+<?php
+$allTags = $tags->getAll();
+foreach($allTags as $tag){
+?>
+                    <a class="link-tag text-default" href="#"><?php echo $tag->getTitle();?></a> <i class="fa fa-circle" style="font-size:0.3em;line-height:16px;vertical-align:middle;"></i>
+<?php
+}
+?>
 				</div>
 
 				<div class="form-group">
