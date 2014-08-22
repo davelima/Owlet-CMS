@@ -18,6 +18,14 @@ limitations under the License.
 */
 ob_start("ob_gzhandler");
 
+/*
+ * Verify PHP version and requires Lib\Password.php if it is less than 5.5.0
+ * That file contains an implementation of 5.5's password hashing API
+ */
+if (! version_compare(phpversion(), '5.5.0', '>=')) {
+    require_once ("Lib/Password.php");
+}
+
 /**
  * Dynamic load classes
  *

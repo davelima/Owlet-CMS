@@ -108,8 +108,8 @@ class Blog extends Base
 
     /**
      * Get blog posts and return in XML (RSS) format
-     * 
-     * @param number $limit
+     *
+     * @param integer $limit
      *            Limit of posts to return
      * @return mixed
      */
@@ -132,8 +132,8 @@ class Blog extends Base
         foreach ($items as $item) {
             $it = $channel->addChild('item');
             $it->addChild('title', $item->getTitle());
-            $it->addChild('link', 'http://localhost.com');
-            $it->addChild('guid', 'http://localhost.com?' . rand(0, 450));
+            $it->addChild('link', 'http://localhost.com'); // replace with post url
+            $it->addChild('guid', 'http://localhost.com?' . rand(0, 450)); // replace with post url
             $it->addChild('pubDate', $item->getTimestamp()
                 ->format(\DateTime::RSS));
             $it->addChild('description', htmlspecialchars($item->getPreview()));
