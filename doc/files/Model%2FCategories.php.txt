@@ -46,7 +46,8 @@ class Categories extends Base
      */
     public $properties = array(
         "title" => null,
-        "parent" => null
+        "parent" => null,
+        "id" => null
     );
 
     /**

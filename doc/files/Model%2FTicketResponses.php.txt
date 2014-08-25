@@ -1,0 +1,123 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Model;
+
+use \Lib\Data;
+
+/**
+ * Manage replies of support tickets
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @namespace Model
+ * @uses \Lib\Data
+ * @version r1.0
+ * @license Apache 2.0
+ */
+class TicketResponses extends Base
+{
+
+    /**
+     * Table to save data
+     */
+    const TABLE = "ticketresponses";
+
+    /**
+     * Available properties
+     *
+     * @var array
+     */
+    public $properties = array(
+        "ticket" => null,
+        "member" => null,
+        "admin" => null,
+        "body" => null
+    );
+
+    /**
+     * Implementation of Save() method
+     *
+     * @see \Lib\Data::Save()
+     */
+    public function Save()
+    {
+        $required = array(
+            "body" => "Corpo da resposta"
+        );
+        
+        $this->validateData($required);
+        parent::Save();
+        $config = \Extensions\Config::get();
+        
+        $ticket = new Tickets();
+        $ticket = $ticket->getById($this->getTicket());
+        
+        $user = new Users();
+        $user = $user->getById($ticket->getMember());
+        
+        if ($config->tickets->sendMail && $this->admin && ! $this->member && $config->mailer->sender) {
+            $mailer = new \Extensions\Mailer();
+            $mailer->subject = "Nova interação no ticket #{$this->getTicket()}";
+            $mailer->message = <<<MESSAGE
+            <p>Olá, {$user->getName()}, uma resposta acabou de ser publicada no seu chamado, <b>{$ticket->getTitle()}</b></p>
+            <p>Resposta:</p>
+            {$this->getBody()}
+MESSAGE;
+            $mailer->recipient = array(
+                "email" => $user->getEmail(),
+                "name" => $user->getName()
+            );
+            $mailer->Send();
+        }
+    }
+
+    /**
+     * Return ticket's author information
+     *
+     * @return \Model\Users|void
+     */
+    public function getAuthor()
+    {
+        if ($this->member) {
+            $users = new Users();
+            return $users->getById($this->member);
+        } elseif ($this->admin) {
+            $adm = new Administrators();
+            return $adm->getById($this->admin);
+        }
+    }
+
+    /**
+     * Implementation of validateData method
+     * 
+     * @param array $required            
+     */
+    protected function validateData(array $required)
+    {
+        if ($this->member) {
+            $this->member = $this->member->getId();
+            $this->admin = null;
+        }
+        if ($this->admin) {
+            $this->admin = $this->admin->getId();
+            $this->member = null;
+        }
+        parent::validateData($required);
+    }
+}
