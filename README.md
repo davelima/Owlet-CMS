@@ -1,5 +1,5 @@
 # Owlet CMS
-#### v1.0.1
+#### v1.0.2
 ##### PHP >= 5.4.0
 
 Owlet é um CMS de código aberto em PHP. Utiliza MVC e foi escrito de forma a viabilizar a extensão de bibliotecas, permitindo criar instalações personalizadas e leves.
@@ -20,6 +20,7 @@ O front-end do CMS foi criado com Bootstrap 3, baseado no tema DevOOPS (http://d
 + Mailing
 + Messages
 + Users (gerencia contas e sessões de usuários)
++ Tickets (gerenciador de chamados online)
 
 Além dos módulos, o Owlet utiliza algumas extensões externas:
 
@@ -43,4 +44,4 @@ O objetivo das extensões nativas é facilitar o desenvolvimento e a integraçã
 
 A documentação das classes está disponível em /doc.
 
-Para reportar qualquer bug ou sugerir qualquer melhoria, favor entrar em contato com david.lima@agenciayep.com
+Para reportar qualquer bug ou sugerir qualquer melhoria, favor entrar em contato com dave@blogdodave.com.br

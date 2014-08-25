@@ -17,4 +17,9 @@
 		<username></username>
 		<password></password>
 	</mailer>
+
+	<tickets>
+		<sendMail>1</sendMail>
+		<title>Website de teste</title>
+	</tickets>
 </owletConfig>

@@ -43,6 +43,9 @@ if ($headerAdmin->isRoot()) {
 	
 	
 	
+	
+	
+	
 	<li class="dropdown">
 		<a href="#" class="dropdown-toggle" data-model="Administrators">
 			<i class="fa fa-user"></i>
@@ -104,6 +107,26 @@ if ($headerAdmin->isRoot()) {
 			</li>
 			<li>
 				<a href="banners/add/"> Adicionar banner </a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-model="Tickets">
+			<i class="fa fa-support"></i>
+			<span class="hidden-xs">Suporte</span>
+		</a>
+		<ul class="dropdown-menu">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle">Tickets</a>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="tickets/dashboard/">Ver todos</a>
+					</li>
+					<li>
+						<a href="tickets/create/">Criar novo</a>
+					</li>
+				</ul>
 			</li>
 		</ul>
 	</li>

@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 25/08/2014
+### Implementação do módulo Tickets
+O módulo Tickets disponibiliza um canal de atendimento via chamados online para prestadores de serviços.
+
+Este módulo conta com um sistema de notificações via e-mail (quando habilitado em config.xml) e respostas rápidas através do painel de controle.
+
+---
+
++ Correção no módulo Categories
++ Habilitação da página de edição de categorias do blog
++ Ativação da versão 4.1.0 do Font Awesome (usando 4.0.3 até então)
+
 ## 22/08/2014
 ### Atualização no módulo Blog (v1.0.3)
 + Inclusão do método getRSS(), que retorna os posts do blog formatados em XML para RSS Feeds

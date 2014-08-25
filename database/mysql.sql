@@ -106,6 +106,31 @@ CREATE TABLE banners (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
+
+CREATE TABLE tickets(
+	title VARCHAR(128) NOT NULL,
+	body TEXT NOT NULL,
+	member INT NOT NULL,
+	status ENUM('waiting_admin', 'waiting_user', 'closed'),
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	id INT(11) AUTO_INCREMENT,
+	PRIMARY KEY(id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+CREATE TABLE ticketresponses(
+	body TEXT NOT NULL,
+	ticket INT NOT NULL,
+	member INT,
+	admin INT,
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	id INT(11) AUTO_INCREMENT,
+	PRIMARY KEY(id),
+	FOREIGN KEY(member) REFERENCES users(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY(admin) REFERENCES administrators(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY(ticket) REFERENCES tickets(id) ON DELETE CASCADE ON UPDATE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+
 /* Apenas para módulos de pagamento */
 CREATE TABLE pagseguroconfig(
 	email VARCHAR(255) NOT NULL,

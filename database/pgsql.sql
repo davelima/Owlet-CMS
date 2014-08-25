@@ -93,15 +93,40 @@ CREATE TABLE mailing(
 );
 
 CREATE TABLE banners (
-  title VARCHAR(128) NOT NULL,
-  since TIMESTAMP,
-  until TIMESTAMP,
-  permanent BOOLEAN NOT NULL DEFAULT false,
-  src VARCHAR(255) NOT NULL,
-  position INT,
-  link VARCHAR(255),
-  id SERIAL,
-  PRIMARY KEY (id)
+	title VARCHAR(128) NOT NULL,
+	since TIMESTAMP,
+	until TIMESTAMP,
+	permanent BOOLEAN NOT NULL DEFAULT false,
+	src VARCHAR(255) NOT NULL,
+	position INT,
+	link VARCHAR(255),
+	id SERIAL,
+	PRIMARY KEY (id)
+);
+
+CREATE TYPE ticket_statuses AS ENUM ('waiting_admin', 'waiting_user', 'closed');
+
+CREATE TABLE tickets (
+	title VARCHAR(128) NOT NULL,
+	body TEXT NOT NULL,
+	member INT NOT NULL,
+	status TICKET_STATUSES,
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	id SERIAL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE ticketresponses (
+	body TEXT NOT NULL,
+	ticket INT NOT NULL,
+	member INT,
+	admin INT,
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	id SERIAL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(member) REFERENCES users(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY(admin) REFERENCES administrators(id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY(ticket) REFERENCES tickets(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 /* Apenas para módulos de pagamento */
