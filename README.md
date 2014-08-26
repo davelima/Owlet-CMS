@@ -21,6 +21,7 @@ O front-end do CMS foi criado com Bootstrap 3, baseado no tema DevOOPS (http://d
 + Messages
 + Users (gerencia contas e sessões de usuários)
 + Tickets (gerenciador de chamados online)
++ RSS (leitor de RSS Feeds)
 
 Além dos módulos, o Owlet utiliza algumas extensões externas:
 
@@ -30,6 +31,7 @@ Além dos módulos, o Owlet utiliza algumas extensões externas:
 + PHPMailer
 + SimpleCaptcha
 + Password Hashing API (implementação para versões inferiores ao PHP 5.5)
++ SimplePie
 
 #### Extensões nativas disponíveis nesta versão
 + Buscador de CEPs (CEP)

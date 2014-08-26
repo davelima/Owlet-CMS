@@ -797,4 +797,13 @@ $(document).ready(function () {
  $('input.number').stepper({
    min: 1
  });
+ 
+ $.getJSON('ajax/rss.json', function(data){
+   $.each(data, function(i, obj){
+     var element = $('<li></li>'),
+         link = $('<a></a>');
+     link.attr('href', obj.permalink).attr('target', '_blank').html(obj.title);
+     element.append(link).prependTo($('#rssfeeds'));
+   });
+ });
 });
