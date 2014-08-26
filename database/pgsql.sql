@@ -129,6 +129,14 @@ CREATE TABLE ticketresponses (
 	FOREIGN KEY(ticket) REFERENCES tickets(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+CREATE TABLE rsssources(
+	url VARCHAR(255) NOT NULL,
+	title VARCHAR(255) NOT NULL,
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	id SERIAL,
+	PRIMARY KEY(id)
+);
+
 /* Apenas para módulos de pagamento */
 CREATE TABLE pagseguroconfig(
 	email VARCHAR(255) NOT NULL,

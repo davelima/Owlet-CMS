@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 26/08/2014
+### Implementação do módulo RSS
+O módulo RSS disponibiliza na área superior direita do painel de controle uma lista com notícias recentes de fontes RSS definidas pelo usuário.
+
+---
+
++ Inclusão da extensão SimplePie
++ Atualização de dados da página "delete" do módulo Categories
+
+
 ## 25/08/2014
 ### Implementação do módulo Tickets
 O módulo Tickets disponibiliza um canal de atendimento via chamados online para prestadores de serviços.

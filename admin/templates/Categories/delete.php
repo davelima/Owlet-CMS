@@ -1,7 +1,7 @@
 <?php
 $breadcrumbs = array(
     "Home" => "/admin/",
-    "Administradores" => "/admin/blog/dashboard/",
+    "Blog" => "/admin/blog/dashboard/",
     "Apagar categoria do blog" => "#"
 );
 require_once("inc/breadcrumbs.php");

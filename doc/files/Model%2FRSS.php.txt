@@ -1,0 +1,121 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Model;
+
+use \Lib\Data;
+
+/**
+ * RSS Reader module
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @namespace Model
+ * @uses \Lib\Data
+ * @version r1.0
+ * @license Apache 2.0
+ */
+class RSS extends Base
+{
+
+    /**
+     * Table to save data
+     */
+    const TABLE = "rsssources";
+
+    /**
+     * Available properties
+     *
+     * @var array
+     */
+    public $properties = array(
+        "url" => null,
+        "title" => null,
+        "id" => null
+    );
+
+    /**
+     * Implementation of Save() method
+     *
+     * @see \Model\Base::Save()
+     */
+    public function Save()
+    {
+        $required = array(
+            "url" => "Link do Feed"
+        );
+        $this->validateData($required);
+        parent::Save();
+    }
+
+    /**
+     * Return array with last feeds based on sources saved on database
+     *
+     * @param number $limit
+     *            Limit of items to return
+     * @return array
+     */
+    public function getFeed($limit = 5)
+    {
+        $urls = array();
+        foreach ($this->getAll() as $item) {
+            $urls[] = $item->getUrl();
+        }
+        $simplepie = new \Extensions\SimplePie\SimplePie();
+        $simplepie->set_feed_url($urls);
+        $simplepie->init();
+        $simplepie->order_by_date = true;
+        $simplepie->handle_content_type('Application/JSON');
+        
+        $result = array();
+        foreach ($simplepie->get_items(0, $limit) as $item) {
+            $result[] = array(
+                'date' => $item->get_date('Y-m-d H:i:s'),
+                'title' => $item->get_title(),
+                'permalink' => $item->get_permalink()
+            );
+        }
+        return $result;
+    }
+
+    /**
+     * Implementation of validateData() method
+     *
+     * @param aray $required            
+     * @see \Model\Base::validateData()
+     * @todo Need to validate if the URL is contains valid RSS Feeds
+     */
+    protected function validateData(array $required)
+    {
+        if (! filter_var($this->url, \FILTER_VALIDATE_URL)) {
+            throw new \Exception("Insira uma URL válida!");
+        }
+        
+        $rss = new \Extensions\SimplePie\SimplePie();
+        $rss->set_feed_url($this->url);
+        $rss->init();
+        $rss->handle_content_type();
+        $this->setTitle($rss->get_title());
+        
+        if (! $this->getTitle()) {
+            throw new \Exception("Não foi possível incluir esta fonte de notícias agora. Tente novamente em alguns minutos.");
+        }
+        
+        parent::validateData($required);
+    }
+}

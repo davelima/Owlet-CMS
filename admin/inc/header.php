@@ -26,6 +26,17 @@ $headerMessages = new Model\Messages();
 						</div>
 						<div class="col-xs-4 col-sm-8 top-panel-right">
 							<ul class="nav navbar-nav pull-right panel-menu">
+						        <li class="hidden-xs dropdown">
+						          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						              <i class="fa fa-rss"></i>
+						          </a>
+						          <ul class="dropdown-menu" id="rssfeeds">
+						              <li class="divider"></li>
+						              <li>
+						                  <a href="rss/dashboard/"><i class="fa fa-cog"></i> Configurar</a>
+						              </li>
+						          </ul>
+						        </li>
 								<li class="hidden-xs">
 									<a href="messages/dashboard/" class="ajax-link">
 										<i class="fa fa-envelope"></i>
