@@ -40,12 +40,6 @@
 <?php
 if ($headerAdmin->isRoot()) {
     ?>
-	
-	
-	
-	
-	
-	
 	<li class="dropdown">
 		<a href="#" class="dropdown-toggle" data-model="Administrators">
 			<i class="fa fa-user"></i>
@@ -80,14 +74,20 @@ if ($headerAdmin->isRoot()) {
 	</li>
 
 	<li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-model="Pagseguroconfig">
-			<i class="fa fa-credit-card"></i>
-			<span class="hidden-xs">Formas de pagamento</span>
+		<a href="#" class="dropdown-toggle" data-model="Orders">
+			<i class="fa fa-dollar"></i>
+			<span class="hidden-xs">Vendas</span>
 		</a>
 		<ul class="dropdown-menu">
 			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-model="Pagseguroconfig"> PagSeguro </a>
+				<a href="#" class="dropdown-toggle" data-model="Orders"> PagSeguro </a>
 				<ul class="dropdown-menu">
+				    <li>
+				        <a href="orders/pagseguro/">Todas as vendas</a>
+				    </li>
+				    <li>
+				        <a href="orders/pagseguronew/">Novo pedido</a>
+				    </li>
 					<li>
 						<a href="pagseguroconfig/edit/1/">Configurações</a>
 					</li>

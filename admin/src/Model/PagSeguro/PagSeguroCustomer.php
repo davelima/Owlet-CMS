@@ -22,12 +22,12 @@ use \Lib\Data;
 
 /**
  * Concentrate all informations about PagSeguro's customers
- * 
+ *
  * @author David Lima
  * @copyright 2014, David Lima
  * @namespace Model\PagSeguro
  * @uses \Lib\Data
- * @version r1.0
+ * @version r1.1
  * @license Apache 2.0
  */
 class PagSeguroCustomer extends \Model\Base
