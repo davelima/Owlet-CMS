@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 29/08/2014
+### Atualização do módulo PagSeguro
+O módulo foi reformulado para facilitar a integração com outros módulos. Alguns outros ajustes foram aplicados.
+
++ Agora é possível gerar links de pagamento direto do painel de administração
++ O módulo agora conta com um listener de notificações do PagSeguro (disponível sempre na raiz do website /pagseguronotifications.php)
++ O módulo agora armazena status de pagamento dos links gerados
++ Incluído o plugin jQuery Mask para inputs
++ Incluído o service "usersearch" em admin/ajax. Este service permite encontrar usuários registrados através do argumento "email"
++ Incluído o service "cep" em admin/ajax. Este service permite encontrar dados de localizações brasileiras através do argumento "cep". Integrado ao webservice da Agência YEP (http://comuniqueseeconquiste.com.br/consulta-cep/)
+
+
 ## 26/08/2014
 ### Implementação do módulo RSS
 O módulo RSS disponibiliza na área superior direita do painel de controle uma lista com notícias recentes de fontes RSS definidas pelo usuário.

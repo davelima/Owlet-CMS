@@ -148,8 +148,13 @@ CREATE TABLE pagseguroconfig(
 
 CREATE TABLE pagseguroorders(
 	reference VARCHAR(32) NOT NULL,
-	orderitems TEXT NOT NULL,
+	items TEXT NOT NULL,
+	customer TEXT NOT NULL,
 	status INT NOT NULL,
+	description TEXT,
+	link TEXT,
+	pagsegurocode VARCHAR(40),
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	id SERIAL,
 	PRIMARY KEY(id)
 );

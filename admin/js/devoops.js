@@ -798,6 +798,91 @@ $(document).ready(function () {
    min: 1
  });
  
+ if ("mask" in $(window)) {
+
+   $('.mask').each(
+       function() {
+         var mask = $(this).attr('data-mask'),
+         reverse = $(this).attr('data-reverse') ? true : false;
+         if(mask=="CelSP"){
+           $(this).mask(CelSP, {onKeyPress: function(phone, e, currentField, options){
+             $(currentField).mask(CelSP(phone), options);
+           }});
+           return;
+         }
+         $(this).mask(mask, {
+           reverse : reverse
+         });
+       });
+ }
+ 
+ $('.cep-trigger').on('change', function(e){
+   if($(this).val()){
+     var cep = $(this).val();
+     $.ajax({
+       url: "ajax/cep.json",
+       dataType: "JSON",
+       type: "GET",
+       data:{
+         cep: cep
+       },
+       beforeSend: function(){
+         $('body').css('cursor', 'progress');
+         $('input').prop('disabled', true);
+       },
+       complete: function(){
+         $('body').css('cursor', '');
+         $('input').prop('disabled', false);
+       },
+       success: function(data){
+         var address = data.tipo_logradouro+" "+data.logradouro;
+         $('#address').val(address);
+         $('#city').val(data.cidade);
+         $('#state option').prop('selected', false);
+         $('#state option[value="'+data.uf+'"]').prop('selected', true);
+         $('#state').trigger('change');
+         $('#neighborhood').val(data.bairro);
+       }
+     });
+   }
+ });
+ 
+ $('.order-emailtrigger').on('change', function(e){
+   if($(this).val()){
+     var email = $(this).val();
+     $.ajax({
+       url: "ajax/usersearch.json",
+       dataType: "JSON",
+       type: "GET",
+       data: {
+         email: email
+       },
+       beforeSend: function(){
+         $('body').css('cursor', 'progress');
+         $('input').prop('disabled', true);
+       },
+       complete: function(){
+         $('body').css('cursor', '');
+         $('input').prop('disabled', false);
+       },
+       success: function(data){
+         if(data.result!="NOT_FOUND"){
+           var data = data.result;
+           $('#name').val(data.name);
+           $('#email').val(data.email);
+           $('#address').val(data.address);
+           $('#number').val(data.numer);
+           $('#neighborhood').val(data.neighborhood);
+           $('#city').val(data.city);
+           $('#state option').prop('selected', false);
+           $('#state option[value="'+data.state+'"]').prop('selected', true);
+           $('#state').trigger('change');
+         }
+       }
+     })
+   }
+ });
+ 
  $.getJSON('ajax/rss.json', function(data){
    $.each(data, function(i, obj){
      var element = $('<li></li>'),

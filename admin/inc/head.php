@@ -26,6 +26,7 @@
 <script src="plugins/datetimepicker/jquery.datetimepicker.js"></script>
 <script src="plugins/tagsinput/bootstrap-tagsinput.js"></script>
 <script src="plugins/jqueryui/jquery-ui.min.js"></script>
+<script src="plugins/jquerymask/jquery.mask.min.js"></script>
 <script src="plugins/stepper/jquery.fs.stepper.min.js"></script>
 <script src="js/devoops.js"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

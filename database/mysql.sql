@@ -143,15 +143,20 @@ CREATE TABLE rsssources(
 CREATE TABLE pagseguroconfig(
 	email VARCHAR(255) NOT NULL,
 	token VARCHAR(255) NOT NULL,
-	title VARCHAR(60) DEFAULT "Conta sem título",
+	title VARCHAR(60) DEFAULT 'Conta sem título',
 	id INT(11) AUTO_INCREMENT,
 	PRIMARY KEY(id)
-)ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 CREATE TABLE pagseguroorders(
 	reference VARCHAR(32) NOT NULL,
-	orderitems TEXT NOT NULL,
-	status INT(11) NOT NULL,
+	items TEXT NOT NULL,
+	customer TEXT NOT NULL,
+	status INT NOT NULL,
+	description TEXT,
+	link TEXT,
+	pagsegurocode VARCHAR(40),
+	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	id INT(11) AUTO_INCREMENT,
 	PRIMARY KEY(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;

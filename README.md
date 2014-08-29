@@ -1,5 +1,5 @@
 # Owlet CMS
-#### v1.0.2
+#### v1.0.3
 ##### PHP >= 5.4.0
 
 Owlet é um CMS de código aberto em PHP. Utiliza MVC e foi escrito de forma a viabilizar a extensão de bibliotecas, permitindo criar instalações personalizadas e leves.
