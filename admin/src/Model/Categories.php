@@ -28,7 +28,7 @@ use \Lib\Data;
  * @namespace Model
  * @uses \Lib\Data
  * @see Blog
- * @version r1.0.1
+ * @version r1.0.2
  * @license Apache 2.0
  */
 class Categories extends Base
@@ -47,6 +47,7 @@ class Categories extends Base
     public $properties = array(
         "title" => null,
         "parent" => null,
+        "description" => null,
         "id" => null
     );
 

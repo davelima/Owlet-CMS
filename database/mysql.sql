@@ -12,6 +12,7 @@ CREATE TABLE administrators (
 
 CREATE TABLE categories(
 	title VARCHAR(100) NOT NULL,
+	description VARCHAR(160),
 	parent INT(11),
 	id INT(11) AUTO_INCREMENT,
 	FOREIGN KEY(parent) REFERENCES categories(id) ON DELETE CASCADE ON UPDATE CASCADE,

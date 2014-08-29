@@ -10,6 +10,7 @@ O módulo foi reformulado para facilitar a integração com outros módulos. Alg
 + Incluído o plugin jQuery Mask para inputs
 + Incluído o service "usersearch" em admin/ajax. Este service permite encontrar usuários registrados através do argumento "email"
 + Incluído o service "cep" em admin/ajax. Este service permite encontrar dados de localizações brasileiras através do argumento "cep". Integrado ao webservice da Agência YEP (http://comuniqueseeconquiste.com.br/consulta-cep/)
++ Inclusão de novo campo "Descrição" no módulo _Categories_ (SEO)
 
 
 ## 26/08/2014

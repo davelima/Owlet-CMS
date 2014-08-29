@@ -891,4 +891,28 @@ $(document).ready(function () {
      element.append(link).prependTo($('#rssfeeds'));
    });
  });
+ 
+ 
+ 
+ $('textarea[maxlength]').each(function(i, obj){
+   var maxLength = $(this).attr('maxlength');
+   var badge = $('<span class="badge pull-right"></span>').html(maxLength).insertBefore(obj);
+   $(obj).bind('keyup', function(){
+     var length = $(this).val().length,
+         charsLeft = maxLength-length;
+     badge.html(charsLeft);
+     if(charsLeft < 10){
+       badge.addClass('alert-danger');
+     }else{
+       badge.removeClass('alert-danger');
+     }
+     if(length>maxLength){
+       var subtext = $(obj).val().substr(0, maxLength);
+       $(obj).text(subtext);
+       $('*[type=submit]').prop('disabled', true);
+     }else{
+       $('*[type=submit]').prop('disabled', false);
+     }
+   });
+ });
 });

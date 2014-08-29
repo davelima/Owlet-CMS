@@ -21,6 +21,7 @@ if($_POST){
         $categories->setTitle($_POST['title']);
         $_POST['parent'] = (isset($_POST['parent']) ? $_POST['parent'] : null);
         $categories->setParent($_POST['parent']);
+        $categories->setDescription($_POST['description']);
         $categories->Save();
         $class = "success";
         $result = "Categoria adicionada com sucesso!";
@@ -31,10 +32,15 @@ if($_POST){
      echo \Extensions\Messages::Message($class, $result);
 }
 ?>
-                <div clas="form-group">
+                <div class="form-group">
                     <label for="title">Título da categoria</label>
                     <input type="text" name="title" id="title" class="form-control" required>
                 </div>
+                
+				<div class="form-group">
+				    <label for="description">Descrição da categoria (Meta tag)</label>
+				    <textarea rows="5" cols="5" class="form-control" maxlength="160" name="description"></textarea>
+				</div>
                 <br>
                 <div class="form-group">
                     <button type="submit" class="btn btn-success">Adicionar</button>
