@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 03/09/2014
++ Atualização do tinymce (correção no plugin _paste_)
+
 ## 29/08/2014
 ### Atualização do módulo PagSeguro
 O módulo foi reformulado para facilitar a integração com outros módulos. Alguns outros ajustes foram aplicados.
