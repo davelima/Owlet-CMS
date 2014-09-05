@@ -11,16 +11,21 @@ $blog = new Model\Blog();
 
 <table class="table">
     <thead>
+        <th scope="col" style="width:16px;"></th>
         <th scope="col">Título</th>
         <th scope="col">Data</th>
         <th scope="col" style="width:70px;"></th>
     </thead>
     <tbody>
 <?php
-$list = $blog->getAll();
+$list = $blog->getAll("timestamp DESC, id", true);
 foreach($list as $post){
 ?>
         <tr>
+            <td>
+                <a href="blog/visible/<?php echo $post->getId();?>/">
+                    <i class="fa fa-circle text-<?php echo ($post->getVisible() ? "success" : "danger");?>"></i></td>
+                </a>
             <td><?php echo $post->getTitle();?></td>
             <td><?php echo $post->getTimestamp()->format('d/m/Y');?></td>
             <td>

@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0.3
+ * @version r1.0.4
  * @license Apache 2.0
  */
 class Blog extends Base
@@ -51,6 +51,7 @@ class Blog extends Base
         "head" => null,
         "tags" => null,
         "category" => null,
+        "visible" => null,
         "timestamp" => null
     );
 
@@ -87,8 +88,22 @@ class Blog extends Base
     }
 
     /**
+     * Implementation of getAll() method
+     *
+     * @param string $orderBy            
+     * @param boolean $showDisabled            
+     * @see \Model\Base::getAll()
+     */
+    public function getAll($orderBy = "id", $showDisabled = false)
+    {
+        $where = ($this->showDisabled ? "" : "visible");
+        return Data::Select($this, $where, false, $orderBy);
+    }
+
+    /**
      * Extension of validateData method
      *
+     * @param array $required            
      * @see \Model\Base::validateData()
      */
     protected function validateData(array $required)
