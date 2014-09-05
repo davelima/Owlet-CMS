@@ -26,6 +26,7 @@ CREATE TABLE blog(
 	head TEXT,
 	category INT,
 	tags TEXT,
+	visible BOOLEAN DEFAULT true,
 	timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	id SERIAL,
 	FOREIGN KEY(category) REFERENCES categories(id) ON DELETE SET NULL ON UPDATE CASCADE,

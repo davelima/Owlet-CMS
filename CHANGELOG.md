@@ -1,5 +1,12 @@
 # CHANGELOG
 
+05/09/2014
++ Atualização do módulo "Blog"
+O módulo Blog agora difere as publicações por statuses: o administrador pode ativar ou desativar a visibilidade das publicações quando desejar
+
+## 03/09/2014
++ Atualização do tinymce (correção no plugin _paste_)
+
 ## 29/08/2014
 ### Atualização do módulo PagSeguro
 O módulo foi reformulado para facilitar a integração com outros módulos. Alguns outros ajustes foram aplicados.
