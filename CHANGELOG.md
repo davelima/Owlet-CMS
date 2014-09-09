@@ -1,5 +1,9 @@
 # CHANGELOG
 
+09/09/2014
++ Atualização visual na página de edição de perfil de administradores (e "Minha Conta")
+Adaptação da página para tablets
+
 05/09/2014
 + Atualização do módulo "Blog"
 O módulo Blog agora difere as publicações por statuses: o administrador pode ativar ou desativar a visibilidade das publicações quando desejar

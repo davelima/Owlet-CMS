@@ -19,7 +19,7 @@ if($_GET['id']!=$_SESSION['administrator']->getId()){
 ?>
 
 <div class="row">
-	<div class="col-xs-12 col-md-10">
+	<div class="col-xs-12 col-md-8">
 <?php
 if($_POST){
     try{
@@ -111,7 +111,7 @@ if($_SESSION['administrator']->getId()==$_GET['id']){
 		</form>
 	
 	</div>
-	<div class="col-md-2 hidden-xs hidden-sm">
+	<div class="col-md-4 hidden-xs hidden-sm">
 		<div class="well">
 		  <div class="row">
 		      <div class="col-xs-12">		
