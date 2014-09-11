@@ -26,9 +26,61 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
   
   
   
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:17:"DigitalOcean Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:41:"https://www.digitalocean.com/company/blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:41:"https://www.digitalocean.com/company/blog";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:3:"rel";s:4:"self";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-04T08:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:8:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:17:"DigitalOcean Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:41:"https://www.digitalocean.com/company/blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:41:"https://www.digitalocean.com/company/blog";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:3:"rel";s:4:"self";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-08T11:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:8:"
     
   ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:5:"entry";a:21:{i:0;a:6:{s:4:"data";s:38:"
+    
+    
+    
+    
+    
+    
+    
+  ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:67:"Our New Community: User Profiles, Upvoting, Notifications and More!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:9:"alternate";s:4:"href";s:106:"https://www.digitalocean.com/company/blog/our-new-community-user-profiles-upvoting-notifications-and-more/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:106:"https://www.digitalocean.com/company/blog/our-new-community-user-profiles-upvoting-notifications-and-more/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-08T11:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-08T11:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:12:"
+      
+    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:3126:"<p>When our community site first launched in the spring of 2012, it featured ten Linux tutorials written by an in-house writer and received roughly 1,500 visitors its first week. We’re so grateful that as we’ve grown, the community has come together to sustain the site. Currently, over 50% of DigitalOcean’s near <a href='https://www.digitalocean.com/community/tutorials'>800 tutorials</a> come from outside submissions, and our <a href='https://www.digitalocean.com/community/questions'>questions</a> and <a href='https://www.digitalocean.com/community/projects'>projects</a> sections are also built up by community contributions.</p>
+
+<h3 style="font-size: 23px">Now the community site receives over 1.5 million visitors each month.</h3>
+
+<p>We’ve put a lot of time and effort into creating a space where we can give back, and that developers of all types can call home. Today, are excited to announce some of the biggest new features of the growing DO community.</p>
+
+<h2>New Features</h2>
+<p>We have introduced quite a few new features to the community, and will continue improving these features and adding more based on user feedback. Some of our newest features are:</p>
+
+<div class="side-by-side">
+  
+  <div>
+    <img class="wrap" src="https://assets.digitalocean.com/email/community/feature-profile.jpg">
+    <h3>User Profiles</h3>
+    <p>Keep track of your contributions, showcase your information, connect with other users, and modify your preferences in our newly introduced community profile.</p>
+  </div>
+  
+  <div>
+    <img class="wrap" src="https://assets.digitalocean.com/email/community/feature-subscriptions.jpg">
+    <h3>Subscriptions</h3>
+    <p>Users are automatically subscribed to content they create, and can manually subscribe to any question or tutorial within the community.</p>
+  </div>
+
+  <div>
+    <img class="wrap" src="https://assets.digitalocean.com/email/community/feature-notifications.jpg">
+    <h3>Notifications</h3>
+    <p>Stay in the know by receiving both in-app and email notifications whenever another user takes action on your post.</p>
+  </div>
+
+  <div>
+    <img class="wrap" src="https://assets.digitalocean.com/email/community/feature-love.jpg">
+    <h3>Love your Content!</h3>
+    <p>Did you find a fellow community member’s post helpful? Give it some love! This will count as a point toward that user, as well as upvote the post in the thread.</p>
+  </div>
+
+  <div>
+    <img class="wrap" src="https://assets.digitalocean.com/email/community/feature-discussions.jpg">
+    <h3>Threaded Discussions</h3>
+    <p>We can’t help but be excited about our new commenting system. You can also format your answers in markdown syntax, or use our visual editor to do that for you.</p>
+  </div>
+</div>
+
+<p>A special thank you to <a href='http://tanookilabs.com/' target='_blank'>Tanooki</a>. Under the guidance of our  <a href='https://twitter.com/ChasingUX' target='_blank'>Creative Director</a>, they were able to bring you these features as quickly as possible. Now create a user profile and explore your new community. More features and refined interfaces coming soon :)</p>";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:38:"
     
     
     
@@ -48,7 +100,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 
 <p>Click <a href="https://cloud.digitalocean.com/droplets/new?image=coreos-alpha">here</a> to launch a CoreOS image. Click <a href="https://www.digitalocean.com/community/tutorial_series/getting-started-with-coreos-2">here</a> for our series on getting started with CoreOS.</p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:38:"
     
     
     
@@ -58,14 +110,14 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
     
   ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:67:"Give Your Friends $10 To Host Their Projects (And Get $25 Yourself)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:9:"alternate";s:4:"href";s:106:"https://www.digitalocean.com/company/blog/give-your-friends-10-to-host-their-projects-and-get-25-yourself/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:106:"https://www.digitalocean.com/company/blog/give-your-friends-10-to-host-their-projects-and-get-25-yourself/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-08-25T18:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-08-25T18:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:12:"
       
-    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1274:"<p>Here’s how it works: anyone you refer to DigitalOcean that signs up using your <a href="https://cloud.digitalocean.com/settings/referrals">unique referral link</a> will immediately receive $10 in hosting credit. What this essentially means is you have an unlimited amount of promo codes that you can shell out to your friends. Hopefully, they’ll return the favor by taking you out for a drink, which, here in New York, means they’ve already spent their credit…</p>
+    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1339:"<p>Here’s how it works: anyone you refer to DigitalOcean that signs up using your <a href="https://cloud.digitalocean.com/settings/referrals">unique referral link</a> will receive $10 in hosting credit immediately after unlocking their account by entering a valid payment method. What this essentially means is you have an unlimited amount of promo codes that you can shell out to your friends. Hopefully, they’ll return the favor by taking you out for a drink, which, here in New York, means they’ve already spent their credit…</p>
 
 <p>In return for helping us spread the word, we’ll give you $25 for each friend that signs up, once they are billed $25 as a DO customer. There is NO LIMIT to how many friends you can refer. You can potentially fund your entire account on DigitalOcean by simply <a href="https://www.digitalocean.com/referral-program/">getting your friends to sign up</a> – we hope this shows how much we appreciate your support.</p>
 
 <p>Within your <a href="https://cloud.digitalocean.com/settings/referrals">Settings page</a> in the control panel, you’ll be able to track your referral stats, e.g. how many friends you’ve referred, how much money you are owed, and how much you’ve earned so far. Email it, Tweet it, and share it. Thanks for spreading the DigitalOcean love!</p>
 
 <p>– The DO Team</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:38:"
     
     
     
@@ -87,7 +139,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 </ul>
 
 <p>You can also navigate the IPv6 tag for more IPv6 articles and questions in our <a href="https://www.digitalocean.com/community/">community</a></p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:38:"
     
     
     
@@ -125,7 +177,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 
 <p>Ben Uretsky<br />
 CEO, DigitalOcean</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:38:"
     
     
     
@@ -148,7 +200,7 @@ CEO, DigitalOcean</p>
 <p>We’ve also developed some community resources to help you get started with OAuth, including a <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">general intro to OAuth 2</a> and a tutorial on <a href="https://www.digitalocean.com/community/tutorials/how-to-use-oauth-authentication-with-digitalocean-as-a-user-or-developer">how to use OAuth with DigitalOcean</a> both as a user and as a developer.</p>
 
 <p>As we continue to refine our new API, we always appreciate any feedback on our <a href="https://github.com/digitaloceancloud/api-v2">API v2 Github page</a>. And if you want to let people know about what you’ve built, submit your applications to the <a href="https://www.digitalocean.com/community/projects">DigitalOcean projects page</a>. We’re excited to highlight the great work of the DO community. </p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:38:"
     
     
     
@@ -166,7 +218,7 @@ CEO, DigitalOcean</p>
 
 <p>No more waiting. <a href="http://bit.ly/_createdroplet">Spin up a Droplet in LON1!</a></p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:38:"
     
     
     
@@ -203,7 +255,7 @@ CEO, DigitalOcean</p>
 <p><img alt="Sammy Front" src="/company/blog/sammy-the-shark-gets-a-birthday-makeover-from-simon-oxley/sammy-front-13bd1424.png" /></p>
 
 <p>Now that’s a good lookin’ shark.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:38:"
     
     
     
@@ -339,7 +391,7 @@ widget-dpkg:
 <p>As we continue to write new services, as well as rewrite old ones, we grow a deeper appreciation for the language’s strength in building distributed systems. If you’re a software engineer that’s interested in writing Go – <a href="https://careers.digitalocean.com/careers/software-engineer/">we are hiring</a>.</p>
 
 <p><em>Oh, and if you have experience writing Go, feel free to comment below and share your thoughts.</em></p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:38:"
     
     
     
@@ -356,7 +408,7 @@ widget-dpkg:
 <p>DigitalOcean offers the same kind of rapid provisioning for cloud instances that MongoHQ offers for MongoDB databases. It takes less than a minute to bring up an SSD Cloud instance complete with 20GB of SSD storage and 512MB of RAM. There's easy to use dashboards and APIs, Tier-1 peering and virtual private networks within the data centre – that’s the kind of service we love at MongoHQ, and our partnership means that developers can leverage the perfect dovetail of hosting and database provisioning.</p>
 
 <p>DigitalOcean has also been great to work with, providing us with extensive system access to benchmark and test our platform, as well as connecting us with three of their engineers. It's because of that collaboration that we're having a smooth rollout – we're production ready for DigitalOcean users <a href="https://www.mongohq.com/signup/?utm_source=Digital%20Ocean&amp;amp;utm_medium=lp&amp;amp;utm_campaign=digital%20ocean">right now</a>.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:38:"
     
     
     
@@ -386,7 +438,7 @@ widget-dpkg:
 <p>We’re excited to hear what you have to say as we continue to refine the direction of v2. You can find the complete documentation on the <a href="https://developers.digitalocean.com/v2/">DigitalOcean developers portal</a>. Let us know what you think on our <a href="https://github.com/digitaloceancloud/api-v2">API v2 Github page</a>.</p>
 
 <p>You can also jump right into the conversations happening in our community by checking out this easy <a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-apiv2">Getting Started Guide</a> and a list of <a href="https://www.digitalocean.com/community/questions/what-libraries-and-wrappers-are-there-for-digitalocean-s-apiv2">API v2 libraries</a>.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:38:"
     
     
     
@@ -415,7 +467,7 @@ widget-dpkg:
 <p>Sincerely,</p>
 
 <p>The DO Team</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:38:"
     
     
     
@@ -448,7 +500,7 @@ widget-dpkg:
 <h3 id="putting-service-in-saas">Putting Service in SaaS</h3>
 
 <p>We're here to help you build a better app. My team and I are always <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#111;&#116;&#105;&#102;&#121;&#064;&#116;&#114;&#097;&#099;&#107;&#106;&#115;&#046;&#099;&#111;&#109;">working with customers</a> to integrate, improve, and fix issues of all kinds. We now receive over 1,500 JavaScript errors per minute. To ensure that we can keep up with that load and continue to scale, we leverage DigitalOcean's API to quickly spin up a dozen Droplets and hammer our systems with errors for performance testing. We build out an "error drone" template, which rapid fires fake requests at us, then create a swarm of them on demand. As a DigitalOcean user, you pay hourly for the test and tear them down. No other service is offering that kind of speed and simplicity.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:38:"
     
     
     
@@ -517,7 +569,7 @@ Despite the lack of vertical structure, Mark showcased his natural leadership wh
 
 <p>"I want to help other people succeed. I want to help grow teams. I want people on my team to have careers that are even more successful than mine. And I want to help expand our field because internet operations, and really anything web related, is just over 20 years old at this point. We're learning new things every day."</p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:38:"
     
     
     
@@ -538,7 +590,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p><strong>This is simply an email notification.</strong> No Droplets are suspended or destroyed. Your feedback will continue to drive our design process – if there are any other features you would like to see let us know <a href="https://digitalocean.uservoice.com/forums/136585-digitalocean">here</a>.</p>
 
 <p>– The DO Team</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:38:"
     
     
     
@@ -571,7 +623,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 
 <p>Oh, by the way. If you’re a software engineer that’s interested in writing Go – we are <a href="https://careers.digitalocean.com/">hiring</a>.</p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:38:"
     
     
     
@@ -591,7 +643,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 
 <p><em><strong>Just a heads up:</strong> as transferring a snapshot maintains all of the original snapshot’s settings, there may be configuration that allows the sender to potentially later access droplets created from the image. Make sure you trust anyone who gives you an image.</em></p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:38:"
     
     
     
@@ -606,7 +658,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p><img alt="Ubuntu 14.04 Droplet Image" src="/company/blog/announcing-the-release-of-our-ubuntu-1404LTS-image/cpubuntu1404-2f7f616d.png" /></p>
 
 <p>For detailed descriptions on new features and information concerning upgrading from Ubuntu 13.10 click <a href="https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes">here</a>. You can spin up an <a href="https://www.digitalocean.com/">Ubuntu 14.04 LTS Droplet</a> now!</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:38:"
     
     
     
@@ -619,7 +671,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
     ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1165:"<p>Over at DigitalOcean, we currently use Chef to handle all aspects of our physical and cloud infrastructure. It also drives the automation for all of our internal / external applications. If you're at the event head over to booth 210 to find our Chief Technology Evangelist <a href="https://twitter.com/jedgar">John Edgar</a> and meet a few members of our engineering and site reliability team: SREs <a href="https://twitter.com/anthonycaiafa">Anthony</a>, <a href="https://twitter.com/intsunny">Sunny</a>, and <a href="https://twitter.com/sparciii">Andrew</a> as well as software engineers <a href="https://twitter.com/brookemckim">Brooke</a> and <a href="https://twitter.com/prometheus">Joonas</a>.</p>
 
 <p>If you're an engineer yourself remember we're looking to <a href="https://careers.digitalocean.com/">expand our team</a> – so don't be shy! <a href="https://www.digitalocean.com/company/events/">Upcoming events</a> this month include <a href="http://www.railsconf.com/">RailsConf</a>, the first ever <a href="http://www.gophercon.com/%E2%80%8E/">GopherConf</a>, and a hometown event at <a href="https://nytechday.com/">NY Tech Day</a>. Stay tuned.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:38:"
     
     
     
@@ -652,7 +704,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p>We are in the process of updating all of our installation images so that any new servers will be patched against this vulnerability from the time of deployment.</p>
 
 <p>For more information about how to update your existing servers and protect yourself against this vulnerability, check out <a href="https://www.digitalocean.com/community/articles/how-to-protect-your-server-against-the-heartbleed-openssl-vulnerability">this article</a>.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:38:"
     
     
     
@@ -691,46 +743,69 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p>But the feelings are mutual.</p>
 
 <p>"The best ideas come from speaking to people, from working on problems and seeing things from a different perspective," says Zhanna. "DigitalOcean understands that in every aspect – it's the place and culture that I’ve always wanted to work for."</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:38:"
-    
-    
-    
-    
-    
-    
-    
-  ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"NYTM: Jeff Lindsay Demos DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:9:"alternate";s:4:"href";s:79:"https://www.digitalocean.com/company/blog/nytm-jeff-lindsay-demos-digitalocean/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:79:"https://www.digitalocean.com/company/blog/nytm-jeff-lindsay-demos-digitalocean/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-03-12T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-03-12T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:12:"
-      
-    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:3636:"<p>The goal of <a href="http://nytm.org">NYTM</a> is to "help build a sustainable technology industry that drives economic growth, leads innovation, and creates positive, high-impact change for our local communities and the world." A quarter of the audience at the conference knew about DigitalOcean; that's roughly the number of developers in attendance…<em>you do the math.</em></p>
-
-<p>Once a month they host demo night at the Skirball Theater at NYU, which provides highly visible platforms where companies can showcase what they build. The event is always packed and the energy at this meetup has been integral to the growth of the New York scene. Notable companies that have demoed at NYTM in the past include: <a href="https://foursquare.com">Foursquare</a>, <a href="http://new.livestream.com/">Livestream</a>, <a href="https://www.tumblr.com/">Tumblr</a>, <a href="https://vimeo.com/">Vimeo</a>, <a href="http://www.aviary.com/">Aviary</a>, <a href="https://www.twilio.com/">Twilio</a>, <a href="https://www.aereo.com/">Aereo</a>, <a href="http://www.skillshare.com/">Skillshare</a>, <a href="http://www.shapeways.com/">Shapeways</a>, <a href="http://www.theladders.com/">TheLadders</a>, <a href="http://www.howaboutwe.com/go/dating?utm_medium=SEM&amp;amp;utm_source=GsearchB_Dating&amp;amp;utm_campaign=NTL_Brand_Unified&amp;amp;utm_content=g&amp;amp;utm_term=how%20about%20we..&amp;amp;utm_position=1t1&amp;amp;utm_matchtype=e&amp;amp;utm_adgroup=Brand_-_HAW&amp;amp;utm_device=c&amp;amp;mobile_ad=true&amp;amp;utm_adid={adid}&amp;amp;gclid=CP_p8ranjb0CFYN0OgodvSMADg">HowAboutWe</a>, <a href="http://www.codecademy.com/">Codecademy</a> and many, many others.</p>
-
-<p><strong>We were honored to be there and will be attending and sponsoring as many New York events as possible throughout the year.</strong></p>
-
-<h2 id="watch-the-video">Watch The Video!</h2>
-
-<p>The demo <a href="https://twitter.com/progrium">Jeff</a> gave at NY Tech Meetup was an early proof of concept for our PaaS / provisioning offering. It showed instant provisioning of apps and services, plus real-time discovery and configuration of connected services. It was powered by the open source project <a href="https://github.com/flynn/flynn.io">Flynn</a>, which is based on <a href="http://www.docker.com/">Docker</a>, <a href="https://github.com/coreos/etcd">etcd</a>, and a few others.</p>
-
-<p>While there's a lot more functionality potential than what was demoed, this shows that you'll soon be able to programmatically (or using a friendly user interface) deploy and provision more instances of your applications and services immediately. For those of you counting, that takes wait time to spin up a VPS down from less than a minute to <em>less than a second</em>, allowing you to easily scale out horizontally across your droplets without necessarily needing to spin up new servers.</p>
-
-<p>It's powered by Docker, but you don't <em>need</em> to know Docker to take advantage of this system.</p>
-
-<p>It also uses etcd and components of Flynn in order to provide real-time discovery of services. This means as backing services like databases come online or go offline, your application can dynamically reconfigure to use them or change behavior in realtime. No need to reconfigure anything, no need to deploy again.</p>
-
-<p><strong>Watch it in action below:</strong></p>
-
-<p><a href="https://video.google.com/get_player?docid=0B6jFsllSG-3aZXZvN0JHUlhRVW8&amp;amp;ps=docs&amp;amp;partnerid=30&amp;amp;cc_load_policy=1"><img alt="IMAGE ALT TEXT HERE" src="/company/blog/nytm-jeff-lindsay-demos-digitalocean/nytm_posterframe-89565dbe.png" /></a></p>
-
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:8:{s:6:"server";s:16:"cloudflare-nginx";s:4:"date";s:29:"Fri, 05 Sep 2014 17:21:33 GMT";s:12:"content-type";s:8:"text/xml";s:10:"connection";s:10:"keep-alive";s:10:"set-cookie";s:138:"__cfduid=ddbe74eefa3db7c7cf9cdacd0474c16de1409937693003; expires=Mon, 23-Dec-2019 23:50:00 GMT; path=/; domain=.digitalocean.com; HttpOnly";s:13:"last-modified";s:29:"Fri, 05 Sep 2014 17:15:39 GMT";s:6:"cf-ray";s:20:"16541a954a180fbe-GRU";s:16:"content-encoding";s:4:"gzip";}s:5:"build";s:14:"20140826204122";}s:5:"error";N;s:8:"sanitize";O:29:"Extensions\SimplePie\Sanitize":16:{s:4:"base";N;s:10:"remove_div";b:1;s:13:"image_handler";s:0:"";s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}s:23:"encode_instead_of_strip";b:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_comments";b:0;s:15:"output_encoding";s:5:"UTF-8";s:12:"enable_cache";b:1;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:7:"timeout";s:2:"10";s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:15:"force_fsockopen";b:0;s:22:"replace_url_attributes";a:9:{s:1:"a";s:4:"href";s:4:"area";s:4:"href";s:10:"blockquote";s:4:"cite";s:3:"del";s:4:"cite";s:4:"form";s:6:"action";s:3:"img";a:2:{i:0;s:8:"longdesc";i:1;s:3:"src";}s:5:"input";s:3:"src";s:3:"ins";s:4:"cite";s:1:"q";s:4:"cite";}s:8:"registry";O:29:"Extensions\SimplePie\Registry":3:{s:10:" * default";a:19:{s:5:"Cache";s:27:"\Extensions\SimplePie\Cache";s:7:"Locator";s:29:"\Extensions\SimplePie\Locator";s:6:"Parser";s:28:"\Extensions\SimplePie\Parser";s:4:"File";s:26:"\Extensions\SimplePie\File";s:8:"Sanitize";s:30:"\Extensions\SimplePie\Sanitize";s:4:"Item";s:26:"\Extensions\SimplePie\Item";s:6:"Author";s:28:"\Extensions\SimplePie\Author";s:8:"Category";s:30:"\Extensions\SimplePie\Category";s:9:"Enclosure";s:31:"\Extensions\SimplePie\Enclosure";s:7:"Caption";s:29:"\Extensions\SimplePie\Caption";s:9:"Copyright";s:31:"\Extensions\SimplePie\Copyright";s:6:"Credit";s:28:"\Extensions\SimplePie\Credit";s:6:"Rating";s:28:"\Extensions\SimplePie\Rating";s:11:"Restriction";s:33:"\Extensions\SimplePie\Restriction";s:20:"Content_Type_Sniffer";s:42:"\Extensions\SimplePie\Content\Type\Sniffer";s:6:"Source";s:28:"\Extensions\SimplePie\Source";s:4:"Misc";s:26:"\Extensions\SimplePie\Misc";s:22:"XML_Declaration_Parser";s:44:"\Extensions\SimplePie\XML\Declaration\Parser";s:10:"Parse_Date";s:32:"\Extensions\SimplePie\Parse\Date";}s:10:" * classes";a:0:{}s:9:" * legacy";a:0:{}}}s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:8:"feed_url";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:4:"file";N;s:8:"raw_data";s:72742:"<?xml version="1.0" encoding="UTF-8"?>
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:8:{s:6:"server";s:16:"cloudflare-nginx";s:4:"date";s:29:"Thu, 11 Sep 2014 13:34:39 GMT";s:12:"content-type";s:8:"text/xml";s:10:"connection";s:10:"keep-alive";s:10:"set-cookie";s:138:"__cfduid=db48632f3c56b39994408db3c8c7751ea1410442478188; expires=Mon, 23-Dec-2019 23:50:00 GMT; path=/; domain=.digitalocean.com; HttpOnly";s:13:"last-modified";s:29:"Wed, 10 Sep 2014 14:57:12 GMT";s:6:"cf-ray";s:20:"16843e70a8bd0fbe-GRU";s:16:"content-encoding";s:4:"gzip";}s:5:"build";s:14:"20140826204122";}s:5:"error";N;s:8:"sanitize";O:29:"Extensions\SimplePie\Sanitize":16:{s:4:"base";N;s:10:"remove_div";b:1;s:13:"image_handler";s:0:"";s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}s:23:"encode_instead_of_strip";b:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_comments";b:0;s:15:"output_encoding";s:5:"UTF-8";s:12:"enable_cache";b:1;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:7:"timeout";s:2:"10";s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:15:"force_fsockopen";b:0;s:22:"replace_url_attributes";a:9:{s:1:"a";s:4:"href";s:4:"area";s:4:"href";s:10:"blockquote";s:4:"cite";s:3:"del";s:4:"cite";s:4:"form";s:6:"action";s:3:"img";a:2:{i:0;s:8:"longdesc";i:1;s:3:"src";}s:5:"input";s:3:"src";s:3:"ins";s:4:"cite";s:1:"q";s:4:"cite";}s:8:"registry";O:29:"Extensions\SimplePie\Registry":3:{s:10:" * default";a:19:{s:5:"Cache";s:27:"\Extensions\SimplePie\Cache";s:7:"Locator";s:29:"\Extensions\SimplePie\Locator";s:6:"Parser";s:28:"\Extensions\SimplePie\Parser";s:4:"File";s:26:"\Extensions\SimplePie\File";s:8:"Sanitize";s:30:"\Extensions\SimplePie\Sanitize";s:4:"Item";s:26:"\Extensions\SimplePie\Item";s:6:"Author";s:28:"\Extensions\SimplePie\Author";s:8:"Category";s:30:"\Extensions\SimplePie\Category";s:9:"Enclosure";s:31:"\Extensions\SimplePie\Enclosure";s:7:"Caption";s:29:"\Extensions\SimplePie\Caption";s:9:"Copyright";s:31:"\Extensions\SimplePie\Copyright";s:6:"Credit";s:28:"\Extensions\SimplePie\Credit";s:6:"Rating";s:28:"\Extensions\SimplePie\Rating";s:11:"Restriction";s:33:"\Extensions\SimplePie\Restriction";s:20:"Content_Type_Sniffer";s:42:"\Extensions\SimplePie\Content\Type\Sniffer";s:6:"Source";s:28:"\Extensions\SimplePie\Source";s:4:"Misc";s:26:"\Extensions\SimplePie\Misc";s:22:"XML_Declaration_Parser";s:44:"\Extensions\SimplePie\XML\Declaration\Parser";s:10:"Parse_Date";s:32:"\Extensions\SimplePie\Parse\Date";}s:10:" * classes";a:0:{}s:9:" * legacy";a:0:{}}}s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:8:"feed_url";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:4:"file";N;s:8:"raw_data";s:72277:"<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>DigitalOcean Blog</title>
   <id>https://www.digitalocean.com/company/blog</id>
   <link href="https://www.digitalocean.com/company/blog"/>
   <link href="https://www.digitalocean.com/company/blog/feed.xml" rel="self"/>
-  <updated>2014-09-04T08:00:00Z</updated>
+  <updated>2014-09-08T11:00:00Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <title>Our New Community: User Profiles, Upvoting, Notifications and More!</title>
+    <link rel="alternate" href="https://www.digitalocean.com/company/blog/our-new-community-user-profiles-upvoting-notifications-and-more/"/>
+    <id>https://www.digitalocean.com/company/blog/our-new-community-user-profiles-upvoting-notifications-and-more/</id>
+    <published>2014-09-08T11:00:00Z</published>
+    <updated>2014-09-08T11:00:00Z</updated>
+    <author>
+      <name>DigitalOcean</name>
+    </author>
+    <content type="html">&lt;p&gt;When our community site first launched in the spring of 2012, it featured ten Linux tutorials written by an in-house writer and received roughly 1,500 visitors its first week. We’re so grateful that as we’ve grown, the community has come together to sustain the site. Currently, over 50% of DigitalOcean’s near &lt;a href='https://www.digitalocean.com/community/tutorials'&gt;800 tutorials&lt;/a&gt; come from outside submissions, and our &lt;a href='https://www.digitalocean.com/community/questions'&gt;questions&lt;/a&gt; and &lt;a href='https://www.digitalocean.com/community/projects'&gt;projects&lt;/a&gt; sections are also built up by community contributions.&lt;/p&gt;
+
+&lt;h3 style="font-size: 23px"&gt;Now the community site receives over 1.5 million visitors each month.&lt;/h3&gt;
+
+&lt;p&gt;We’ve put a lot of time and effort into creating a space where we can give back, and that developers of all types can call home. Today, are excited to announce some of the biggest new features of the growing DO community.&lt;/p&gt;
+
+&lt;h2&gt;New Features&lt;/h2&gt;
+&lt;p&gt;We have introduced quite a few new features to the community, and will continue improving these features and adding more based on user feedback. Some of our newest features are:&lt;/p&gt;
+
+&lt;div class="side-by-side"&gt;
+  
+  &lt;div&gt;
+    &lt;img class="wrap" src="https://assets.digitalocean.com/email/community/feature-profile.jpg"&gt;
+    &lt;h3&gt;User Profiles&lt;/h3&gt;
+    &lt;p&gt;Keep track of your contributions, showcase your information, connect with other users, and modify your preferences in our newly introduced community profile.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  &lt;div&gt;
+    &lt;img class="wrap" src="https://assets.digitalocean.com/email/community/feature-subscriptions.jpg"&gt;
+    &lt;h3&gt;Subscriptions&lt;/h3&gt;
+    &lt;p&gt;Users are automatically subscribed to content they create, and can manually subscribe to any question or tutorial within the community.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;img class="wrap" src="https://assets.digitalocean.com/email/community/feature-notifications.jpg"&gt;
+    &lt;h3&gt;Notifications&lt;/h3&gt;
+    &lt;p&gt;Stay in the know by receiving both in-app and email notifications whenever another user takes action on your post.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;img class="wrap" src="https://assets.digitalocean.com/email/community/feature-love.jpg"&gt;
+    &lt;h3&gt;Love your Content!&lt;/h3&gt;
+    &lt;p&gt;Did you find a fellow community member’s post helpful? Give it some love! This will count as a point toward that user, as well as upvote the post in the thread.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;img class="wrap" src="https://assets.digitalocean.com/email/community/feature-discussions.jpg"&gt;
+    &lt;h3&gt;Threaded Discussions&lt;/h3&gt;
+    &lt;p&gt;We can’t help but be excited about our new commenting system. You can also format your answers in markdown syntax, or use our visual editor to do that for you.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A special thank you to &lt;a href='http://tanookilabs.com/' target='_blank'&gt;Tanooki&lt;/a&gt;. Under the guidance of our  &lt;a href='https://twitter.com/ChasingUX' target='_blank'&gt;Creative Director&lt;/a&gt;, they were able to bring you these features as quickly as possible. Now create a user profile and explore your new community. More features and refined interfaces coming soon :)&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>CoreOS Now Available On DigitalOcean!</title>
     <link rel="alternate" href="https://www.digitalocean.com/company/blog/coreos-now-available-on-digitalocean/"/>
@@ -761,7 +836,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
     <author>
       <name>DigitalOcean</name>
     </author>
-    <content type="html">&lt;p&gt;Here’s how it works: anyone you refer to DigitalOcean that signs up using your &lt;a href="https://cloud.digitalocean.com/settings/referrals"&gt;unique referral link&lt;/a&gt; will immediately receive $10 in hosting credit. What this essentially means is you have an unlimited amount of promo codes that you can shell out to your friends. Hopefully, they’ll return the favor by taking you out for a drink, which, here in New York, means they’ve already spent their credit…&lt;/p&gt;
+    <content type="html">&lt;p&gt;Here’s how it works: anyone you refer to DigitalOcean that signs up using your &lt;a href="https://cloud.digitalocean.com/settings/referrals"&gt;unique referral link&lt;/a&gt; will receive $10 in hosting credit immediately after unlocking their account by entering a valid payment method. What this essentially means is you have an unlimited amount of promo codes that you can shell out to your friends. Hopefully, they’ll return the favor by taking you out for a drink, which, here in New York, means they’ve already spent their credit…&lt;/p&gt;
 
 &lt;p&gt;In return for helping us spread the word, we’ll give you $25 for each friend that signs up, once they are billed $25 as a DO customer. There is NO LIMIT to how many friends you can refer. You can potentially fund your entire account on DigitalOcean by simply &lt;a href="https://www.digitalocean.com/referral-program/"&gt;getting your friends to sign up&lt;/a&gt; – we hope this shows how much we appreciate your support.&lt;/p&gt;
 
@@ -1412,37 +1487,6 @@ You can set up your billing alert by clicking on the &lt;a href="https://cloud.d
 &lt;p&gt;But the feelings are mutual.&lt;/p&gt;
 
 &lt;p&gt;"The best ideas come from speaking to people, from working on problems and seeing things from a different perspective," says Zhanna. "DigitalOcean understands that in every aspect – it's the place and culture that I’ve always wanted to work for."&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>NYTM: Jeff Lindsay Demos DigitalOcean</title>
-    <link rel="alternate" href="https://www.digitalocean.com/company/blog/nytm-jeff-lindsay-demos-digitalocean/"/>
-    <id>https://www.digitalocean.com/company/blog/nytm-jeff-lindsay-demos-digitalocean/</id>
-    <published>2014-03-12T00:00:00Z</published>
-    <updated>2014-03-12T00:00:00Z</updated>
-    <author>
-      <name>DigitalOcean</name>
-    </author>
-    <content type="html">&lt;p&gt;The goal of &lt;a href="http://nytm.org"&gt;NYTM&lt;/a&gt; is to "help build a sustainable technology industry that drives economic growth, leads innovation, and creates positive, high-impact change for our local communities and the world." A quarter of the audience at the conference knew about DigitalOcean; that's roughly the number of developers in attendance…&lt;em&gt;you do the math.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Once a month they host demo night at the Skirball Theater at NYU, which provides highly visible platforms where companies can showcase what they build. The event is always packed and the energy at this meetup has been integral to the growth of the New York scene. Notable companies that have demoed at NYTM in the past include: &lt;a href="https://foursquare.com"&gt;Foursquare&lt;/a&gt;, &lt;a href="http://new.livestream.com/"&gt;Livestream&lt;/a&gt;, &lt;a href="https://www.tumblr.com/"&gt;Tumblr&lt;/a&gt;, &lt;a href="https://vimeo.com/"&gt;Vimeo&lt;/a&gt;, &lt;a href="http://www.aviary.com/"&gt;Aviary&lt;/a&gt;, &lt;a href="https://www.twilio.com/"&gt;Twilio&lt;/a&gt;, &lt;a href="https://www.aereo.com/"&gt;Aereo&lt;/a&gt;, &lt;a href="http://www.skillshare.com/"&gt;Skillshare&lt;/a&gt;, &lt;a href="http://www.shapeways.com/"&gt;Shapeways&lt;/a&gt;, &lt;a href="http://www.theladders.com/"&gt;TheLadders&lt;/a&gt;, &lt;a href="http://www.howaboutwe.com/go/dating?utm_medium=SEM&amp;amp;amp;utm_source=GsearchB_Dating&amp;amp;amp;utm_campaign=NTL_Brand_Unified&amp;amp;amp;utm_content=g&amp;amp;amp;utm_term=how%20about%20we..&amp;amp;amp;utm_position=1t1&amp;amp;amp;utm_matchtype=e&amp;amp;amp;utm_adgroup=Brand_-_HAW&amp;amp;amp;utm_device=c&amp;amp;amp;mobile_ad=true&amp;amp;amp;utm_adid={adid}&amp;amp;amp;gclid=CP_p8ranjb0CFYN0OgodvSMADg"&gt;HowAboutWe&lt;/a&gt;, &lt;a href="http://www.codecademy.com/"&gt;Codecademy&lt;/a&gt; and many, many others.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;We were honored to be there and will be attending and sponsoring as many New York events as possible throughout the year.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id="watch-the-video"&gt;Watch The Video!&lt;/h2&gt;
-
-&lt;p&gt;The demo &lt;a href="https://twitter.com/progrium"&gt;Jeff&lt;/a&gt; gave at NY Tech Meetup was an early proof of concept for our PaaS / provisioning offering. It showed instant provisioning of apps and services, plus real-time discovery and configuration of connected services. It was powered by the open source project &lt;a href="https://github.com/flynn/flynn.io"&gt;Flynn&lt;/a&gt;, which is based on &lt;a href="http://www.docker.com/"&gt;Docker&lt;/a&gt;, &lt;a href="https://github.com/coreos/etcd"&gt;etcd&lt;/a&gt;, and a few others.&lt;/p&gt;
-
-&lt;p&gt;While there's a lot more functionality potential than what was demoed, this shows that you'll soon be able to programmatically (or using a friendly user interface) deploy and provision more instances of your applications and services immediately. For those of you counting, that takes wait time to spin up a VPS down from less than a minute to &lt;em&gt;less than a second&lt;/em&gt;, allowing you to easily scale out horizontally across your droplets without necessarily needing to spin up new servers.&lt;/p&gt;
-
-&lt;p&gt;It's powered by Docker, but you don't &lt;em&gt;need&lt;/em&gt; to know Docker to take advantage of this system.&lt;/p&gt;
-
-&lt;p&gt;It also uses etcd and components of Flynn in order to provide real-time discovery of services. This means as backing services like databases come online or go offline, your application can dynamically reconfigure to use them or change behavior in realtime. No need to reconfigure anything, no need to deploy again.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Watch it in action below:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://video.google.com/get_player?docid=0B6jFsllSG-3aZXZvN0JHUlhRVW8&amp;amp;amp;ps=docs&amp;amp;amp;partnerid=30&amp;amp;amp;cc_load_policy=1"&gt;&lt;img alt="IMAGE ALT TEXT HERE" src="/company/blog/nytm-jeff-lindsay-demos-digitalocean/nytm_posterframe-89565dbe.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-
 </content>
   </entry>
 </feed>
