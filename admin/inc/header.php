@@ -62,12 +62,6 @@ $headerMessages = new Model\Messages();
 											</a>
 										</li>
 										<li>
-											<a href="#">
-												<i class="fa fa-cog"></i>
-												<span class="hidden-sm text">Configurações</span>
-											</a>
-										</li>
-										<li>
 											<a href="logout/">
 												<i class="fa fa-power-off"></i>
 												<span class="hidden-sm text">Logout</span>

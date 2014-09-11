@@ -36,7 +36,7 @@ $comments = new Model\Comments();
 					</thead>
 					<tbody>
 <?php
-$lastPosts = $blog->get(false, 4);
+$lastPosts = $blog->get(false, "timestamp DESC, id", 4);
 foreach($lastPosts as $post){
 ?>
 						<tr>
@@ -90,7 +90,7 @@ foreach($lastPosts as $post){
 					</thead>
 					<tbody>
 <?php
-$lastComments = $comments->get(false, 5);
+$lastComments = $comments->get(false, "timestamp DESC, id", 5);
 foreach($lastComments as $comment){
     $replied = false;
     if($comment->getReply()){

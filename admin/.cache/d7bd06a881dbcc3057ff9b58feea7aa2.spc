@@ -1,4 +1,4 @@
-O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"feed";a:1:{i:0;a:6:{s:4:"data";s:385:"
+O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"feed";a:1:{i:0;a:6:{s:4:"data";s:388:"
   
   
   
@@ -127,11 +127,40 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
   
   
   
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"PHP.net news & announcements";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-08-28T03:14:28-05:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:28:"http://www.php.net/feed.atom";s:3:"rel";s:4:"self";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"icon";a:1:{i:0;a:5:{s:4:"data";s:39:"http://php.net/images/news/php-logo.gif";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:32:"http://php.net/archive/index.php";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:18:"
+  
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"PHP.net news & announcements";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-09-10T17:35:12-05:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:28:"http://www.php.net/feed.atom";s:3:"rel";s:4:"self";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"icon";a:1:{i:0;a:5:{s:4:"data";s:39:"http://php.net/images/news/php-logo.gif";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:32:"http://php.net/archive/index.php";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:18:"
     
     
     
-  ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:3:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:9:"Webmaster";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:3:"uri";a:1:{i:0;a:5:{s:4:"data";s:22:"http://php.net/contact";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"email";a:1:{i:0;a:5:{s:4:"data";s:27:"php-webmaster@lists.php.net";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:5:"entry";a:122:{i:0;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:3:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:9:"Webmaster";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:3:"uri";a:1:{i:0;a:5:{s:4:"data";s:22:"http://php.net/contact";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"email";a:1:{i:0;a:5:{s:4:"data";s:27:"php-webmaster@lists.php.net";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:5:"entry";a:123:{i:0;a:6:{s:4:"data";s:31:"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+";s:7:"attribs";a:1:{s:36:"http://www.w3.org/XML/1998/namespace";a:1:{s:4:"base";s:24:"entries/2014-09-09-1.xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"ConFoo: Call for paper is now Open";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:46:"http://php.net/archive/2014.php#id2014-09-09-1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-09-09T18:07:52+00:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-09-10T23:35:12+01:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"term";s:3:"cfp";s:5:"label";s:15:"Call for Papers";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:51:"http://php.net/conferences/index.php#id2014-09-09-1";s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:19:"http://confoo.ca/en";s:3:"rel";s:3:"via";s:4:"type";s:9:"text/html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1023:"
+    <div>
+     <p>
+     ConFoo is looking for PHP experts to share their skills and experience at
+     the next ConFoo. <a href="http://confoo.ca/en/call-for-papers">Submit your
+     proposals</a> between August 25th and September 22nd.
+     </p>
+
+     <ul>
+     <li>ConFoo 2015 will be hosted on February 18th-20th in Montreal, at the Hilton Bonaventure Hotel.</li>
+     <li>We take good care of our speakers by covering most expenses including travel, accommodation, lunch, full conference ticket, etc.</li>
+     <li>Presentations are 35min + 10min for questions, and may be delivered in English or French.</li>
+     <li>ConFoo is an open environment where everyone is welcome to submit. Are you skilled and friendly? Come join us.</li>
+     </ul>
+
+     <p>If you would simply prefer to <a href="/en/register">attend the conference</a>, we have a $290 discount until October 13th. You can also <a href="http://confoo.ca/en/call-for-papers">rate any proposal</a> and help shape the content of the event.</p>
+    </div>
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-09-22";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"confoo-2015.gif";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:19:"http://confoo.ca/en";s:5:"title";s:34:"ConFoo: Call for paper is now Open";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:28:"
   
   
   
@@ -182,7 +211,7 @@ This new version comes with new features, some backward incompatible changes and
         The full list of changes is available in the <a href="http://www.php.net/ChangeLog-5.php#5.6.0">ChangeLog</a>.
         </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:31:"
   
   
   
@@ -193,7 +222,7 @@ This new version comes with new features, some backward incompatible changes and
   
   
   
-";s:7:"attribs";a:1:{s:36:"http://www.w3.org/XML/1998/namespace";a:1:{s:4:"base";s:24:"entries/2014-08-27-1.xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:30:"php[world] in Washington, D.C.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:46:"http://php.net/archive/2014.php#id2014-08-27-1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-08-27T21:06:14+02:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-08-27T21:06:14+02:00";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"term";s:11:"conferences";s:5:"label";s:23:"Conference announcement";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:51:"http://php.net/conferences/index.php#id2014-08-27-1";s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:25:"http://world.phparch.com/";s:3:"rel";s:3:"via";s:4:"type";s:9:"text/html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:2246:"
+";s:7:"attribs";a:1:{s:36:"http://www.w3.org/XML/1998/namespace";a:1:{s:4:"base";s:24:"entries/2014-08-27-1.xml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:30:"php[world] in Washington, D.C.";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:46:"http://php.net/archive/2014.php#id2014-08-27-1";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-08-27T21:06:14+02:00";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:25:"2014-08-27T21:06:14+02:00";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"term";s:11:"conferences";s:5:"label";s:23:"Conference announcement";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:51:"http://php.net/conferences/index.php#id2014-08-27-1";s:3:"rel";s:9:"alternate";s:4:"type";s:9:"text/html";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:25:"http://world.phparch.com/";s:3:"rel";s:3:"via";s:4:"type";s:9:"text/html";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:2246:"
     <div>
      <p>The team at <a href="http://www.phparch.com/" title="php[architect] : Magazine, Training, Books, Conferences">php[architect]</a> is excited to
          announce our new conference: <a href="http://world.phparch.com/" title="php[world] conference">php[world]</a>!  This conference, is being
@@ -233,7 +262,7 @@ This new version comes with new features, some backward incompatible changes and
          forward to seeing you in D.C.!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-11-10";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:30:"conference_php_world_11_10.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://world.phparch.com/";s:5:"title";s:30:"php[world] in Washington, D.C.";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-11-10";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:30:"conference_php_world_11_10.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://world.phparch.com/";s:5:"title";s:30:"php[world] in Washington, D.C.";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:28:"
   
   
   
@@ -257,7 +286,7 @@ Windows binaries can be found on <a href="http://windows.php.net/download/">wind
 The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.16">ChangeLog</a>.
 </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:28:"
   
   
   
@@ -281,7 +310,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.32">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:28:"
   
   
   
@@ -311,7 +340,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      guides for updates from <a href="http://php.net/migration54">PHP 5.3 to
 	     5.4</a> and from <a href="http://php.net/migration55">PHP 5.4 to 5.5</a>.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:28:"
   
   
   
@@ -357,7 +386,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:31:"
   
   
   
@@ -394,7 +423,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         speakers is available <a href="http://cakefest.org/schedule">here</a>.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-08-21";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"cakefest-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:20:"http://cakefest.org/";s:5:"title";s:13:"CakeFest 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-08-21";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"cakefest-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:20:"http://cakefest.org/";s:5:"title";s:13:"CakeFest 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:31:"
   
   
   
@@ -440,7 +469,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         both energize and get you excited about the future of PHP.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-09-04";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"madison-php-2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:36:"http://www.madisonphpconference.com/";s:5:"title";s:27:"Madison PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-09-04";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"madison-php-2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:36:"http://www.madisonphpconference.com/";s:5:"title";s:27:"Madison PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:31:"
   
   
   
@@ -477,7 +506,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         and you certainly enjoy it!
       ";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:28:"http://www.w3.org/1999/xhtml";a:1:{s:1:"a";a:1:{i:0;a:5:{s:4:"data";s:38:"https://www.brnophp.cz/conference-2014";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:38:"https://www.brnophp.cz/conference-2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:5:{s:4:"data";s:52:"
         Looking forward to see you there :-)
-      ";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-09-20";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:27:"brnophp-conference-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:38:"https://www.brnophp.cz/conference-2014";s:5:"title";s:24:"BRNO PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:28:"
+      ";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-09-20";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:27:"brnophp-conference-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:38:"https://www.brnophp.cz/conference-2014";s:5:"title";s:24:"BRNO PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:28:"
   
   
   
@@ -522,7 +551,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:28:"
   
   
   
@@ -545,7 +574,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.31">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:28:"
   
   
   
@@ -568,7 +597,7 @@ Windows binaries can be found on <a href="http://windows.php.net/download/">wind
 The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.15">ChangeLog</a>.
 </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:31:"
   
   
   
@@ -615,7 +644,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
        <li>Prize Draws</li>
      </ul>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-10-04";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"capetown2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:30:"http://www.phpsouthafrica.com/";s:5:"title";s:13:"PHP Cape Town";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-10-04";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"capetown2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:30:"http://www.phpsouthafrica.com/";s:5:"title";s:13:"PHP Cape Town";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:28:"
   
   
   
@@ -660,7 +689,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:28:"
   
   
   
@@ -693,7 +722,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.14">ChangeLog</a>.
         </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:28:"
   
   
   
@@ -728,7 +757,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.30">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:31:"
   
   
   
@@ -769,7 +798,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
        and see you soon in Munich!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-10-26";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"ipc2014-oct.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://phpconference.com/";s:5:"title";s:33:"International PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-10-26";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"ipc2014-oct.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://phpconference.com/";s:5:"title";s:33:"International PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:31:"
   
   
   
@@ -812,7 +841,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      Arduino and PHP and much more.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-08-29";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:19:"newzealand-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:31:"http://www.phpconference.co.nz/";s:5:"title";s:31:"New Zealand PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-08-29";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:19:"newzealand-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:31:"http://www.phpconference.co.nz/";s:5:"title";s:31:"New Zealand PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:28:"
   
   
   
@@ -857,7 +886,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:28:"
   
   
   
@@ -907,7 +936,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:28:"
   
   
   
@@ -929,7 +958,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.29">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:28:"
   
   
   
@@ -952,7 +981,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.13">ChangeLog</a>.
         </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:31:"
   
   
   
@@ -990,7 +1019,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
       see more details on <a href="http://devconf.ru">the official website</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"devconfru2012.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:17:"http://devconf.ru";s:5:"title";s:12:"DevConf 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"devconfru2012.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:17:"http://devconf.ru";s:5:"title";s:12:"DevConf 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1027,7 +1056,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         
         
         
-    ";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:2:"li";a:3:{i:0;a:5:{s:4:"data";s:65:"Pre-conference tutorials on October 27 - 3 hour intensive session";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:74:"Breakout sessions on October 28, 29 and 30 - 1 hour sessions including Q&A";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:98:"Keynote sessions on October 28-30 – 1 hour sessions with topics appealing to the entire audience";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-10-27";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"ZendCon2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:22:"http://cfp.zendcon.com";s:5:"title";s:12:"ZendCon 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:31:"
+    ";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:2:"li";a:3:{i:0;a:5:{s:4:"data";s:65:"Pre-conference tutorials on October 27 - 3 hour intensive session";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:74:"Breakout sessions on October 28, 29 and 30 - 1 hour sessions including Q&A";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:98:"Keynote sessions on October 28-30 – 1 hour sessions with topics appealing to the entire audience";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-10-27";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"ZendCon2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:22:"http://cfp.zendcon.com";s:5:"title";s:12:"ZendCon 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1054,7 +1083,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      
      
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-08-03";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:23:"china2014conference.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:27:"http://www.phpconchina.com/";s:5:"title";s:25:"China PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:25:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-08-03";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:23:"china2014conference.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:27:"http://www.phpconchina.com/";s:5:"title";s:25:"China PHP Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:25:"
   
   
   
@@ -1073,7 +1102,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      <p>The name &quot;Next Generation&quot; was optimistically presumptuous; in reality phpng is an internal project that we are working on, it is not a production ready branch that anyone should deploy, or judge as they would a release of PHP.</p>
      <p>The work on phpng, the doors it opens, the conversations it has started, the collaboration it is inspiring, are all worth getting excited about. But, we need to stay grounded, honest, and open; and say that there is much work to do in order to make the &quot;Next Generation&quot; a reality, this is only the start.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1115,7 +1144,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1154,7 +1183,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
       We hope to see you all again this fall !
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-02";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"NEPHP_2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:21:"http://www.nephp.org/";s:5:"title";s:34:"Northeast PHP Technical Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-02";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"NEPHP_2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:21:"http://www.nephp.org/";s:5:"title";s:34:"Northeast PHP Technical Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1205,7 +1234,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1227,7 +1256,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.28">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1249,7 +1278,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.12">ChangeLog</a>.
         </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1303,7 +1332,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1326,7 +1355,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1348,7 +1377,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.11">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1386,7 +1415,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         More info: <a href="http://www.phpconference.com.ar">www.phpconference.com.ar</a>
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-11-09";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:18:"argentina-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:32:"http://www.phpconference.com.ar/";s:5:"title";s:13:"PHP Argentina";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-11-09";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:18:"argentina-2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:32:"http://www.phpconference.com.ar/";s:5:"title";s:13:"PHP Argentina";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1427,7 +1456,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      tutorial day on 26th June in Amsterdam!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-28";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"dpc_2014-2.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.phpconference.nl/";s:5:"title";s:7:"DPC2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-28";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"dpc_2014-2.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.phpconference.nl/";s:5:"title";s:7:"DPC2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1449,7 +1478,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.26">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1503,7 +1532,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1526,7 +1555,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.10">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1577,7 +1606,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us make PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1599,7 +1628,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.25">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1620,7 +1649,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes can be found in the <a href="http://www.php.net/ChangeLog-5.php#5.5.9">ChangeLog</a>.
    </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1646,7 +1675,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      <a href="http://www.midwestphp.org/registration/">Register for your spot at MidwestPHP</a> today!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-03-16";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"midwest2014.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:26:"http://www.midwestphp.org/";s:5:"title";s:15:"MidwestPHP 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-03-16";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"midwest2014.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:26:"http://www.midwestphp.org/";s:5:"title";s:15:"MidwestPHP 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1670,7 +1699,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      your talks. We’re very excited to see what you can come up with, and we’re looking forward to
      reading all the different proposals.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-02-16";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"dpc_2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.phpconference.nl/";s:5:"title";s:8:"DPC 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-02-16";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"dpc_2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.phpconference.nl/";s:5:"title";s:8:"DPC 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1702,7 +1731,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
       So make sure to <a href="http://tek.phparch.com/pricing-and-registration/">register
      soon</a> in order to save $200 off the total price!</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-05-23";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"tek14.fb.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://tek.phparch.com/";s:5:"title";s:34:"php[tek] 2014 : Schedule Announced";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-05-23";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"tek14.fb.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://tek.phparch.com/";s:5:"title";s:34:"php[tek] 2014 : Schedule Announced";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1756,7 +1785,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
         Thank you for helping us making PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1799,7 +1828,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      We look forward to seeing you in Berlin!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-04";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ipc2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:34:"http://phpconference.com/2014se/en";s:5:"title";s:8:"IPC 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-06-04";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ipc2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:34:"http://phpconference.com/2014se/en";s:5:"title";s:8:"IPC 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1835,7 +1864,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      interaction.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-04-12";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:13:"phpsa2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:30:"http://www.phpsouthafrica.com/";s:5:"title";s:13:"PHP Cape Town";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-04-12";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:13:"phpsa2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:30:"http://www.phpsouthafrica.com/";s:5:"title";s:13:"PHP Cape Town";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1856,7 +1885,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
           The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.24">ChangeLog</a>.
           </p>
 	</div>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:28:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:50;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1877,7 +1906,7 @@ The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.p
      The list of changes can be found in the <a href="http://www.php.net/ChangeLog-5.php#5.5.8">ChangeLog</a>.
    </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:50;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:51;a:6:{s:4:"data";s:31:"
   
   
   
@@ -1911,7 +1940,7 @@ Conferences should last 45 minutes, followed by a QA session.
 	Don&#039;t forget : registration for the PHP Tour Lyon 2014 is already open, and Early Bird tickets are still available. Save 100€ for 2 days !
 	</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-02-28";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"phptour-lyon.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:63:"http://afup.org/pages/phptourlyon2014/appel-a-conferenciers.php";s:5:"title";s:12:"phptour-lyon";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:51;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-02-28";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"phptour-lyon.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:63:"http://afup.org/pages/phptourlyon2014/appel-a-conferenciers.php";s:5:"title";s:12:"phptour-lyon";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:52;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1933,7 +1962,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.23">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:52;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:53;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1952,7 +1981,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.3.28">ChangeLog</a>.
      </p>
     </div>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:53;a:6:{s:4:"data";s:28:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:54;a:6:{s:4:"data";s:28:"
   
   
   
@@ -1974,7 +2003,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes can be found in the <a href="http://www.php.net/ChangeLog-5.php#5.5.7">ChangeLog</a>.
    </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:54;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:55;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2014,7 +2043,7 @@ Conferences should last 45 minutes, followed by a QA session.
          to Individuals and Students who wish to attend.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-01-10";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"tek14.fb.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://tek.phparch.com/";s:5:"title";s:13:"php[tek] 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:55;a:6:{s:4:"data";s:25:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-01-10";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"tek14.fb.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://tek.phparch.com/";s:5:"title";s:13:"php[tek] 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:56;a:6:{s:4:"data";s:25:"
   
   
   
@@ -2045,7 +2074,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <p>Special thanks to the guys who helped make this happen, you know who you are!</p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:56;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:57;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2066,7 +2095,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.22">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:57;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:58;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2104,7 +2133,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <a href="http://www.phpsouthafrica.com">www.phpsouthafrica.com</a>
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-12-01";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:23:"phpjohannesburg2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:29:"http://www.phpsouthafrica.com";s:5:"title";s:21:"PHP Johannesburg 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:58;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-12-01";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:23:"phpjohannesburg2014.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:29:"http://www.phpsouthafrica.com";s:5:"title";s:21:"PHP Johannesburg 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:59;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2124,7 +2153,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.6">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:59;a:6:{s:4:"data";s:25:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:60;a:6:{s:4:"data";s:25:"
   
   
   
@@ -2158,7 +2187,7 @@ Conferences should last 45 minutes, followed by a QA session.
 
      <p>We will provide a full post mortem in due course, most likely next week. You can also get updates from the official php.net Twitter: <a href="https://twitter.com/official_php">@official_php</a>.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:60;a:6:{s:4:"data";s:25:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:61;a:6:{s:4:"data";s:25:"
   
   
   
@@ -2206,7 +2235,7 @@ Conferences should last 45 minutes, followed by a QA session.
      a clearer picture of what happened.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:61;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:62;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2228,7 +2257,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:62;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:63;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2248,7 +2277,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.5">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:63;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:64;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2275,7 +2304,7 @@ Conferences should last 45 minutes, followed by a QA session.
      Hotel group rate information is available at our site.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-01-18";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ski-php.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:22:"https://www.skiphp.com";s:5:"title";s:12:"Ski PHP 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:64;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2014-01-18";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ski-php.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:22:"https://www.skiphp.com";s:5:"title";s:12:"Ski PHP 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:65;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2322,7 +2351,7 @@ Conferences should last 45 minutes, followed by a QA session.
      For more information and to register, please visit: <a href="http://www.MadisonPHPConference.com">http://www.MadisonPHPConference.com</a>
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-11-17";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"madison-php-2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:36:"http://www.madisonphpconference.com/";s:5:"title";s:22:"Madison PHP Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:65;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-11-17";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"madison-php-2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:36:"http://www.madisonphpconference.com/";s:5:"title";s:22:"Madison PHP Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:66;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2343,7 +2372,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.20">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:66;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:67;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2363,7 +2392,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.4">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:67;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:68;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2410,7 +2439,7 @@ Conferences should last 45 minutes, followed by a QA session.
      or follow <a href="http://www.twitter.com/phpbenelux">PHPBenelux on Twitter</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-06";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:50:"phpbenelux_conference_logo-2014-e1377030913837.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:36:"http://conference.phpbenelux.eu/2014";s:5:"title";s:26:"PHPBenelux Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:68;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-06";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:50:"phpbenelux_conference_logo-2014-e1377030913837.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:36:"http://conference.phpbenelux.eu/2014";s:5:"title";s:26:"PHPBenelux Conference 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:69;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2438,7 +2467,7 @@ Conferences should last 45 minutes, followed by a QA session.
 
       <p>If you would prefer to attend the conference, we have a <a href="http://confoo.ca/en/register">$230 discount</a> until October 16th.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-15";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:19:"confoo-2014-php.gif";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:16:"http://confoo.ca";s:5:"title";s:23:"ConFoo 2014 in Montreal";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:69;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-15";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:19:"confoo-2014-php.gif";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:16:"http://confoo.ca";s:5:"title";s:23:"ConFoo 2014 in Montreal";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:70;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2465,7 +2494,7 @@ Conferences should last 45 minutes, followed by a QA session.
      visit <a href="http://sunshinephp.com">http://sunshinephp.com</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-15";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"sunshinephp_logo.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://sunshinephp.com/";s:5:"title";s:11:"SunshinePHP";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:70;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-15";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"sunshinephp_logo.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://sunshinephp.com/";s:5:"title";s:11:"SunshinePHP";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:71;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2484,7 +2513,7 @@ Conferences should last 45 minutes, followed by a QA session.
      compile failure with ZTS enabled in PHP 5.4. All PHP users are encouraged to upgrade to either PHP 5.5.3 or PHP 5.4.19.";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:6:{s:4:"data";s:156:"For source downloads of PHP 5.4.19 and PHP 5.5.3 please visit our ,
      Windows binaries can be found on .
      The list of changes is recorded in the .
- 	";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:1:"a";a:3:{i:0;a:5:{s:4:"data";s:14:"downloads page";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:32:"http://www.php.net/downloads.php";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:25:"windows.php.net/download/";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:32:"http://windows.php.net/download/";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:9:"ChangeLog";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:41:"http://www.php.net/ChangeLog-5.php#5.4.19";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}i:71;a:6:{s:4:"data";s:31:"
+ 	";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:1:"a";a:3:{i:0;a:5:{s:4:"data";s:14:"downloads page";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:32:"http://www.php.net/downloads.php";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:25:"windows.php.net/download/";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:32:"http://windows.php.net/download/";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:9:"ChangeLog";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:41:"http://www.php.net/ChangeLog-5.php#5.4.19";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}i:72;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2521,7 +2550,7 @@ Conferences should last 45 minutes, followed by a QA session.
      join us!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-11-09";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:25:"codeconnexx_logo_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://codeconnexx.com/";s:5:"title";s:16:"CodeConnexx 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:72;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-11-09";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:25:"codeconnexx_logo_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://codeconnexx.com/";s:5:"title";s:16:"CodeConnexx 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:73;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2552,7 +2581,7 @@ Conferences should last 45 minutes, followed by a QA session.
         visit <a href="http://www.zendcon.com/">http://www.zendcon.com/</a>.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-13";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"ZendCon2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://www.zendcon.com/";s:5:"title";s:7:"ZendCon";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:73;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-13";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"ZendCon2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://www.zendcon.com/";s:5:"title";s:7:"ZendCon";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:74;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2573,7 +2602,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.2">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:74;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:75;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2594,7 +2623,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.4.18">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:75;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:76;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2633,7 +2662,7 @@ Conferences should last 45 minutes, followed by a QA session.
      special price of $159 instead of $199.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-09-18";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"WPCLogo-2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:48:"http://webandphp.com/conference/webandphpcon2013";s:5:"title";s:8:"WPC 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:76;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-09-18";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"WPCLogo-2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:48:"http://webandphp.com/conference/webandphpcon2013";s:5:"title";s:8:"WPC 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:77;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2664,7 +2693,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <a href="http://phpconference.com">http://phpconference.com</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-30";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"ipc-2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:32:"http://phpconference.com/2013/en";s:5:"title";s:8:"IPC 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:77;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-30";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"ipc-2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:32:"http://phpconference.com/2013/en";s:5:"title";s:8:"IPC 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:78;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2693,7 +2722,7 @@ Conferences should last 45 minutes, followed by a QA session.
               A generous speaker package will be provided for accepted speakers.
           </p>
       </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-11-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ski-php.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"https://www.skiphp.com/";s:5:"title";s:12:"Ski PHP 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:78;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-11-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ski-php.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"https://www.skiphp.com/";s:5:"title";s:12:"Ski PHP 2014";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:79;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2734,7 +2763,7 @@ Conferences should last 45 minutes, followed by a QA session.
               <a href="http://www.nephp.org/">http://www.nephp.org/</a>
           </p>
       </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-08-18";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:18:"NENA_logo_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.northeastphp.org/";s:5:"title";s:34:"Northeast PHP Technical Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:79;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-08-18";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:18:"NENA_logo_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.northeastphp.org/";s:5:"title";s:34:"Northeast PHP Technical Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:80;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2753,7 +2782,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.5.1">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:80;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:81;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2774,7 +2803,7 @@ Conferences should last 45 minutes, followed by a QA session.
      The list of changes is recorded in the <a href="http://www.php.net/ChangeLog-5.php#5.3.27">ChangeLog</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:81;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:82;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2795,7 +2824,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:82;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:83;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2848,7 +2877,7 @@ Conferences should last 45 minutes, followed by a QA session.
          For a full list of changes in PHP 5.5.0, see the <a href="http://php.net/ChangeLog-5.php#5.5.0">ChangeLog</a>.
        </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:83;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:84;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2864,7 +2893,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <p>The International PHP Conference is a globally recognized event for PHP developers, webworkers, IT managers and everyone interested in web technology.</p>
      <p>We are about to start planning the next conference and if you have some projects to talk about, you can submit your sessions here: <a href="http://phpconference.com/cfp">http://phpconference.com/cfp</a></p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-08-08";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"ipc_2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:24:"http://phpconference.com";s:5:"title";s:8:"IPC 2012";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:84;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-08-08";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"ipc_2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:24:"http://phpconference.com";s:5:"title";s:8:"IPC 2012";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:85;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2882,7 +2911,7 @@ Conferences should last 45 minutes, followed by a QA session.
 
      <p>The list of changes are recorded in the <a href="/ChangeLog-5.php">ChangeLog</a>.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:85;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:86;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2920,7 +2949,7 @@ Conferences should last 45 minutes, followed by a QA session.
      Thanks you helping us making PHP better.
     </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:86;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:87;a:6:{s:4:"data";s:31:"
   
   
   
@@ -2948,7 +2977,7 @@ Conferences should last 45 minutes, followed by a QA session.
      forward to seeing you in June!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-30";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"thinklamp2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:31:"http://php.thinkinlamp.com/2013";s:5:"title";s:28:"Shanghai PHP conference 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:87;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-30";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"thinklamp2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:31:"http://php.thinkinlamp.com/2013";s:5:"title";s:28:"Shanghai PHP conference 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:88;a:6:{s:4:"data";s:28:"
   
   
   
@@ -2987,7 +3016,7 @@ Conferences should last 45 minutes, followed by a QA session.
      Thanks to all people helping on the PHP project.
     </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:88;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:89;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3007,7 +3036,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <p>We apologize for the delays and confusion this may have caused, and thank you for using PHP.</p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:89;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:90;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3054,7 +3083,7 @@ Conferences should last 45 minutes, followed by a QA session.
      contributors for their great work on this 5.5 version of PHP.
     </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:90;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:91;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3072,7 +3101,7 @@ Conferences should last 45 minutes, followed by a QA session.
 
      <p>The list of changes are recorded in the <a href="/ChangeLog-5.php">ChangeLog</a>.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:91;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:92;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3110,7 +3139,7 @@ Conferences should last 45 minutes, followed by a QA session.
 	  and many others, see more details on <a href="http://devconf.ru">the official website</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"devconfru2012.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:17:"http://devconf.ru";s:5:"title";s:12:"DevConf 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:92;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"devconfru2012.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:17:"http://devconf.ru";s:5:"title";s:12:"DevConf 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:93;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3134,7 +3163,7 @@ Conferences should last 45 minutes, followed by a QA session.
          (whether or not they use PHP.)
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-05";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:22:"logo-php-argentina.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:32:"http://www.phpconference.com.ar/";s:5:"title";s:24:"PHP Conference Argentina";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:93;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-05";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:22:"logo-php-argentina.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:32:"http://www.phpconference.com.ar/";s:5:"title";s:24:"PHP Conference Argentina";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:94;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3182,7 +3211,7 @@ Conferences should last 45 minutes, followed by a QA session.
         Thank you for supporting PHP.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:94;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:95;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3221,7 +3250,7 @@ Conferences should last 45 minutes, followed by a QA session.
      We look forward to seeing you in June!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-08";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"dpc_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.phpconference.nl/";s:5:"title";s:25:"Dutch PHP Conference 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:95;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-08";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:12:"dpc_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:28:"http://www.phpconference.nl/";s:5:"title";s:25:"Dutch PHP Conference 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:96;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3262,7 +3291,7 @@ Conferences should last 45 minutes, followed by a QA session.
         <p>Come and experience our great wine, food, beaches and people.</p>
         <p>We would like to welcome you.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-05";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"phpsafrica.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:30:"http://www.phpsouthafrica.com/";s:5:"title";s:16:"PHP South Africa";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:96;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-10-05";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"phpsafrica.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:30:"http://www.phpsouthafrica.com/";s:5:"title";s:16:"PHP South Africa";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:97;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3280,7 +3309,7 @@ Conferences should last 45 minutes, followed by a QA session.
 
      <p>The list of changes are recorded in the <a href="/ChangeLog-5.php">ChangeLog</a>.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:97;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:98;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3328,7 +3357,7 @@ Conferences should last 45 minutes, followed by a QA session.
         Thank you for supporting PHP.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:98;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:99;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3350,7 +3379,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
      <p><a href="http://www.nephp.org/">http://www.nephp.org/</a></p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-05-01";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:18:"NENA_logo_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:21:"http://www.nephp.org/";s:5:"title";s:34:"Northeast PHP Technical Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:99;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-05-01";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:18:"NENA_logo_2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:21:"http://www.nephp.org/";s:5:"title";s:34:"Northeast PHP Technical Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:100;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3399,7 +3428,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:100;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:101;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3455,7 +3484,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:101;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:102;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3476,7 +3505,7 @@ Conferences should last 45 minutes, followed by a QA session.
        </div>
      </div>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:102;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:103;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3527,7 +3556,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:103;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:104;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3545,7 +3574,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <p><a href="http://www.phpconference.com/">The International PHP Conference</a> is a globally recognized event for PHP developers, webworkers, IT managers and everyone interested in web-technology.</p>
      <p>Again, the conference will focus on main topics for developers and core-technologies for decision makers. We will show how to scale your applications, explain the details of Continuous Integration or evaluate different approaches to NoSQL. Attendees will have the opportunity to meet with speakers, core-developers and consultants, often there is a chance for an evaluation of your code. Community as well as enterprise projects profit from our international reputation and impulses given from the developer community.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-05";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ipc2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:29:"http://www.phpconference.com/";s:5:"title";s:7:"IPC2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:104;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-05";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:11:"ipc2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:29:"http://www.phpconference.com/";s:5:"title";s:7:"IPC2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:105;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3566,7 +3595,7 @@ Conferences should last 45 minutes, followed by a QA session.
        </div>
      </div>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:105;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:106;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3627,7 +3656,7 @@ Conferences should last 45 minutes, followed by a QA session.
         Thank you for supporting PHP.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:106;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:107;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3645,7 +3674,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
      <p><a href="http://lonestarphp.com/call-for-papers">Call for Papers</a> are open until February 28th, 2013. Get your talk ideas in quick and join us in Dallas! Early bird registration opening soon!</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-28";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"logo-lonestarphp.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://lonestarphp.com/";s:5:"title";s:18:"Lone Star PHP 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:107;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-28";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:20:"logo-lonestarphp.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://lonestarphp.com/";s:5:"title";s:18:"Lone Star PHP 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:108;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3665,7 +3694,7 @@ Conferences should last 45 minutes, followed by a QA session.
      and it is now running 4 parallel tracks!  <a href="http://tek13.phparch.com/pricing-and-registration/">Register
      soon</a> as the Early Bird discount rate expires on February 28th.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-05-17";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"tek13_badge.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://tek13.phparch.com/";s:5:"title";s:13:"php[tek] 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:108;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-05-17";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"tek13_badge.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://tek13.phparch.com/";s:5:"title";s:13:"php[tek] 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:109;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3718,7 +3747,7 @@ Conferences should last 45 minutes, followed by a QA session.
         Thank you for supporting PHP.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:109;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:110;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3736,7 +3765,7 @@ Conferences should last 45 minutes, followed by a QA session.
        <p>The list of changes are recorded in the <a href="/ChangeLog-5.php">ChangeLog</a>.</p>
      </div>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:110;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:111;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3760,7 +3789,7 @@ Conferences should last 45 minutes, followed by a QA session.
      	<li>JavaScript Training (Laurent Villeneuve)</li>
      </ul>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-25";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:19:"confoo-2013-php.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:16:"http://confoo.ca";s:5:"title";s:11:"ConFoo 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:111;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-25";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:19:"confoo-2013-php.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:16:"http://confoo.ca";s:5:"title";s:11:"ConFoo 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:112;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3811,7 +3840,7 @@ Conferences should last 45 minutes, followed by a QA session.
         Thank you for supporting PHP.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:112;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:113;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3865,7 +3894,7 @@ Conferences should last 45 minutes, followed by a QA session.
         Thank you for helping us making PHP better.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:113;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:114;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3887,7 +3916,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <a href="http://conference.phpbenelux.eu/2013/">http://conference.phpbenelux.eu/2013/</a> for more information.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-01-26";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:48:"phpbenelux_conference_logo-01-e1344277762627.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:37:"http://conference.phpbenelux.eu/2013/";s:5:"title";s:26:"PHPBenelux Conference 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:114;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-01-26";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:48:"phpbenelux_conference_logo-01-e1344277762627.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:37:"http://conference.phpbenelux.eu/2013/";s:5:"title";s:26:"PHPBenelux Conference 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:115;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3905,7 +3934,7 @@ Conferences should last 45 minutes, followed by a QA session.
        <p>The list of changes are recorded in the <a href="/ChangeLog-5.php">ChangeLog</a>.</p>
      </div>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:115;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:116;a:6:{s:4:"data";s:31:"
   
   
   
@@ -3928,7 +3957,7 @@ Conferences should last 45 minutes, followed by a QA session.
      2013.   Conference registration will open on January 1st.  We look
      forward to seeing many of you there this year!</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-05-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"tek13_badge.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://tek13.phparch.com/";s:5:"title";s:13:"php[tek] 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:116;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-05-14";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:15:"tek13_badge.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:25:"http://tek13.phparch.com/";s:5:"title";s:13:"php[tek] 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:117;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3944,7 +3973,7 @@ Conferences should last 45 minutes, followed by a QA session.
      <p>For source downloads of PHP 5.4.9 and PHP 5.3.19 please visit our <a href="/downloads.php">downloads page</a>, Windows binaries can be found on <a href="http://windows.php.net/download/">windows.php.net/download/</a>.</p>
      <p>The list of changes are recorded in the <a href="/ChangeLog-5.php">ChangeLog</a>.</p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:117;a:6:{s:4:"data";s:28:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:118;a:6:{s:4:"data";s:28:"
   
   
   
@@ -3994,7 +4023,7 @@ Conferences should last 45 minutes, followed by a QA session.
      </p>
 
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:118;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:119;a:6:{s:4:"data";s:31:"
   
   
   
@@ -4019,7 +4048,7 @@ Conferences should last 45 minutes, followed by a QA session.
          Florida. Come join us for some sun and learning.
       </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-08";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"sunshine2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://sunshinephp.com/";s:5:"title";s:32:"SunshinePHP Developer Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:119;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-08";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:16:"sunshine2013.png";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:23:"http://sunshinephp.com/";s:5:"title";s:32:"SunshinePHP Developer Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:120;a:6:{s:4:"data";s:31:"
   
   
   
@@ -4045,7 +4074,7 @@ Conferences should last 45 minutes, followed by a QA session.
          Our call for papers is open until November the 22nd and we would love to hear from you!
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-23";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"phpuk2013.jpeg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:27:"http://phpconference.co.uk/";s:5:"title";s:11:"PHP UK 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:120;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-02-23";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:14:"phpuk2013.jpeg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:27:"http://phpconference.co.uk/";s:5:"title";s:11:"PHP UK 2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:121;a:6:{s:4:"data";s:31:"
   
   
   
@@ -4066,7 +4095,7 @@ Conferences should last 45 minutes, followed by a QA session.
      the website via <a href="http://www.web-developer-conference.de">www.web-developer-conference.de</a>.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-27";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"Logo_WDC_2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:39:"http://www.web-developer-conference.de/";s:5:"title";s:7:"WDC2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:121;a:6:{s:4:"data";s:31:"
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-06-27";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:17:"Logo_WDC_2013.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:39:"http://www.web-developer-conference.de/";s:5:"title";s:7:"WDC2013";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:122;a:6:{s:4:"data";s:31:"
   
   
   
@@ -4086,10 +4115,10 @@ Conferences should last 45 minutes, followed by a QA session.
          frameworks, databases, third party tools and components, and web development.
      </p>
     </div>
-  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-03-03";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:49:"rsz_midwestphpconference_customlogodesign_rl3.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:26:"http://www.midwestphp.com/";s:5:"title";s:22:"Midwest PHP Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:8:{s:6:"server";s:11:"nginx/1.6.1";s:4:"date";s:29:"Fri, 05 Sep 2014 17:22:12 GMT";s:12:"content-type";s:20:"application/atom+xml";s:14:"content-length";s:6:"220528";s:10:"connection";s:10:"keep-alive";s:13:"last-modified";s:29:"Fri, 05 Sep 2014 17:22:12 GMT";s:4:"etag";s:23:"W/"35d70-5025b1f99b5c0"";s:13:"accept-ranges";s:5:"bytes";}s:5:"build";s:14:"20140826204122";}s:5:"error";N;s:8:"sanitize";O:29:"Extensions\SimplePie\Sanitize":16:{s:4:"base";N;s:10:"remove_div";b:1;s:13:"image_handler";s:0:"";s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}s:23:"encode_instead_of_strip";b:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_comments";b:0;s:15:"output_encoding";s:5:"UTF-8";s:12:"enable_cache";b:1;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:7:"timeout";s:2:"10";s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:15:"force_fsockopen";b:0;s:22:"replace_url_attributes";a:9:{s:1:"a";s:4:"href";s:4:"area";s:4:"href";s:10:"blockquote";s:4:"cite";s:3:"del";s:4:"cite";s:4:"form";s:6:"action";s:3:"img";a:2:{i:0;s:8:"longdesc";i:1;s:3:"src";}s:5:"input";s:3:"src";s:3:"ins";s:4:"cite";s:1:"q";s:4:"cite";}s:8:"registry";O:29:"Extensions\SimplePie\Registry":3:{s:10:" * default";a:19:{s:5:"Cache";s:27:"\Extensions\SimplePie\Cache";s:7:"Locator";s:29:"\Extensions\SimplePie\Locator";s:6:"Parser";s:28:"\Extensions\SimplePie\Parser";s:4:"File";s:26:"\Extensions\SimplePie\File";s:8:"Sanitize";s:30:"\Extensions\SimplePie\Sanitize";s:4:"Item";s:26:"\Extensions\SimplePie\Item";s:6:"Author";s:28:"\Extensions\SimplePie\Author";s:8:"Category";s:30:"\Extensions\SimplePie\Category";s:9:"Enclosure";s:31:"\Extensions\SimplePie\Enclosure";s:7:"Caption";s:29:"\Extensions\SimplePie\Caption";s:9:"Copyright";s:31:"\Extensions\SimplePie\Copyright";s:6:"Credit";s:28:"\Extensions\SimplePie\Credit";s:6:"Rating";s:28:"\Extensions\SimplePie\Rating";s:11:"Restriction";s:33:"\Extensions\SimplePie\Restriction";s:20:"Content_Type_Sniffer";s:42:"\Extensions\SimplePie\Content\Type\Sniffer";s:6:"Source";s:28:"\Extensions\SimplePie\Source";s:4:"Misc";s:26:"\Extensions\SimplePie\Misc";s:22:"XML_Declaration_Parser";s:44:"\Extensions\SimplePie\XML\Declaration\Parser";s:10:"Parse_Date";s:32:"\Extensions\SimplePie\Parse\Date";}s:10:" * classes";a:0:{}s:9:" * legacy";a:0:{}}}s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:8:"feed_url";s:24:"http://php.net/feed.atom";s:4:"file";N;s:8:"raw_data";s:220528:"<?xml version="1.0" encoding="utf-8"?>
+  ";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:5:"xhtml";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:22:"http://php.net/ns/news";a:2:{s:15:"finalTeaserDate";a:1:{i:0;a:5:{s:4:"data";s:10:"2013-03-03";s:7:"attribs";a:0:{}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"newsImage";a:1:{i:0;a:5:{s:4:"data";s:49:"rsz_midwestphpconference_customlogodesign_rl3.jpg";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"link";s:26:"http://www.midwestphp.com/";s:5:"title";s:22:"Midwest PHP Conference";}}s:8:"xml_base";b:0;s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:8:{s:6:"server";s:11:"nginx/1.6.1";s:4:"date";s:29:"Thu, 11 Sep 2014 13:35:16 GMT";s:12:"content-type";s:20:"application/atom+xml";s:14:"content-length";s:6:"222429";s:10:"connection";s:10:"keep-alive";s:13:"last-modified";s:29:"Thu, 11 Sep 2014 13:35:16 GMT";s:4:"etag";s:23:"W/"364dd-502d0753df0c0"";s:13:"accept-ranges";s:5:"bytes";}s:5:"build";s:14:"20140826204122";}s:5:"error";N;s:8:"sanitize";O:29:"Extensions\SimplePie\Sanitize":16:{s:4:"base";N;s:10:"remove_div";b:1;s:13:"image_handler";s:0:"";s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}s:23:"encode_instead_of_strip";b:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_comments";b:0;s:15:"output_encoding";s:5:"UTF-8";s:12:"enable_cache";b:1;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:7:"timeout";s:2:"10";s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:15:"force_fsockopen";b:0;s:22:"replace_url_attributes";a:9:{s:1:"a";s:4:"href";s:4:"area";s:4:"href";s:10:"blockquote";s:4:"cite";s:3:"del";s:4:"cite";s:4:"form";s:6:"action";s:3:"img";a:2:{i:0;s:8:"longdesc";i:1;s:3:"src";}s:5:"input";s:3:"src";s:3:"ins";s:4:"cite";s:1:"q";s:4:"cite";}s:8:"registry";O:29:"Extensions\SimplePie\Registry":3:{s:10:" * default";a:19:{s:5:"Cache";s:27:"\Extensions\SimplePie\Cache";s:7:"Locator";s:29:"\Extensions\SimplePie\Locator";s:6:"Parser";s:28:"\Extensions\SimplePie\Parser";s:4:"File";s:26:"\Extensions\SimplePie\File";s:8:"Sanitize";s:30:"\Extensions\SimplePie\Sanitize";s:4:"Item";s:26:"\Extensions\SimplePie\Item";s:6:"Author";s:28:"\Extensions\SimplePie\Author";s:8:"Category";s:30:"\Extensions\SimplePie\Category";s:9:"Enclosure";s:31:"\Extensions\SimplePie\Enclosure";s:7:"Caption";s:29:"\Extensions\SimplePie\Caption";s:9:"Copyright";s:31:"\Extensions\SimplePie\Copyright";s:6:"Credit";s:28:"\Extensions\SimplePie\Credit";s:6:"Rating";s:28:"\Extensions\SimplePie\Rating";s:11:"Restriction";s:33:"\Extensions\SimplePie\Restriction";s:20:"Content_Type_Sniffer";s:42:"\Extensions\SimplePie\Content\Type\Sniffer";s:6:"Source";s:28:"\Extensions\SimplePie\Source";s:4:"Misc";s:26:"\Extensions\SimplePie\Misc";s:22:"XML_Declaration_Parser";s:44:"\Extensions\SimplePie\XML\Declaration\Parser";s:10:"Parse_Date";s:32:"\Extensions\SimplePie\Parse\Date";}s:10:" * classes";a:0:{}s:9:" * legacy";a:0:{}}}s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:8:"feed_url";s:24:"http://php.net/feed.atom";s:4:"file";N;s:8:"raw_data";s:222429:"<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:php="http://php.net/ns/news" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>PHP.net news &amp; announcements</title>
-  <updated>2014-08-28T03:14:28-05:00</updated>
+  <updated>2014-09-10T17:35:12-05:00</updated>
   <link href="http://www.php.net/feed.atom" rel="self"/>
   <icon>http://php.net/images/news/php-logo.gif</icon>
   <id>http://php.net/archive/index.php</id>
@@ -4098,6 +4127,35 @@ Conferences should last 45 minutes, followed by a QA session.
     <uri>http://php.net/contact</uri>
     <email>php-webmaster@lists.php.net</email>
   </author>
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:default="http://php.net/ns/news" xml:base="entries/2014-09-09-1.xml">
+  <title>ConFoo: Call for paper is now Open</title>
+  <id>http://php.net/archive/2014.php#id2014-09-09-1</id>
+  <published>2014-09-09T18:07:52+00:00</published>
+  <updated>2014-09-10T23:35:12+01:00</updated>
+  <default:finalTeaserDate xmlns="http://php.net/ns/news">2014-09-22</default:finalTeaserDate>
+  <category term="cfp" label="Call for Papers"/>
+  <link href="http://php.net/conferences/index.php#id2014-09-09-1" rel="alternate" type="text/html"/>
+  <default:newsImage xmlns="http://php.net/ns/news" link="http://confoo.ca/en" title="ConFoo: Call for paper is now Open">confoo-2015.gif</default:newsImage>
+  <link href="http://confoo.ca/en" rel="via" type="text/html"/>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+     <p>
+     ConFoo is looking for PHP experts to share their skills and experience at
+     the next ConFoo. <a href="http://confoo.ca/en/call-for-papers">Submit your
+     proposals</a> between August 25th and September 22nd.
+     </p>
+
+     <ul>
+     <li>ConFoo 2015 will be hosted on February 18th-20th in Montreal, at the Hilton Bonaventure Hotel.</li>
+     <li>We take good care of our speakers by covering most expenses including travel, accommodation, lunch, full conference ticket, etc.</li>
+     <li>Presentations are 35min + 10min for questions, and may be delivered in English or French.</li>
+     <li>ConFoo is an open environment where everyone is welcome to submit. Are you skilled and friendly? Come join us.</li>
+     </ul>
+
+     <p>If you would simply prefer to <a href="/en/register">attend the conference</a>, we have a $290 discount until October 13th. You can also <a href="http://confoo.ca/en/call-for-papers">rate any proposal</a> and help shape the content of the event.</p>
+    </div>
+  </content>
+</entry>
   <entry xmlns="http://www.w3.org/2005/Atom" xml:base="entries/2014-08-28-1.xml">
   <title>PHP 5.6.0 released</title>
   <id>http://php.net/archive/2014.php#id2014-08-28-1</id>
@@ -8176,4 +8234,4 @@ Conferences should last 45 minutes, followed by a QA session.
   </content>
 </entry>
 </feed>
-";s:7:"timeout";i:10;s:15:"force_fsockopen";b:0;s:10:"force_feed";b:0;s:5:"cache";b:1;s:14:"cache_duration";i:3600;s:28:"autodiscovery_cache_duration";i:604800;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:13:"order_by_date";b:1;s:14:"input_encoding";b:0;s:13:"autodiscovery";i:31;s:8:"registry";r:11375;s:17:"max_checked_feeds";i:10;s:20:"all_discovered_feeds";a:0:{}s:13:"image_handler";s:0:"";s:13:"multifeed_url";a:0:{}s:17:"multifeed_objects";a:0:{}s:15:"config_settings";N;s:10:"item_limit";i:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}}
+";s:7:"timeout";i:10;s:15:"force_fsockopen";b:0;s:10:"force_feed";b:0;s:5:"cache";b:1;s:14:"cache_duration";i:3600;s:28:"autodiscovery_cache_duration";i:604800;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:13:"order_by_date";b:1;s:14:"input_encoding";b:0;s:13:"autodiscovery";i:31;s:8:"registry";r:11471;s:17:"max_checked_feeds";i:10;s:20:"all_discovered_feeds";a:0:{}s:13:"image_handler";s:0:"";s:13:"multifeed_url";a:0:{}s:17:"multifeed_objects";a:0:{}s:15:"config_settings";N;s:10:"item_limit";i:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}}

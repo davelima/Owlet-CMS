@@ -1,5 +1,9 @@
 # CHANGELOG
 
+11/09/2014
++ Remoção de link quebrado "Configurações" no menu superior
++ Correção na ordem de exibição de artigos recentes na dashboard inicial
+
 09/09/2014
 + Atualização visual na página de edição de perfil de administradores (e "Minha Conta")
 Adaptação da página para tablets
