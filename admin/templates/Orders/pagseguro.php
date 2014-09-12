@@ -4,11 +4,15 @@ $breadcrumbs = array(
     "Pedidos PagSeguro" => $_SERVER['REQUEST_URI']
 );
 require_once ("inc/breadcrumbs.php");
-$pagseguro = new Model\PagSeguro\PagSeguroOrder();
+try {
+    $pagseguro = new Model\PagSeguro\PagSeguroOrder();
+} catch (Exception $e) {
+    echo Extensions\Messages::Message("danger", $e->getMessage());
+    exit();
+}
 ?>
 
 <h2 class="page-header">Pedidos PagSeguro</h2>
-
 <table class="table">
 	<thead>
 		<tr>

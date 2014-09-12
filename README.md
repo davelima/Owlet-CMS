@@ -1,6 +1,14 @@
 # Owlet CMS
-#### v1.0.3
+#### v1.0.4
 ##### PHP >= 5.4.0
+
+**Novo!**
+Na versão 1.0.4, você pode facilmente dar um setup inicial no CMS seguindo o passo-a-passo:
++ Defina suas variáveis de banco de dados em src/Lib/Data.php
++ Acesse o link /install para dar início a instalação automática do sistema. Você poderá configurar facilmente dados de e-mail e a conta do administrator root
++ Pronto! Seu CMS está pronto e configurado para uso :)
+
+---
 
 Owlet é um CMS de código aberto em PHP. Utiliza MVC e foi escrito de forma a viabilizar a extensão de bibliotecas, permitindo criar instalações personalizadas e leves.
 
