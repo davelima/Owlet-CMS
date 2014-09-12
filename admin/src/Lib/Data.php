@@ -44,7 +44,7 @@ abstract class Data
      *
      * @staticvar string mysql | pgsql
      */
-    private static $dbms = "pgsql";
+    public static $dbms = "pgsql";
 
     /**
      * The database to use
@@ -152,6 +152,7 @@ abstract class Data
      * @param mixed $object            
      * @param string $condition            
      * @param string $limit            
+     * @param string $orderBy            
      */
     public static function Select($object, $condition, $limit, $orderBy = "id")
     {

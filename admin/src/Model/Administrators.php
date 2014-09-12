@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0
+ * @version r1.0.1
  * @license Apache 2.0
  */
 class Administrators extends Base
@@ -158,7 +158,10 @@ class Administrators extends Base
         if (is_array($this->permissions)) {
             $this->permissions = json_encode($this->permissions);
         }
-        $this->setRoot(0);
+        
+        if (! isset($this->root)) {
+            $this->setRoot(0);
+        }
         
         parent::validateData($required);
         return true;

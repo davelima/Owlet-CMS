@@ -1,5 +1,12 @@
 # CHANGELOG
 
+12/09/2014
++ Implementação do wizard de configuração inicial do sistema em /install
+  + A pasta "database" foi movida para lá
++ Melhorias na View do módulo PagSeguro
++ Atualização no módulo Administrators (v1.0 - v1.0.1)
+
+
 11/09/2014
 + Remoção de link quebrado "Configurações" no menu superior
 + Correção na ordem de exibição de artigos recentes na dashboard inicial

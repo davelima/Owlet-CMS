@@ -26,9 +26,35 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
   
   
   
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:17:"DigitalOcean Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:41:"https://www.digitalocean.com/company/blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:41:"https://www.digitalocean.com/company/blog";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:3:"rel";s:4:"self";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-08T11:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:8:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:17:"DigitalOcean Blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:41:"https://www.digitalocean.com/company/blog";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:2:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"href";s:41:"https://www.digitalocean.com/company/blog";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:4:"href";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:3:"rel";s:4:"self";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-11T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:8:"
     
   ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:5:"entry";a:21:{i:0;a:6:{s:4:"data";s:38:"
+    
+    
+    
+    
+    
+    
+    
+  ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:73:"We’re Bringing New Features To Europe: IPv6, Private Networking, CoreOS";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:9:"alternate";s:4:"href";s:96:"https://www.digitalocean.com/company/blog/were-bringing-new-features-to-europe-ipv6-coreos-more/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:96:"https://www.digitalocean.com/company/blog/were-bringing-new-features-to-europe-ipv6-coreos-more/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-11T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-09-11T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:12:"
+      
+    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1805:"<p>Below are DO articles that will help you get started with IPv6 on your Droplets: </p>
+
+<ul>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-enable-ipv6-for-digitalocean-droplets">How To Enable IPv6 For DigitalOcean Droplets</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-configure-tools-to-use-ipv6-on-a-linux-vps">How To Configure Tools To Use IPv6 on a Linux VPS</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-add-additional-ipv6-addresses-to-your-droplet">How To Add Additional IPv6 Addresses to your Droplet</a></li>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-configure-your-droplet-to-only-use-ipv6-networking">How To Configure Your Droplet to Only Use IPv6 Networking</a></li>
+</ul>
+
+<p>You can also navigate the IPv6 tag for more IPv6 articles and questions in our <a href="https://www.digitalocean.com/community/">community</a></p>
+
+<p><img alt="DigitalOcean control panel" src="/company/blog/were-bringing-new-features-to-europe-ipv6-coreos-more/control_panel-719f2ffb.png" /></p>
+
+<p>There's also been a lot of excitement throughout our community around our recent <a href="https://www.digitalocean.com/company/blog/coreos-now-available-on-digitalocean/">CoreOS announcement.</a> Now all developers that wish to spin up Droplets in AMS3 can select CoreOS as their operating system, allowing for the easiest way to get started using containers and distributed systems. </p>
+
+<p>You can click <a href="https://cloud.digitalocean.com/droplets/new?image=coreos-alpha">here</a> to launch a CoreOS image, or <a href="https://www.digitalocean.com/community/tutorial_series/getting-started-with-coreos-2">here</a> to check out our tutorial series on getting started with CoreOS.</p>
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:38:"
     
     
     
@@ -80,7 +106,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
   </div>
 </div>
 
-<p>A special thank you to <a href='http://tanookilabs.com/' target='_blank'>Tanooki</a>. Under the guidance of our  <a href='https://twitter.com/ChasingUX' target='_blank'>Creative Director</a>, they were able to bring you these features as quickly as possible. Now create a user profile and explore your new community. More features and refined interfaces coming soon :)</p>";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:38:"
+<p>A special thank you to <a href='http://tanookilabs.com/' target='_blank'>Tanooki</a>. Under the guidance of our  <a href='https://twitter.com/ChasingUX' target='_blank'>Creative Director</a>, they were able to bring you these features as quickly as possible. Now create a user profile and explore your new community. More features and refined interfaces coming soon :)</p>";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:38:"
     
     
     
@@ -100,7 +126,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 
 <p>Click <a href="https://cloud.digitalocean.com/droplets/new?image=coreos-alpha">here</a> to launch a CoreOS image. Click <a href="https://www.digitalocean.com/community/tutorial_series/getting-started-with-coreos-2">here</a> for our series on getting started with CoreOS.</p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:38:"
     
     
     
@@ -117,7 +143,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 <p>Within your <a href="https://cloud.digitalocean.com/settings/referrals">Settings page</a> in the control panel, you’ll be able to track your referral stats, e.g. how many friends you’ve referred, how much money you are owed, and how much you’ve earned so far. Email it, Tweet it, and share it. Thanks for spreading the DigitalOcean love!</p>
 
 <p>– The DO Team</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:38:"
     
     
     
@@ -139,7 +165,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 </ul>
 
 <p>You can also navigate the IPv6 tag for more IPv6 articles and questions in our <a href="https://www.digitalocean.com/community/">community</a></p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:38:"
     
     
     
@@ -177,7 +203,7 @@ O:30:"Extensions\SimplePie\SimplePie":28:{s:4:"data";a:4:{s:5:"child";a:1:{s:27:
 
 <p>Ben Uretsky<br />
 CEO, DigitalOcean</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:38:"
     
     
     
@@ -200,7 +226,7 @@ CEO, DigitalOcean</p>
 <p>We’ve also developed some community resources to help you get started with OAuth, including a <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">general intro to OAuth 2</a> and a tutorial on <a href="https://www.digitalocean.com/community/tutorials/how-to-use-oauth-authentication-with-digitalocean-as-a-user-or-developer">how to use OAuth with DigitalOcean</a> both as a user and as a developer.</p>
 
 <p>As we continue to refine our new API, we always appreciate any feedback on our <a href="https://github.com/digitaloceancloud/api-v2">API v2 Github page</a>. And if you want to let people know about what you’ve built, submit your applications to the <a href="https://www.digitalocean.com/community/projects">DigitalOcean projects page</a>. We’re excited to highlight the great work of the DO community. </p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:38:"
     
     
     
@@ -218,7 +244,7 @@ CEO, DigitalOcean</p>
 
 <p>No more waiting. <a href="http://bit.ly/_createdroplet">Spin up a Droplet in LON1!</a></p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:38:"
     
     
     
@@ -255,7 +281,7 @@ CEO, DigitalOcean</p>
 <p><img alt="Sammy Front" src="/company/blog/sammy-the-shark-gets-a-birthday-makeover-from-simon-oxley/sammy-front-13bd1424.png" /></p>
 
 <p>Now that’s a good lookin’ shark.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:38:"
     
     
     
@@ -391,7 +417,7 @@ widget-dpkg:
 <p>As we continue to write new services, as well as rewrite old ones, we grow a deeper appreciation for the language’s strength in building distributed systems. If you’re a software engineer that’s interested in writing Go – <a href="https://careers.digitalocean.com/careers/software-engineer/">we are hiring</a>.</p>
 
 <p><em>Oh, and if you have experience writing Go, feel free to comment below and share your thoughts.</em></p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:38:"
     
     
     
@@ -408,7 +434,7 @@ widget-dpkg:
 <p>DigitalOcean offers the same kind of rapid provisioning for cloud instances that MongoHQ offers for MongoDB databases. It takes less than a minute to bring up an SSD Cloud instance complete with 20GB of SSD storage and 512MB of RAM. There's easy to use dashboards and APIs, Tier-1 peering and virtual private networks within the data centre – that’s the kind of service we love at MongoHQ, and our partnership means that developers can leverage the perfect dovetail of hosting and database provisioning.</p>
 
 <p>DigitalOcean has also been great to work with, providing us with extensive system access to benchmark and test our platform, as well as connecting us with three of their engineers. It's because of that collaboration that we're having a smooth rollout – we're production ready for DigitalOcean users <a href="https://www.mongohq.com/signup/?utm_source=Digital%20Ocean&amp;amp;utm_medium=lp&amp;amp;utm_campaign=digital%20ocean">right now</a>.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:38:"
     
     
     
@@ -438,7 +464,7 @@ widget-dpkg:
 <p>We’re excited to hear what you have to say as we continue to refine the direction of v2. You can find the complete documentation on the <a href="https://developers.digitalocean.com/v2/">DigitalOcean developers portal</a>. Let us know what you think on our <a href="https://github.com/digitaloceancloud/api-v2">API v2 Github page</a>.</p>
 
 <p>You can also jump right into the conversations happening in our community by checking out this easy <a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-apiv2">Getting Started Guide</a> and a list of <a href="https://www.digitalocean.com/community/questions/what-libraries-and-wrappers-are-there-for-digitalocean-s-apiv2">API v2 libraries</a>.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:38:"
     
     
     
@@ -448,7 +474,7 @@ widget-dpkg:
     
   ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:36:"Announcing IPv6 Support in Singapore";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:9:"alternate";s:4:"href";s:79:"https://www.digitalocean.com/company/blog/announcing-ipv6-support-in-singapore/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:79:"https://www.digitalocean.com/company/blog/announcing-ipv6-support-in-singapore/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-06-16T11:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-06-16T11:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:12:"
       
-    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1829:"<p>SGP1 is the first datacenter to have IPv6 support because it is running v1.5 of our backend code base. The new version was completely rewritten from the ground up and provides many benefits over the current v1.0 code. This includes more actions that can be initiated without needing to power off a Droplet – such as snapshots and enabling/disabling networking services – as well as an overall more reliable backup service architecture. After much testing during a two month beta period in Singapore, we’ve also started the first phase of our migration to the new 1.5 codebase in the San Francisco region.</p>
+    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1815:"<p>SGP1 is the first datacenter to have IPv6 support because it is running v1.5 of our backend code base. The new version was completely rewritten from the ground up and provides many benefits over the current v1.0 code. This includes more actions that can be initiated without needing to power off a Droplet – such as enabling/disabling networking services – as well as an overall more reliable backup service architecture. After much testing during a two month beta period in Singapore, we’ve also started the first phase of our migration to the new 1.5 codebase in the San Francisco region.</p>
 
 <p><img alt="" src="https://assets.digitalocean.com/blog/IPv6_Singapore/IPv6_Check.png" /></p>
 
@@ -467,7 +493,7 @@ widget-dpkg:
 <p>Sincerely,</p>
 
 <p>The DO Team</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:38:"
     
     
     
@@ -500,7 +526,7 @@ widget-dpkg:
 <h3 id="putting-service-in-saas">Putting Service in SaaS</h3>
 
 <p>We're here to help you build a better app. My team and I are always <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#111;&#116;&#105;&#102;&#121;&#064;&#116;&#114;&#097;&#099;&#107;&#106;&#115;&#046;&#099;&#111;&#109;">working with customers</a> to integrate, improve, and fix issues of all kinds. We now receive over 1,500 JavaScript errors per minute. To ensure that we can keep up with that load and continue to scale, we leverage DigitalOcean's API to quickly spin up a dozen Droplets and hammer our systems with errors for performance testing. We build out an "error drone" template, which rapid fires fake requests at us, then create a swarm of them on demand. As a DigitalOcean user, you pay hourly for the test and tear them down. No other service is offering that kind of speed and simplicity.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:38:"
     
     
     
@@ -569,7 +595,7 @@ Despite the lack of vertical structure, Mark showcased his natural leadership wh
 
 <p>"I want to help other people succeed. I want to help grow teams. I want people on my team to have careers that are even more successful than mine. And I want to help expand our field because internet operations, and really anything web related, is just over 20 years old at this point. We're learning new things every day."</p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:38:"
     
     
     
@@ -590,7 +616,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p><strong>This is simply an email notification.</strong> No Droplets are suspended or destroyed. Your feedback will continue to drive our design process – if there are any other features you would like to see let us know <a href="https://digitalocean.uservoice.com/forums/136585-digitalocean">here</a>.</p>
 
 <p>– The DO Team</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:38:"
     
     
     
@@ -623,7 +649,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 
 <p>Oh, by the way. If you’re a software engineer that’s interested in writing Go – we are <a href="https://careers.digitalocean.com/">hiring</a>.</p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:38:"
     
     
     
@@ -643,7 +669,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 
 <p><em><strong>Just a heads up:</strong> as transferring a snapshot maintains all of the original snapshot’s settings, there may be configuration that allows the sender to potentially later access droplets created from the image. Make sure you trust anyone who gives you an image.</em></p>
 
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:38:"
     
     
     
@@ -658,7 +684,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p><img alt="Ubuntu 14.04 Droplet Image" src="/company/blog/announcing-the-release-of-our-ubuntu-1404LTS-image/cpubuntu1404-2f7f616d.png" /></p>
 
 <p>For detailed descriptions on new features and information concerning upgrading from Ubuntu 13.10 click <a href="https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes">here</a>. You can spin up an <a href="https://www.digitalocean.com/">Ubuntu 14.04 LTS Droplet</a> now!</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:38:"
     
     
     
@@ -671,7 +697,7 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
     ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:1165:"<p>Over at DigitalOcean, we currently use Chef to handle all aspects of our physical and cloud infrastructure. It also drives the automation for all of our internal / external applications. If you're at the event head over to booth 210 to find our Chief Technology Evangelist <a href="https://twitter.com/jedgar">John Edgar</a> and meet a few members of our engineering and site reliability team: SREs <a href="https://twitter.com/anthonycaiafa">Anthony</a>, <a href="https://twitter.com/intsunny">Sunny</a>, and <a href="https://twitter.com/sparciii">Andrew</a> as well as software engineers <a href="https://twitter.com/brookemckim">Brooke</a> and <a href="https://twitter.com/prometheus">Joonas</a>.</p>
 
 <p>If you're an engineer yourself remember we're looking to <a href="https://careers.digitalocean.com/">expand our team</a> – so don't be shy! <a href="https://www.digitalocean.com/company/events/">Upcoming events</a> this month include <a href="http://www.railsconf.com/">RailsConf</a>, the first ever <a href="http://www.gophercon.com/%E2%80%8E/">GopherConf</a>, and a hometown event at <a href="https://nytechday.com/">NY Tech Day</a>. Stay tuned.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:38:"
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:38:"
     
     
     
@@ -704,55 +730,43 @@ You can set up your billing alert by clicking on the <a href="https://cloud.digi
 <p>We are in the process of updating all of our installation images so that any new servers will be patched against this vulnerability from the time of deployment.</p>
 
 <p>For more information about how to update your existing servers and protect yourself against this vulnerability, check out <a href="https://www.digitalocean.com/community/articles/how-to-protect-your-server-against-the-heartbleed-openssl-vulnerability">this article</a>.</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:38:"
-    
-    
-    
-    
-    
-    
-    
-  ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:61:"Zhanna Schonfeld: From Designing Toys To Building Our Website";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:2:{s:3:"rel";s:9:"alternate";s:4:"href";s:79:"https://www.digitalocean.com/company/blog/inside-digitalocean-zhanna-schonfeld/";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:2:"id";a:1:{i:0;a:5:{s:4:"data";s:79:"https://www.digitalocean.com/company/blog/inside-digitalocean-zhanna-schonfeld/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"published";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-03-24T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"updated";a:1:{i:0;a:5:{s:4:"data";s:20:"2014-03-24T00:00:00Z";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:6:{s:4:"data";s:12:"
-      
-    ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"name";a:1:{i:0;a:5:{s:4:"data";s:12:"DigitalOcean";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:7:"content";a:1:{i:0;a:5:{s:4:"data";s:5134:"<p>After graduating with a BFA in Industrial Design from the Cleveland Institute of Art, Zhanna joined a major toy company in Ohio. While this may seem like a dream job, Zhanna quickly became bored, stating "it was a repetitive process to churn out new variations of the same plastic products. In my mind, I'd mastered it and my career stagnated." </p>
-
-<p><img alt="Industrial_Design" src="/company/blog/inside-digitalocean-zhanna-schonfeld/toys-9c62c706.jpg" /></p>
-
-<p>Her transition into the tech community was gradual but natural, having been fascinated with the web from a very young age. "It's funny," she says, "I was building websites since I was a kid on GeoCities, back when the <code>&lt;blink&gt;</code> element was around causing seizures, but I wasn't very familiar with the industry." Her curiosity as to why some websites succeeded and others didn't continued to grow, and in 2010 she left her job to begin freelancing, helping colleagues on the design and front end of their projects.  </p>
-
-<p>After developing an <a href="http://svveetdesign.com/home/portfolio/">impressive portfolio</a>, Zhanna decided to venture out on her own. Aspiring to create something amazing and beautiful, she co-founded Obsesh.com – a photo-sharing app for makeup enthusiasts. Although it's long been abandoned, the experience was enough to motivate Zhanna to leave Ohio and immerse herself in the startup culture of NYC.</p>
-
-<p><img alt="Obsesh.com" src="/company/blog/inside-digitalocean-zhanna-schonfeld/obsesh-3e1da325.png" /></p>
-
-<p>It wasn't long before Zhanna joined <a href="https://www.quirky.com/">Quirky</a> and was responsible for designing their web interface. She continued to develop her knowledge of HTML, CSS, JavaScript and Git as her appreciation for developer culture grew. She could speak their language, work with their tools, and write code. It was here that Zhanna was also given her first opportunity to work with a team of developers on the web platform and watch the company scale extremely fast. When asked for the most valuable takeaways from that experience, her reply was simply "change is constant and make data-driven decisions." </p>
-
-<p>Looking for a new startup, Zhanna began searching open positions on <a href="http://dribbble.com/">Dribbble</a> and felt a strong connection to DigitalOcean after watching an early <a href="http://vimeo.com/37383186">TechStars video</a>. She was hired and immediately started helping our creative director Jesse Chase build out the new community, simultaneously producing beautiful images to complement our social content. When asked about the role of aesthetics in tech, she says "to me design is shaping the experience for the user. It’s said that good design is invisible; that it feels so right and seamless that you don’t even notice it." </p>
-
-<p><img alt="Social_Image" src="/company/blog/inside-digitalocean-zhanna-schonfeld/twig-cb94cb86.png" /></p>
-
-<p>Little did she know she would soon be asked to apply that philosophy and create an entirely <a href="https://digitalocean.com/">new website</a>, in the midst of a Series A round, in under a week's time. Zhanna remained unfazed by the pressure: a combination of natural talent and a creative process that puts heavy emphasis on testing and metrics that validate designs. "It's about getting into people's heads and figuring out the best way to get someone to do what they need to do on your platform," she tells me with a smirk, drawing inspiration from Steve Krug's book <a href="http://www.sensible.com/dmmt.html">Don't Make Me Think</a>. </p>
-
-<p>"We were trying to embody our core values of simplicity and love. We kept it simple even in the tech aspect by using the <a href="http://middlemanapp.com">Middleman framework</a>– a static site generator versus a rails app. Keeping the site static makes it easy to build and maintain, and gives the designers complete control and ownership of it. We worked six days (and nights) to build the website from the ground up." </p>
-
-<p>To tell the DigitalOcean story, Zhanna showed off the control panel's intuitiveness by incorporating demo videos right on the home page. "It's easy to add a ton of features and buttons and options," she says, "But that just overwhelms people."  </p>
-
-<p><img alt="New_Website" src="/company/blog/inside-digitalocean-zhanna-schonfeld/website-1e391845.png" /></p>
-
-<p>Zhanna is now focusing on the new community, building out better search and navigation, mobile capability, personal profiles, a voting system and other outstanding upgrades. While not yet complete, without Zhanna "none of this would be possible" says creative director Jesse Chase. "From sharing her UX philosophies, to shedding light on a particular design comp, js library, or css framework, Zhanna has been an incredible asset to this team." </p>
-
-<p>But the feelings are mutual.</p>
-
-<p>"The best ideas come from speaking to people, from working on problems and seeing things from a different perspective," says Zhanna. "DigitalOcean understands that in every aspect – it's the place and culture that I’ve always wanted to work for."</p>
-";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:8:{s:6:"server";s:16:"cloudflare-nginx";s:4:"date";s:29:"Thu, 11 Sep 2014 13:34:39 GMT";s:12:"content-type";s:8:"text/xml";s:10:"connection";s:10:"keep-alive";s:10:"set-cookie";s:138:"__cfduid=db48632f3c56b39994408db3c8c7751ea1410442478188; expires=Mon, 23-Dec-2019 23:50:00 GMT; path=/; domain=.digitalocean.com; HttpOnly";s:13:"last-modified";s:29:"Wed, 10 Sep 2014 14:57:12 GMT";s:6:"cf-ray";s:20:"16843e70a8bd0fbe-GRU";s:16:"content-encoding";s:4:"gzip";}s:5:"build";s:14:"20140826204122";}s:5:"error";N;s:8:"sanitize";O:29:"Extensions\SimplePie\Sanitize":16:{s:4:"base";N;s:10:"remove_div";b:1;s:13:"image_handler";s:0:"";s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}s:23:"encode_instead_of_strip";b:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_comments";b:0;s:15:"output_encoding";s:5:"UTF-8";s:12:"enable_cache";b:1;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:7:"timeout";s:2:"10";s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:15:"force_fsockopen";b:0;s:22:"replace_url_attributes";a:9:{s:1:"a";s:4:"href";s:4:"area";s:4:"href";s:10:"blockquote";s:4:"cite";s:3:"del";s:4:"cite";s:4:"form";s:6:"action";s:3:"img";a:2:{i:0;s:8:"longdesc";i:1;s:3:"src";}s:5:"input";s:3:"src";s:3:"ins";s:4:"cite";s:1:"q";s:4:"cite";}s:8:"registry";O:29:"Extensions\SimplePie\Registry":3:{s:10:" * default";a:19:{s:5:"Cache";s:27:"\Extensions\SimplePie\Cache";s:7:"Locator";s:29:"\Extensions\SimplePie\Locator";s:6:"Parser";s:28:"\Extensions\SimplePie\Parser";s:4:"File";s:26:"\Extensions\SimplePie\File";s:8:"Sanitize";s:30:"\Extensions\SimplePie\Sanitize";s:4:"Item";s:26:"\Extensions\SimplePie\Item";s:6:"Author";s:28:"\Extensions\SimplePie\Author";s:8:"Category";s:30:"\Extensions\SimplePie\Category";s:9:"Enclosure";s:31:"\Extensions\SimplePie\Enclosure";s:7:"Caption";s:29:"\Extensions\SimplePie\Caption";s:9:"Copyright";s:31:"\Extensions\SimplePie\Copyright";s:6:"Credit";s:28:"\Extensions\SimplePie\Credit";s:6:"Rating";s:28:"\Extensions\SimplePie\Rating";s:11:"Restriction";s:33:"\Extensions\SimplePie\Restriction";s:20:"Content_Type_Sniffer";s:42:"\Extensions\SimplePie\Content\Type\Sniffer";s:6:"Source";s:28:"\Extensions\SimplePie\Source";s:4:"Misc";s:26:"\Extensions\SimplePie\Misc";s:22:"XML_Declaration_Parser";s:44:"\Extensions\SimplePie\XML\Declaration\Parser";s:10:"Parse_Date";s:32:"\Extensions\SimplePie\Parse\Date";}s:10:" * classes";a:0:{}s:9:" * legacy";a:0:{}}}s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:8:"feed_url";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:4:"file";N;s:8:"raw_data";s:72277:"<?xml version="1.0" encoding="UTF-8"?>
+";s:7:"attribs";a:1:{s:0:"";a:1:{s:4:"type";s:4:"html";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:512;s:7:"headers";a:8:{s:6:"server";s:16:"cloudflare-nginx";s:4:"date";s:29:"Fri, 12 Sep 2014 14:11:54 GMT";s:12:"content-type";s:8:"text/xml";s:10:"connection";s:10:"keep-alive";s:10:"set-cookie";s:138:"__cfduid=d7fbd40d22f6510e90735bec4157235301410531113990; expires=Mon, 23-Dec-2019 23:50:00 GMT; path=/; domain=.digitalocean.com; HttpOnly";s:13:"last-modified";s:29:"Thu, 11 Sep 2014 15:08:31 GMT";s:6:"cf-ray";s:20:"168cb26676870fc4-GRU";s:16:"content-encoding";s:4:"gzip";}s:5:"build";s:14:"20140826204122";}s:5:"error";N;s:8:"sanitize";O:29:"Extensions\SimplePie\Sanitize":16:{s:4:"base";N;s:10:"remove_div";b:1;s:13:"image_handler";s:0:"";s:14:"strip_htmltags";a:19:{i:0;s:4:"base";i:1;s:5:"blink";i:2;s:4:"body";i:3;s:7:"doctype";i:4;s:5:"embed";i:5;s:4:"font";i:6;s:4:"form";i:7;s:5:"frame";i:8;s:8:"frameset";i:9;s:4:"html";i:10;s:6:"iframe";i:11;s:5:"input";i:12;s:7:"marquee";i:13;s:4:"meta";i:14;s:8:"noscript";i:15;s:6:"object";i:16;s:5:"param";i:17;s:6:"script";i:18;s:5:"style";}s:23:"encode_instead_of_strip";b:0;s:16:"strip_attributes";a:14:{i:0;s:7:"bgsound";i:1;s:5:"class";i:2;s:4:"expr";i:3;s:2:"id";i:4;s:5:"style";i:5;s:7:"onclick";i:6;s:7:"onerror";i:7;s:8:"onfinish";i:8;s:11:"onmouseover";i:9;s:10:"onmouseout";i:10;s:7:"onfocus";i:11;s:6:"onblur";i:12;s:6:"lowsrc";i:13;s:6:"dynsrc";}s:14:"strip_comments";b:0;s:15:"output_encoding";s:5:"UTF-8";s:12:"enable_cache";b:1;s:14:"cache_location";s:27:"/var/www/owlet/admin/.cache";s:19:"cache_name_function";s:3:"md5";s:7:"timeout";s:2:"10";s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:15:"force_fsockopen";b:0;s:22:"replace_url_attributes";a:9:{s:1:"a";s:4:"href";s:4:"area";s:4:"href";s:10:"blockquote";s:4:"cite";s:3:"del";s:4:"cite";s:4:"form";s:6:"action";s:3:"img";a:2:{i:0;s:8:"longdesc";i:1;s:3:"src";}s:5:"input";s:3:"src";s:3:"ins";s:4:"cite";s:1:"q";s:4:"cite";}s:8:"registry";O:29:"Extensions\SimplePie\Registry":3:{s:10:" * default";a:19:{s:5:"Cache";s:27:"\Extensions\SimplePie\Cache";s:7:"Locator";s:29:"\Extensions\SimplePie\Locator";s:6:"Parser";s:28:"\Extensions\SimplePie\Parser";s:4:"File";s:26:"\Extensions\SimplePie\File";s:8:"Sanitize";s:30:"\Extensions\SimplePie\Sanitize";s:4:"Item";s:26:"\Extensions\SimplePie\Item";s:6:"Author";s:28:"\Extensions\SimplePie\Author";s:8:"Category";s:30:"\Extensions\SimplePie\Category";s:9:"Enclosure";s:31:"\Extensions\SimplePie\Enclosure";s:7:"Caption";s:29:"\Extensions\SimplePie\Caption";s:9:"Copyright";s:31:"\Extensions\SimplePie\Copyright";s:6:"Credit";s:28:"\Extensions\SimplePie\Credit";s:6:"Rating";s:28:"\Extensions\SimplePie\Rating";s:11:"Restriction";s:33:"\Extensions\SimplePie\Restriction";s:20:"Content_Type_Sniffer";s:42:"\Extensions\SimplePie\Content\Type\Sniffer";s:6:"Source";s:28:"\Extensions\SimplePie\Source";s:4:"Misc";s:26:"\Extensions\SimplePie\Misc";s:22:"XML_Declaration_Parser";s:44:"\Extensions\SimplePie\XML\Declaration\Parser";s:10:"Parse_Date";s:32:"\Extensions\SimplePie\Parse\Date";}s:10:" * classes";a:0:{}s:9:" * legacy";a:0:{}}}s:9:"useragent";s:90:"SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20140826204122";s:8:"feed_url";s:50:"https://www.digitalocean.com/company/blog/feed.xml";s:4:"file";N;s:8:"raw_data";s:68894:"<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>DigitalOcean Blog</title>
   <id>https://www.digitalocean.com/company/blog</id>
   <link href="https://www.digitalocean.com/company/blog"/>
   <link href="https://www.digitalocean.com/company/blog/feed.xml" rel="self"/>
-  <updated>2014-09-08T11:00:00Z</updated>
+  <updated>2014-09-11T00:00:00Z</updated>
   <author>
     <name>DigitalOcean</name>
   </author>
+  <entry>
+    <title>We’re Bringing New Features To Europe: IPv6, Private Networking, CoreOS</title>
+    <link rel="alternate" href="https://www.digitalocean.com/company/blog/were-bringing-new-features-to-europe-ipv6-coreos-more/"/>
+    <id>https://www.digitalocean.com/company/blog/were-bringing-new-features-to-europe-ipv6-coreos-more/</id>
+    <published>2014-09-11T00:00:00Z</published>
+    <updated>2014-09-11T00:00:00Z</updated>
+    <author>
+      <name>DigitalOcean</name>
+    </author>
+    <content type="html">&lt;p&gt;Below are DO articles that will help you get started with IPv6 on your Droplets: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-enable-ipv6-for-digitalocean-droplets"&gt;How To Enable IPv6 For DigitalOcean Droplets&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-configure-tools-to-use-ipv6-on-a-linux-vps"&gt;How To Configure Tools To Use IPv6 on a Linux VPS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-add-additional-ipv6-addresses-to-your-droplet"&gt;How To Add Additional IPv6 Addresses to your Droplet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-configure-your-droplet-to-only-use-ipv6-networking"&gt;How To Configure Your Droplet to Only Use IPv6 Networking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can also navigate the IPv6 tag for more IPv6 articles and questions in our &lt;a href="https://www.digitalocean.com/community/"&gt;community&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="DigitalOcean control panel" src="/company/blog/were-bringing-new-features-to-europe-ipv6-coreos-more/control_panel-719f2ffb.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;There's also been a lot of excitement throughout our community around our recent &lt;a href="https://www.digitalocean.com/company/blog/coreos-now-available-on-digitalocean/"&gt;CoreOS announcement.&lt;/a&gt; Now all developers that wish to spin up Droplets in AMS3 can select CoreOS as their operating system, allowing for the easiest way to get started using containers and distributed systems. &lt;/p&gt;
+
+&lt;p&gt;You can click &lt;a href="https://cloud.digitalocean.com/droplets/new?image=coreos-alpha"&gt;here&lt;/a&gt; to launch a CoreOS image, or &lt;a href="https://www.digitalocean.com/community/tutorial_series/getting-started-with-coreos-2"&gt;here&lt;/a&gt; to check out our tutorial series on getting started with CoreOS.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Our New Community: User Profiles, Upvoting, Notifications and More!</title>
     <link rel="alternate" href="https://www.digitalocean.com/company/blog/our-new-community-user-profiles-upvoting-notifications-and-more/"/>
@@ -1183,7 +1197,7 @@ widget-dpkg:
     <author>
       <name>DigitalOcean</name>
     </author>
-    <content type="html">&lt;p&gt;SGP1 is the first datacenter to have IPv6 support because it is running v1.5 of our backend code base. The new version was completely rewritten from the ground up and provides many benefits over the current v1.0 code. This includes more actions that can be initiated without needing to power off a Droplet – such as snapshots and enabling/disabling networking services – as well as an overall more reliable backup service architecture. After much testing during a two month beta period in Singapore, we’ve also started the first phase of our migration to the new 1.5 codebase in the San Francisco region.&lt;/p&gt;
+    <content type="html">&lt;p&gt;SGP1 is the first datacenter to have IPv6 support because it is running v1.5 of our backend code base. The new version was completely rewritten from the ground up and provides many benefits over the current v1.0 code. This includes more actions that can be initiated without needing to power off a Droplet – such as enabling/disabling networking services – as well as an overall more reliable backup service architecture. After much testing during a two month beta period in Singapore, we’ve also started the first phase of our migration to the new 1.5 codebase in the San Francisco region.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="" src="https://assets.digitalocean.com/blog/IPv6_Singapore/IPv6_Check.png" /&gt;&lt;/p&gt;
 
@@ -1447,46 +1461,6 @@ You can set up your billing alert by clicking on the &lt;a href="https://cloud.d
 &lt;p&gt;We are in the process of updating all of our installation images so that any new servers will be patched against this vulnerability from the time of deployment.&lt;/p&gt;
 
 &lt;p&gt;For more information about how to update your existing servers and protect yourself against this vulnerability, check out &lt;a href="https://www.digitalocean.com/community/articles/how-to-protect-your-server-against-the-heartbleed-openssl-vulnerability"&gt;this article&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Zhanna Schonfeld: From Designing Toys To Building Our Website</title>
-    <link rel="alternate" href="https://www.digitalocean.com/company/blog/inside-digitalocean-zhanna-schonfeld/"/>
-    <id>https://www.digitalocean.com/company/blog/inside-digitalocean-zhanna-schonfeld/</id>
-    <published>2014-03-24T00:00:00Z</published>
-    <updated>2014-03-24T00:00:00Z</updated>
-    <author>
-      <name>DigitalOcean</name>
-    </author>
-    <content type="html">&lt;p&gt;After graduating with a BFA in Industrial Design from the Cleveland Institute of Art, Zhanna joined a major toy company in Ohio. While this may seem like a dream job, Zhanna quickly became bored, stating "it was a repetitive process to churn out new variations of the same plastic products. In my mind, I'd mastered it and my career stagnated." &lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Industrial_Design" src="/company/blog/inside-digitalocean-zhanna-schonfeld/toys-9c62c706.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Her transition into the tech community was gradual but natural, having been fascinated with the web from a very young age. "It's funny," she says, "I was building websites since I was a kid on GeoCities, back when the &lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; element was around causing seizures, but I wasn't very familiar with the industry." Her curiosity as to why some websites succeeded and others didn't continued to grow, and in 2010 she left her job to begin freelancing, helping colleagues on the design and front end of their projects.  &lt;/p&gt;
-
-&lt;p&gt;After developing an &lt;a href="http://svveetdesign.com/home/portfolio/"&gt;impressive portfolio&lt;/a&gt;, Zhanna decided to venture out on her own. Aspiring to create something amazing and beautiful, she co-founded Obsesh.com – a photo-sharing app for makeup enthusiasts. Although it's long been abandoned, the experience was enough to motivate Zhanna to leave Ohio and immerse herself in the startup culture of NYC.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Obsesh.com" src="/company/blog/inside-digitalocean-zhanna-schonfeld/obsesh-3e1da325.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;It wasn't long before Zhanna joined &lt;a href="https://www.quirky.com/"&gt;Quirky&lt;/a&gt; and was responsible for designing their web interface. She continued to develop her knowledge of HTML, CSS, JavaScript and Git as her appreciation for developer culture grew. She could speak their language, work with their tools, and write code. It was here that Zhanna was also given her first opportunity to work with a team of developers on the web platform and watch the company scale extremely fast. When asked for the most valuable takeaways from that experience, her reply was simply "change is constant and make data-driven decisions." &lt;/p&gt;
-
-&lt;p&gt;Looking for a new startup, Zhanna began searching open positions on &lt;a href="http://dribbble.com/"&gt;Dribbble&lt;/a&gt; and felt a strong connection to DigitalOcean after watching an early &lt;a href="http://vimeo.com/37383186"&gt;TechStars video&lt;/a&gt;. She was hired and immediately started helping our creative director Jesse Chase build out the new community, simultaneously producing beautiful images to complement our social content. When asked about the role of aesthetics in tech, she says "to me design is shaping the experience for the user. It’s said that good design is invisible; that it feels so right and seamless that you don’t even notice it." &lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Social_Image" src="/company/blog/inside-digitalocean-zhanna-schonfeld/twig-cb94cb86.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Little did she know she would soon be asked to apply that philosophy and create an entirely &lt;a href="https://digitalocean.com/"&gt;new website&lt;/a&gt;, in the midst of a Series A round, in under a week's time. Zhanna remained unfazed by the pressure: a combination of natural talent and a creative process that puts heavy emphasis on testing and metrics that validate designs. "It's about getting into people's heads and figuring out the best way to get someone to do what they need to do on your platform," she tells me with a smirk, drawing inspiration from Steve Krug's book &lt;a href="http://www.sensible.com/dmmt.html"&gt;Don't Make Me Think&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;"We were trying to embody our core values of simplicity and love. We kept it simple even in the tech aspect by using the &lt;a href="http://middlemanapp.com"&gt;Middleman framework&lt;/a&gt;– a static site generator versus a rails app. Keeping the site static makes it easy to build and maintain, and gives the designers complete control and ownership of it. We worked six days (and nights) to build the website from the ground up." &lt;/p&gt;
-
-&lt;p&gt;To tell the DigitalOcean story, Zhanna showed off the control panel's intuitiveness by incorporating demo videos right on the home page. "It's easy to add a ton of features and buttons and options," she says, "But that just overwhelms people."  &lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="New_Website" src="/company/blog/inside-digitalocean-zhanna-schonfeld/website-1e391845.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Zhanna is now focusing on the new community, building out better search and navigation, mobile capability, personal profiles, a voting system and other outstanding upgrades. While not yet complete, without Zhanna "none of this would be possible" says creative director Jesse Chase. "From sharing her UX philosophies, to shedding light on a particular design comp, js library, or css framework, Zhanna has been an incredible asset to this team." &lt;/p&gt;
-
-&lt;p&gt;But the feelings are mutual.&lt;/p&gt;
-
-&lt;p&gt;"The best ideas come from speaking to people, from working on problems and seeing things from a different perspective," says Zhanna. "DigitalOcean understands that in every aspect – it's the place and culture that I’ve always wanted to work for."&lt;/p&gt;
 </content>
   </entry>
 </feed>

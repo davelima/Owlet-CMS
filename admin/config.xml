@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <owletConfig>
+
+	<title>Owlet</title>
+
 	<blog>
 		<sendNotificationToMailing>1</sendNotificationToMailing>
 		<postsPerPage>6</postsPerPage>
-		<blogName>Blog de teste</blogName>
+		<blogName>Owlet</blogName>
 		<blogDescription>Só testes testes e testes</blogDescription>
 	</blog>
 
@@ -20,6 +23,6 @@
 
 	<tickets>
 		<sendMail>1</sendMail>
-		<title>Website de teste</title>
+		<title>Owlet</title>
 	</tickets>
 </owletConfig>
