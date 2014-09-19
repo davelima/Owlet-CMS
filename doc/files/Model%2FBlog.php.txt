@@ -71,16 +71,18 @@ class Blog extends Base
         $config = \Extensions\Config::get();
         $config = $config->blog;
         parent::Save();
-        if ($config->sendNotificationToMailing) {
+        $sendNotification = (boolean) $config->sendNotificationToMailing->__toString();
+        if ($sendNotification) {
             $mailing = new Mailing();
-            $mailing = $mailing->getAll();
+            $mailing = $mailing->getByColumn("status", true);
             $mailer = new \Extensions\Mailer();
-            $mailer->subject = $this->getTitle();
-            $mailer->message = $this->getBody();
+            $mailer->subject = "Nova publicação de {$config->blogName}";
+            $mailer->message = "<h1>{$this->getTitle()}</h1><hr>" . ($this->getPreview() ? $this->getPreview() : $this->getBody());
+            $mailer->showUnsubscribeLink = true;
             foreach ($mailing as $email) {
                 $mailer->recipient = array(
-                    "name" => $email,
-                    "email" => $email
+                    "name" => $email->getEmail(),
+                    "email" => $email->getEmail()
                 );
                 $mailer->Send();
             }

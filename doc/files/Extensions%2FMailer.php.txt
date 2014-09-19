@@ -24,7 +24,7 @@ namespace Extensions;
  *
  * @author David Lima
  * @copyright 2014, David Lima
- * @version r1.0
+ * @version r1.1
  * @namespace Extensions
  * @license Apache 2.0
  * @see Config
@@ -80,6 +80,20 @@ class Mailer
     public $subject;
 
     /**
+     * Enable or not to show the unsubscription link on the end of the message
+     *
+     * @var boolean
+     */
+    public $showUnsubscribeLink = false;
+
+    /**
+     * Message that will be appended on every e-mail if $this->showUnsubscribeLink option is enabled (The unsubscribe link (%LINK%) is generated automatically)
+     *
+     * @var string
+     */
+    public $unsubscribeLinkFormat = "Caso não queira mais receber e-mails, <a href=\"%LINK%\" target=\"_blank\">clique aqui</a>.";
+
+    /**
      * Set $this->config and $this->PHPMailerObj
      *
      * @return void
@@ -113,6 +127,21 @@ class Mailer
         
         $this->PHPMailerObj->Subject = $this->subject;
         $this->PHPMailerObj->Body = $this->message;
+        
+        if ($this->showUnsubscribeLink) {
+            $mailing = new \Model\Mailing();
+            $recipient = $mailing->getByColumn("email", $this->recipient['email']);
+            if (isset($recipient[0])) {
+                $mailingConfig = Config::get();
+                $token = $recipient[0]->getToken();
+                $unsubscribeLink = $mailingConfig->mailing->cancelURL . "?token=" . $token;
+                $unsubscribeLink = str_replace("%LINK%", $unsubscribeLink, $this->unsubscribeLinkFormat);
+                $this->PHPMailerObj->Body .= <<<HTML
+<br><br>
+<p><small>{$unsubscribeLink}</small></p>       
+HTML;
+            }
+        }
         
         return $this->PHPMailerObj->Send();
     }
