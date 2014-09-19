@@ -1,6 +1,6 @@
 # CHANGELOG
 
-19/09/2014
+## 19/09/2014
 + Atualização do módulo Mailing
 Agora os assinantes do mailing precisam se cadastrar usando um sistema de duas estapas: informando o e-mail e clicando no link de confirmação enviado por e-mail.
 
@@ -11,22 +11,21 @@ Agora a extensão possui a opção "showUnsubscribeLink", que, quando ativa, inc
 + Atualização do módulo "Blog"
 Agora a opção "sendNotificationToMailing" está funcionando. Quando habilitada, a cada publicação nova, o sistema enviará um e-mail notificando todos os assinantes ativos do mailing. Esta opção vem por padrão desabilitada por questões de desempenho e deve ser ativada pelo painel administrativo em "Blog" > "Configurações". 
 
-12/09/2014
+## 12/09/2014
 + Implementação do wizard de configuração inicial do sistema em /install
   + A pasta "database" foi movida para lá
 + Melhorias na View do módulo PagSeguro
 + Atualização no módulo Administrators (v1.0 - v1.0.1)
 
-
-11/09/2014
+## 11/09/2014
 + Remoção de link quebrado "Configurações" no menu superior
 + Correção na ordem de exibição de artigos recentes na dashboard inicial
 
-09/09/2014
+## 09/09/2014
 + Atualização visual na página de edição de perfil de administradores (e "Minha Conta")
 Adaptação da página para tablets
 
-05/09/2014
+## 05/09/2014
 + Atualização do módulo "Blog"
 O módulo Blog agora difere as publicações por statuses: o administrador pode ativar ou desativar a visibilidade das publicações quando desejar
 
