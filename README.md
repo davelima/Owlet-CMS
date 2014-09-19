@@ -1,8 +1,16 @@
 # Owlet CMS
-#### v1.0.4
+#### v1.0.5
 ##### PHP >= 5.4.0
 
-**Novo!**
+
+**Versão 1.0.5**
+Agora você pode habilitar o envio de notificações por e-mail a partir do módulo "Blog" a cada nova publicação.
+Esta funcionalidade vem por padrão desabilitada por questões de desempenho e pode ser habilitada dentro de "Blog" > "Configurações" no painel.
+
+A partir da versão 1.0.5 os assinantes do mailing precisarão realizar o cadastro em duas etapas: cadastrar o e-mail e confirmar clicando no link que o sistema envia para o e-mail em questão. Além disso, os e-mails enviados pelo módulo "Mailer" que tiverem a opção "showUnsubscribeLink" incluirão um link para descadastramento do usuário do Mailing.
+
+
+**Versão 1.0.4**
 Na versão 1.0.4, você pode facilmente dar um setup inicial no CMS seguindo o passo-a-passo:
 + Defina suas variáveis de banco de dados em src/Lib/Data.php
 + Acesse o link /install para dar início a instalação automática do sistema. Você poderá configurar facilmente dados de e-mail e a conta do administrator root

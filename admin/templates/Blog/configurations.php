@@ -9,14 +9,14 @@ $blog = new Model\Blog();
 $config = \Extensions\Config::get();
 $configvalues = $config->blog;
 
-if($_POST){
-    try{
+if ($_POST) {
+    try {
         $config->blog->sendNotificationToMailing = isset($_POST['sendnotification']) ? 1 : 0;
         $config->blog->postsPerPage = $_POST['postsperpage'];
         \Extensions\Config::Save();
         $class = "success";
         $result = "Informações atualizadas";
-    }catch(Exception $e){
+    } catch (Exception $e) {
         $class = "danger";
         $result = $e->getMessage();
     }
@@ -33,7 +33,7 @@ if($_POST){
 				<label>
 					<input type="checkbox" name="sendnotification" <?php echo ($configvalues->sendNotificationToMailing > 0 ? " checked=\"checked\"" : "");?>>
 					<i class="fa fa-square-o"></i>
-					Enviar e-mail aos usuários quando houver novas publicações
+					Enviar e-mail aos usuários quando houver novas publicações (<span class="text-warning" style="font-weight: 700;">Cuidado! Habilitar esta opção pode causar instabilidade no servidor!</span>)
 				</label>
 			</div>
 		</div>

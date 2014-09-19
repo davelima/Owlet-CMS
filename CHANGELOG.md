@@ -1,5 +1,16 @@
 # CHANGELOG
 
+19/09/2014
++ Atualização do módulo Mailing
+Agora os assinantes do mailing precisam se cadastrar usando um sistema de duas estapas: informando o e-mail e clicando no link de confirmação enviado por e-mail.
+
++ Atualização da extensão "Mailer"
+Agora a extensão possui a opção "showUnsubscribeLink", que, quando ativa, inclui um link para descadastramento do mailing (só funciona com e-mails que constam no mailing)
+
++ Melhorias na instalação automática do sistema
++ Atualização do módulo "Blog"
+Agora a opção "sendNotificationToMailing" está funcionando. Quando habilitada, a cada publicação nova, o sistema enviará um e-mail notificando todos os assinantes ativos do mailing. Esta opção vem por padrão desabilitada por questões de desempenho e deve ser ativada pelo painel administrativo em "Blog" > "Configurações". 
+
 12/09/2014
 + Implementação do wizard de configuração inicial do sistema em /install
   + A pasta "database" foi movida para lá

@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0
+ * @version r1.1
  * @license Apache 2.0
  */
 class Mailing extends Base
@@ -46,6 +46,8 @@ class Mailing extends Base
     public $properties = array(
         "email" => null,
         "timestamp" => null,
+        "status" => null,
+        "token" => null,
         "id" => null
     );
 
@@ -57,26 +59,53 @@ class Mailing extends Base
     public function Save()
     {
         $required = array(
-            "email" => "E-mail",
+            "email" => "E-mail"
         );
         
-        if(!$this->timestamp){
+        if (! $this->timestamp) {
             $this->timestamp = date("Y-m-d H:i:s");
         }
         
+        if (! $this->status) {
+            $this->status = 0;
+        }
+        
+        if (! $this->token) {
+            $this->token = \Extensions\Strings::randomString(40);
+        }
         $this->validateData($required);
         parent::Save();
+        if (! $this->status) {
+            $mailer = new \Extensions\Mailer();
+            $mailer->recipient = array(
+                "name" => $this->email,
+                "email" => $this->email
+            );
+            $mailer->subject = "Confirme seu e-mail";
+            
+            $config = \Extensions\Config::get();
+            $config = $config->mailing;
+            
+            $confirmationLink = $config->confirmationURL . "?token=" . $this->token;
+            
+            $mailer->message = <<<MESSAGE
+            <p>Olá, confirme seu endereço de e-mail para receber as nossas novidades! Clique no link abaixo para confirmar:</p>
+            <p><a href="{$confirmationLink}">Confirmar e-mail</a></p>
+MESSAGE;
+            $mailer->Send();
+        }
     }
 
     /**
      * Extension of the validateData method
      *
+     * @param array $required            
      * @see \Model\Base::validateData()
      */
     protected function validateData(array $required)
     {
         parent::validateData($required);
-        if (count($this->getByColumn("email", $this->getEmail()))) {
+        if (count($this->getByColumn("email", $this->getEmail())) && ! $this->id) {
             throw new \Exception("Este e-mail já foi registrado!");
         }
     }

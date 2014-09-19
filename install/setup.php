@@ -32,7 +32,13 @@ try {
     $config = Extensions\Config::get();
     $config->title = $_POST['title'];
     $config->blog->blogName = $_POST['title'];
+    $config->blog->sendNotificationToMailing = 0;
     $config->tickets->title = $_POST['title'];
+    
+    $baseUrl = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'];
+    $config->mailing->confirmationURL = $baseUrl . "/confirmemail.php";
+    $config->mailing->cancelURL = $baseUrl . "/cancelemail.php";
+    
     \Extensions\Config::Save();
 } catch (Exception $e) {
     header("HTTP/1.1 500 Internal Server Error");
