@@ -41,6 +41,10 @@ class View
         if (file_exists($pathView)) {
             require_once ($pathView);
         } else {
+            $errorFile = __DIR__."/../../404.php";
+            if(file_exists($errorFile)){
+                require($errorFile);
+            }
             header("HTTP/1.1 404 Not Found");
             exit();
         }

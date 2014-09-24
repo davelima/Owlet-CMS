@@ -10,13 +10,14 @@ $comments = new Model\Comments();
 <!--Start Dashboard 1-->
 <div id="dashboard-header" class="row">
 	<div class="col-xs-10 col-sm-2">
-		<h3>Resumo das atividades</h3>
+		<h3 class="hidden-xs">Resumo das atividades</h3>
+		<h3 class="visible-xs">Bem-vindo!</h3>
 	</div>
 	<div class="clearfix visible-xs"></div>
 </div>
 <!--End Dashboard 1-->
 <!--Start Dashboard 2-->
-<div class="row-fluid">
+<div class="row-fluid hidden-xs">
 	<div id="dashboard_links" class="col-xs-10 col-sm-2 pull-right">
 		<ul class="nav nav-pills nav-stacked">
 			<li class="active"><a href="#" class="tab-link" id="visao-geral">Visão geral</a></li>

@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <owletConfig>
-	<title></title>
+	<title>Owlet</title>
+	<sitemapLastChange>2014-09-24 17:12:40</sitemapLastChange>
 
 	<blog>
-		<sendNotificationToMailing></sendNotificationToMailing>
-		<postsPerPage></postsPerPage>
-		<blogName></blogName>
-		<blogDescription></blogDescription>
+		<sendNotificationToMailing>0</sendNotificationToMailing>
+		<postsPerPage/>
+		<blogName>Owlet</blogName>
+		<blogDescription/>
 	</blog>
 
 	<mailer>
-		<sender></sender>
-		<senderName></senderName>
-		<receiver></receiver>
-		<host></host>
-		<port></port>
-		<auth></auth>
-		<username></username>
-		<password></password>
+		<sender/>
+		<senderName/>
+		<receiver/>
+		<host/>
+		<port/>
+		<auth/>
+		<username/>
+		<password/>
 	</mailer>
 
 	<tickets>
-		<sendMail></sendMail>
-		<title></title>
+		<sendMail/>
+		<title>Owlet</title>
 	</tickets>
 
 	<mailing>
-		<confirmationURL></confirmationURL>
-		<cancelURL></cancelURL>
+		<confirmationURL>http://owlet/confirmemail.php</confirmationURL>
+		<cancelURL>http://owlet/cancelemail.php</cancelURL>
 	</mailing>
 </owletConfig>

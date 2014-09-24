@@ -66,7 +66,7 @@ class Mailer
     public $message;
 
     /**
-     * Template to put $this->message inside [NOT IMPLEMENTED]
+     * Template to put $this->message inside [NOT IMPLEMENTED YET]
      *
      * @var string
      */

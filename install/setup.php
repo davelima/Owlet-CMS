@@ -38,6 +38,7 @@ try {
     $baseUrl = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'];
     $config->mailing->confirmationURL = $baseUrl . "/confirmemail.php";
     $config->mailing->cancelURL = $baseUrl . "/cancelemail.php";
+
     
     \Extensions\Config::Save();
 } catch (Exception $e) {

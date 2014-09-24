@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 24/09/2014
++ Atualizações visuais
+Melhorias visuais para dispositivos com telas menores foram aplicadas;
+
+Um alpha da extensão "Sitemaps" foi implementado (oculto do menu, ativo em /sitemaps/dashboard) [não utilizar sem ler os comentários na extensão Sitemaps]
+
+Habilitação da página "404" dentro do CMS para identificação de módulos/ações não encontrados
+
 ## 19/09/2014
 + Atualização do módulo Mailing
 Agora os assinantes do mailing precisam se cadastrar usando um sistema de duas estapas: informando o e-mail e clicando no link de confirmação enviado por e-mail.

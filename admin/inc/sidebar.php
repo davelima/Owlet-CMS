@@ -40,6 +40,12 @@
 <?php
 if ($headerAdmin->isRoot()) {
     ?>
+	
+	
+	
+	
+	
+	
 	<li class="dropdown">
 		<a href="#" class="dropdown-toggle" data-model="Administrators">
 			<i class="fa fa-user"></i>
@@ -82,12 +88,12 @@ if ($headerAdmin->isRoot()) {
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-model="Orders"> PagSeguro </a>
 				<ul class="dropdown-menu">
-				    <li>
-				        <a href="orders/pagseguro/">Todas as vendas</a>
-				    </li>
-				    <li>
-				        <a href="orders/pagseguronew/">Novo pedido</a>
-				    </li>
+					<li>
+						<a href="orders/pagseguro/">Todas as vendas</a>
+					</li>
+					<li>
+						<a href="orders/pagseguronew/">Novo pedido</a>
+					</li>
 					<li>
 						<a href="pagseguroconfig/edit/1/">Configurações</a>
 					</li>
@@ -142,4 +148,22 @@ if ($headerAdmin->isRoot()) {
 			</li>
 		</ul>
 	</li>
+
+	<!--
+	Em testes
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-model="Sitemap">
+			<i class="fa fa-sitemap"></i>
+			<span class="hidden-xs">Sitemap</span>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="sitemaps/dashboard/">Informações</a>
+			</li>
+			<li>
+				<a href="sitemaps/generate/">Atualizar agora</a>
+			</li>
+		</ul>
+	</li>
+	-->
 </ul>
