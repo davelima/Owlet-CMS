@@ -1,0 +1,171 @@
+<?php
+/**
+ ************************************************************************
+Copyright [2014] [David Lima]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+************************************************************************
+*/
+namespace Extensions;
+
+/**
+ * Generate and manage sitemap
+ *
+ * @author David Lima
+ * @copyright 2014, David Lima
+ * @version r1.0
+ * @license Apache 2.0
+ * @see Config
+ * @todo Rewrite the getLocalLinks method: the actual is only getting links of the homepage of the site
+ */
+class Sitemaps
+{
+
+    /**
+     * Array with all links to be indexed
+     *
+     * @staticvar array
+     */
+    public static $links;
+
+    /**
+     * SimpleXMLElement of the sitemap
+     *
+     * @staticvar \SimpleXMLElement
+     */
+    public static $xml;
+
+    /**
+     * Total number of indexed links
+     *
+     * @var integer
+     */
+    public $totalLinks;
+
+    /**
+     * Date/time of the sitemap last change
+     *
+     * @var string|\DateTime
+     */
+    public $lastChange;
+
+    /**
+     * Defines $this->totalLInks and $this->lastChange
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $file = self::getFile();
+        $config = Config::get();
+        if ($file) {
+            $this->totalLinks = $file->count();
+        }
+        $this->lastChange = ($config->sitemapLastChange ? new \DateTime($config->sitemapLastChange) : false);
+    }
+
+    /**
+     * Save self::$xml on sitemap.xml file
+     *
+     * @throws \Exception
+     * @return void
+     */
+    public static function Save()
+    {
+        $sitemapAddress = $_SERVER['DOCUMENT_ROOT'] . "/sitemap.xml";
+        $config = \Extensions\Config::get();
+        
+        if (! @fopen($sitemapAddress, "w+")) {
+            throw new \Exception("Impossível gerar o sitemap do seu site. Certifique-se de que o arquivo /sitemap.xml existe e possui permissão de escrita.");
+        }
+        
+        $sitemapFile = fopen($sitemapAddress, "w+");
+        fwrite($sitemapFile, self::$xml->asXML());
+        fclose($sitemapFile);
+        $config = Config::get();
+        $config->sitemapLastChange = date("Y-m-d H:i:s");
+        Config::Save();
+    }
+
+    /**
+     * Return the SimpleXMLElement of the sitemap.xml file if it exists, false otherwise
+     *
+     * @return boolean|SimpleXMLElement
+     */
+    public static function getFile()
+    {
+        $file = $_SERVER['DOCUMENT_ROOT'] . "/sitemap.xml";
+        if (! filesize($file)) {
+            return false;
+        }
+        $file =\simplexml_load_file($file);
+        return $file;
+    }
+
+    /**
+     * Create self::$xml structure
+     *
+     * @param string $website            
+     * @return string
+     */
+    public static function Generate($website)
+    {
+        self::getLocalLinks($website);
+        self::createXML();
+        if (self::$links) {
+            foreach (self::$links as $link) {
+                $url = self::$xml->addChild("url");
+                $loc = $url->addChild("loc", $link);
+            }
+        }
+        return self::$xml->asXML();
+    }
+
+    /**
+     * Create the XML base file
+     *
+     * @return void
+     */
+    private static function createXML()
+    {
+        self::$xml = new \SimpleXMLElement("<urlset/>");
+        self::$xml->addAttribute("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9");
+        self::$xml->addAttribute("xmlns:xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
+        self::$xml->addAttribute("xsi:xsi:schemaLocation", "http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd");
+    }
+
+    /**
+     * Set self::$links with all the local URLs on $website
+     *
+     * @param string $website            
+     * @return void
+     */
+    private static function getLocalLinks($website)
+    {
+        $page = new \DOMDocument();
+        libxml_use_internal_errors(true);
+        $page->loadHTMLFile($website);
+        libxml_clear_errors();
+        $links = $page->getElementsByTagName("a");
+        $result = array();
+        foreach ($links as $link) {
+            $href = $link->getAttribute("href");
+            if (strpos($href, "http") === false) {
+                $href = $website . (substr($href, - 1) == "/" ? "" : "/") . $href;
+                $result[] = $href;
+            }
+            array_unique($result);
+            self::$links = $result;
+        }
+    }
+}

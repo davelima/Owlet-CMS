@@ -601,6 +601,9 @@ $(document).ready(function () {
 		$('div#main').toggleClass('sidebar-show');
 		setTimeout(MessagesMenuWidth, 250);
 	});
+	if(navigator.userAgent.indexOf("Android")>-1 && $(window).width() <= 480){
+	  $('.show-sidebar').click();
+	}
 	$('.main-menu a').on('click', function (e) {
 		var parents = $(this).parents('li');
 		var li = $(this).closest('li.dropdown');
