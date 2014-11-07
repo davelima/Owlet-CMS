@@ -27,7 +27,7 @@ use \Lib\Data;
  * @copyright 2014, David Lima
  * @namespace Model
  * @uses \Lib\Data
- * @version r1.0.4
+ * @version r1.0.5
  * @license Apache 2.0
  */
 class Blog extends Base
@@ -98,8 +98,22 @@ class Blog extends Base
      */
     public function getAll($orderBy = "id", $showDisabled = false)
     {
-        $where = ($this->showDisabled ? "" : "visible");
+        $where = ($showDisabled ? "" : "visible");
         return Data::Select($this, $where, false, $orderBy);
+    }
+
+    /**
+     * Return posts that satisfies the searched term
+     * 
+     * @param string $term            
+     * @return multitype:\Model\mixed,array,boolean
+     */
+    public function Search($term)
+    {
+        $slug = \Extensions\Strings::Slug($term);
+        $term = filter_var($term, FILTER_SANITIZE_STRING);
+        $where = "title LIKE '" . $term . "' OR tags LIKE '%" . $slug . "%'";
+        return $this->get($where, "timestamp DESC, id", false);
     }
 
     /**
@@ -156,5 +170,40 @@ class Blog extends Base
             $it->addChild('description', htmlspecialchars($item->getPreview()));
         }
         return $base->asXML();
+    }
+
+    /**
+     * Return a set of posts that corresponds to page $page, based on blog/postsPerPage directive on config.xml file
+     *
+     * @param integer $page            
+     * @return multitype:\Model\mixed,array,boolean
+     */
+    public function getPage($page)
+    {
+        $config = \Extensions\Config::get();
+        $perPage = $config->blog->postsPerPage;
+        if ($perPage == 0 || ! $perPage) {
+            return $this->get("visible", "timestamp DESC, id", false);
+        } else {
+            $page -= 1;
+            if ($page < 0) {
+                $page = 0;
+            }
+            $start = $page * $perPage;
+            return $this->get("visible", "timestamp DESC, id", "$perPage OFFSET $start");
+        }
+    }
+
+    /**
+     * Return the total of pages by counting the number of active posts, based on blog/postsPerPage directive on config.xml file
+     *
+     * @return file
+     */
+    public function totalPages()
+    {
+        $config = \Extensions\Config::get();
+        $perPage = $config->blog->postsPerPage;
+        $totalPosts = count($this->get("visible", "id", false));
+        return ceil($totalPosts / $perPage);
     }
 }

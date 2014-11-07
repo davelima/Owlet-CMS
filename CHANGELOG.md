@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 07/11/2014
++ Atualização da extensão nativa "Strings"
+Agora a extensão conta com um array padrão listando os meses do ano
++ Atualização do módulo "Blog"
+	+ Agora é possível realizar buscas usando o método Search
+	+ Agora é possível gerenciar a paginação de resultados com os métodos getPage() e totalPages()
+	+ Novo campo incluído na tabela "blog": *visible* (_boolean_) - quando false, a postagem deverá ser desabilitada da listagem principal
+	+ Correção nas views
+
 ## 24/09/2014
 + Atualizações visuais
 Melhorias visuais para dispositivos com telas menores foram aplicadas;
