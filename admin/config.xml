@@ -5,7 +5,7 @@
 
 	<blog>
 		<sendNotificationToMailing>0</sendNotificationToMailing>
-		<postsPerPage/>
+		<postsPerPage>4</postsPerPage>
 		<blogName>Owlet</blogName>
 		<blogDescription/>
 	</blog>

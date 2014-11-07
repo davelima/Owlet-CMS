@@ -22,6 +22,7 @@ if ($_POST) {
         $blog->setPreview($_POST['preview']);
         $blog->setBody($_POST['body']);
         $blog->setTimestamp($_POST['timestamp']);
+        $blog->setVisible(true);
         $blog->setHead($_POST['head']);
         if (isset($_POST['category'])) {
             $blog->setCategory($_POST['category']);
@@ -67,9 +68,10 @@ if ($_POST) {
 					<input type="text" name="tags" id="tags">
 <?php
 $allTags = $tags->getAll();
-foreach($allTags as $tag){
-?>
-                    <a class="link-tag text-default" href="#"><?php echo $tag->getTitle();?></a> <i class="fa fa-circle" style="font-size:0.3em;line-height:16px;vertical-align:middle;"></i>
+foreach ($allTags as $tag) {
+    ?>
+                    <a class="link-tag text-default" href="#"><?php echo $tag->getTitle();?></a>
+					<i class="fa fa-circle" style="font-size: 0.3em; line-height: 16px; vertical-align: middle;"></i>
 <?php
 }
 ?>
