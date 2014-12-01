@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<base href="http://<?php echo $_SERVER['SERVER_NAME'] . '/admin/';?>">
+<base href="/<?php echo basename(getcwd());?>/">
 <title>Admin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="plugins/bootstrap/bootstrap.css" rel="stylesheet">
