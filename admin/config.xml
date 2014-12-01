@@ -27,7 +27,7 @@
 	</tickets>
 
 	<mailing>
-		<confirmationURL>http://owlet/confirmemail.php</confirmationURL>
-		<cancelURL>http://owlet/cancelemail.php</cancelURL>
+		<confirmationURL>http://dev.owlet/confirmemail.php</confirmationURL>
+		<cancelURL>http://dev.owlet/cancelemail.php</cancelURL>
 	</mailing>
 </owletConfig>
