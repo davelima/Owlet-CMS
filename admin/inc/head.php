@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<base href="http://owlet/admin/">
+<base href="http://<?php echo $_SERVER['SERVER_NAME'] . '/admin/';?>">
 <title>Admin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="plugins/bootstrap/bootstrap.css" rel="stylesheet">
