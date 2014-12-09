@@ -24,7 +24,7 @@ namespace Extensions;
  * @author David Lima
  * @copyright 2014, David Lima
  * @namespace Extensions
- * @version r1.0
+ * @version r1.0.1
  * @license Apache 2.0
  */
 class Strings
@@ -32,7 +32,7 @@ class Strings
 
     /**
      * Turns a string into a slug
-     * 
+     *
      * @param string $string            
      * @return string
      */
@@ -78,8 +78,7 @@ class Strings
             "$",
             "¨",
             "\&"
-        )
-        ;
+        );
         $out = Array(
             "a",
             "a",
@@ -129,7 +128,7 @@ class Strings
 
     /**
      * Generate a randomic string using characters from A to Z and numbers from 0 to 9
-     * 
+     *
      * @param number $length
      *            final length of the string
      * @return string
@@ -147,5 +146,30 @@ class Strings
             $i ++;
         }
         return implode("", $result);
+    }
+
+    /**
+     * Return the name of a month (1-12)
+     *
+     * @param integer $monthNumber            
+     */
+    public static function monthName($monthNumber)
+    {
+        $months = array(
+            null,
+            "janeiro",
+            "fevereiro",
+            "março",
+            "abril",
+            "maio",
+            "junho",
+            "julho",
+            "agosto",
+            "setembro",
+            "outubro",
+            "novembro",
+            "dezembro"
+        );
+        return $months[$monthNumber];
     }
 }
