@@ -1,0 +1,31 @@
+/**
+Aquablue
+ * @author David Lima
+ */
+#sidebar-left {
+	background-color: #18BC9C;
+}
+
+#breadcrumb {
+	background-color: #18BC9C;
+}
+
+body {
+	background-color: #18BC9C;
+}
+
+#dashboard_links .nav {
+	background-color: #18BC9C;
+}
+
+.text-info {
+	color: #18BC9C;
+}
+
+.panel-menu i {
+	color: #18BC9C;
+}
+
+.btn-info {
+	background-color: #18BC9C;
+}

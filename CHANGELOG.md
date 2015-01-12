@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 12/01/2015
++ Implementada a versão 1.0.6 do Owlet
++ Incluída extensão nativa "Themes"
+	+ Agora é possível escolher entre temas pré-definidos e criar seus próprios temas personalizados para o sistema
++ Algumas correções na página de configurações do sistema
+
 ## 07/11/2014
 + Atualização da extensão nativa "Strings"
 Agora a extensão conta com um array padrão listando os meses do ano

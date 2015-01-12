@@ -3,7 +3,7 @@
 <title>Admin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="plugins/bootstrap/bootstrap.css" rel="stylesheet">
-<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href="plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
 <link href="plugins/fullcalendar/fullcalendar.css" rel="stylesheet">
@@ -15,9 +15,6 @@
 <link href="css/style.css" rel="stylesheet">
 
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<!--
-<script src="plugins/jquery/jquery-2.1.0.min.js"></script>
--->
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
 <script src="plugins/typeahead/typeahead.js"></script>
 <script src="plugins/justified-gallery/jquery.justifiedgallery.min.js"></script>
@@ -34,3 +31,14 @@
 				<script src="http://getbootstrap.com/docs-assets/js/html5shiv.js"></script>
 				<script src="http://getbootstrap.com/docs-assets/js/respond.min.js"></script>
 <![endif]-->
+
+<?php
+// Theming
+$themesObj = new Extensions\Themes();
+$currentTheme = $themesObj->getCurrentTheme();
+if($currentTheme != "default"){
+?>
+<link href="themes/<?php echo $currentTheme;?>.css" rel="stylesheet">
+<?php
+}
+?>

@@ -30,4 +30,8 @@
 		<confirmationURL>http://dev.owlet/confirmemail.php</confirmationURL>
 		<cancelURL>http://dev.owlet/cancelemail.php</cancelURL>
 	</mailing>
+	
+	<theming>
+		<theme>black</theme>
+	</theming>
 </owletConfig>

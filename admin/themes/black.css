@@ -1,0 +1,31 @@
+/**
+Black
+ * @author David Lima
+ */
+#sidebar-left {
+	background-color: #111;
+}
+
+#breadcrumb {
+	background-color: #111;
+}
+
+body {
+	background-color: #111;
+}
+
+#dashboard_links .nav {
+	background-color: #111;
+}
+
+.text-info {
+	color: #111;
+}
+
+.panel-menu i {
+	color: #111;
+}
+
+.btn-info {
+	background-color: #111;
+}

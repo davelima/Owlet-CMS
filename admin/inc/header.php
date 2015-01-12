@@ -66,6 +66,13 @@ $config = \Extensions\Config::get();
 										<span class="hidden-sm text">Configurações</span>
 									</a>
 								</li>
+								
+								<li>
+								    <a href="setup/themes/">
+								        <i class="fa fa-paint-brush"></i>
+								        <span class="hidden-sm text">Temas</span>
+								    </a>
+								</li>
 
 								<li>
 									<a href="logout/">
