@@ -1,7 +1,7 @@
 <?php
 $breadcrumbs = array(
     "Home" => "/admin/",
-    "Confiurações" => $_SERVER['REQUEST_URI']
+    "Configurações" => $_SERVER['REQUEST_URI']
 );
 require_once ("inc/breadcrumbs.php");
 $admin = new Model\Administrators();
