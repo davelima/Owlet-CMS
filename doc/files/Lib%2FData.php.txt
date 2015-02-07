@@ -51,7 +51,7 @@ abstract class Data
      *
      * @staticvar string
      */
-    private static $database = "go";
+    private static $database = "owlet";
 
     /**
      * The host to conenct
@@ -65,14 +65,14 @@ abstract class Data
      *
      * @staticvar string
      */
-    private static $user = "go";
+    private static $user = "owlet";
 
     /**
      * The password to authenticate
      *
      * @staticvar string
      */
-    private static $password = "batman";
+    private static $password = "owlet";
 
     /**
      * Opens an connection and put it on self::$db
