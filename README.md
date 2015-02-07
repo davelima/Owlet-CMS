@@ -1,7 +1,6 @@
 # Owlet CMS
-#### v1.0.6
+#### v1.0.7
 ##### PHP >= 5.4.0
-
 
 **Versão 1.0.6**
 Agora personalizável com temas!
