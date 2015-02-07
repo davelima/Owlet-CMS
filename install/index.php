@@ -13,6 +13,44 @@
 <body>
 	<div class="wizard" id="some-wizard" data-title="Configuração do sistema">
 
+		<div class="wizard-card" data-cardname="permissions">
+			<h3>Arquivos e permissões</h3>
+			<h5>
+				<a href="#" id="testpermissions" class="btn btn-info">
+					<i class="fa fa-refresh"></i>
+					Verificar
+				</a>
+			</h5>
+			<div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">Arquivo</th>
+							<th scope="col">Permissões</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<b>admin/config.xml</b>
+							</td>
+							<td>
+								<span id="config-xml">Não verificado</span>
+							</td>
+						</tr>
+						<tr id="databasecheck">
+							<td>
+								<b>database/<span id="dbdriver"></span></b>
+							</td>
+							<td>
+								<span id="dbdriverfile">Não verificado</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
 		<div class="wizard-card" data-cardname="database">
 			<h3>Teste do banco de dados</h3>
 			<h5>
@@ -196,7 +234,55 @@ $(document).ready(function(){
         }
       });
     });
-    $('#updatedatabasestatus').click();
+    
+
+    $('#testpermissions').on('click', function(e){
+        e.preventDefault();
+        var button = $(this),
+        icon = $(this).find('i');
+        $.ajax({
+            url: "testpermissions.php",
+            type: "GET",
+            dataType: "JSON",
+            beforeSend: function(){
+                icon.addClass("fa-spin");
+                button.attr('disabled', true);
+            },
+            complete: function(){
+                icon.removeClass("fa-spin");
+                button.attr('disabled', false);
+            },
+            success: function(data){
+                $('#dbdriver').html(data.dbdriver);
+                var permErrors = 0;
+                $.each(data, function(i, obj){
+                    if(obj.hasOwnProperty("perms")){
+                        if(!obj.perms){
+                            $('#'+obj.id).removeClass('text-success');
+                            $('#'+obj.id).addClass('text-danger').html("Precisa de permissão para escrita e leitura!");
+                            permErrors++;
+                            console.error('deu erro');
+                            console.log(obj);
+                        }else{
+                            $('#'+obj.id).removeClass('text-danger');
+                            $('#'+obj.id).addClass('text-success').html('OK!');
+                        }
+                    }
+                });
+
+                console.log(permErrors);
+                
+                if(permErrors > 0){
+                    wizard.hideButtons();
+                }else{
+                    wizard.showButtons();
+                }
+        
+            }
+        });
+    });
+    
+    $('#updatedatabasestatus, #testpermissions').click();
 });
 
 </script>
