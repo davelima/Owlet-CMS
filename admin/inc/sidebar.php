@@ -36,14 +36,11 @@
 				<a href="blog/configurations/">Configurações</a>
 			</li>
 		</ul>
+	</li>
 	
 <?php
 if ($headerAdmin->isRoot()) {
     ?>
-	
-	
-	
-	
 	
 	
 	<li class="dropdown">
