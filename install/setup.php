@@ -35,10 +35,9 @@ try {
     $config->blog->sendNotificationToMailing = 0;
     $config->tickets->title = $_POST['title'];
     
-    $baseUrl = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'];
+    $baseUrl = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
     $config->mailing->confirmationURL = $baseUrl . "/confirmemail.php";
     $config->mailing->cancelURL = $baseUrl . "/cancelemail.php";
-
     
     \Extensions\Config::Save();
 } catch (Exception $e) {
