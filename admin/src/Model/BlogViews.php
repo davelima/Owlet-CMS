@@ -66,17 +66,31 @@ class BlogViews extends Base
 
     /**
      * Return a post total view count
-     * 
+     *
+     * @param $initDate \DateTime            
+     * @param $finalDate \DateTime            
      * @throws \Exception
      * @return number
      */
-    public function getTotalViews()
+    public function getTotalViews(\DateTime $initDate = null, \DateTime $finalDate = null)
     {
         if (! $this->post || ! $this->post instanceof Blog) {
             throw new \Exception("É necessário definir um post!");
         }
         
-        $query = \Lib\Data::customQuery("SELECT COUNT(id) AS total FROM $this WHERE post = '" . $this->getPost()->getId() . "'");
+        $and = "";
+        
+        if ($initDate) {
+            $initDate = $initDate->format('Y-m-d H:i:s');
+            $and .= " timestamp >= '$initDate'";
+        }
+        
+        if ($finalDate) {
+            $finalDate = $finalDate->format('Y-m-d H:i:s');
+            $and .= " timestamp <= '$initDate'";
+        }
+        
+        $query = \Lib\Data::customQuery("SELECT COUNT(id) AS total FROM $this WHERE post = '" . $this->getPost()->getId() . "'$and");
         $count = $query->fetch(\PDO::FETCH_ASSOC);
         return (int) $count['total'];
     }

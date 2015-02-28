@@ -189,11 +189,18 @@ class Blog extends Base
         }
     }
 
-    public function getViews()
+    /**
+     * Return the post total views
+     *
+     * @param \DateTime $initDate            
+     * @param \DateTime $finalDate            
+     * @return number
+     */
+    public function getViews(\DateTime $initDate = null, \DateTime $finalDate = null)
     {
         $blogViews = new BlogViews();
         $blogViews->setPost($this);
-        $total = $blogViews->getTotalViews();
+        $total = $blogViews->getTotalViews($initDate, $finalDate);
         return $total;
     }
 
