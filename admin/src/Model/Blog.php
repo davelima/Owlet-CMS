@@ -1,21 +1,21 @@
 <?php
 /**
  ************************************************************************
-Copyright [2014] [David Lima]
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-************************************************************************
-*/
+ Copyright [2014] [David Lima]
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ ************************************************************************
+ */
 namespace Model;
 
 use \Lib\Data;
@@ -104,7 +104,7 @@ class Blog extends Base
 
     /**
      * Return posts that satisfies the searched term
-     * 
+     *
      * @param string $term            
      * @return multitype:\Model\mixed,array,boolean
      */
@@ -170,6 +170,31 @@ class Blog extends Base
             $it->addChild('description', htmlspecialchars($item->getPreview()));
         }
         return $base->asXML();
+    }
+
+    /**
+     * Increase BlogView count by 1
+     *
+     * @return boolean
+     */
+    public function increaseBlogView()
+    {
+        try {
+            $blogViews = new BlogViews();
+            $blogViews->setPost($this);
+            $blogViews->Save();
+            return true;
+        } catch (\Exception $e) {
+            return false;
+        }
+    }
+
+    public function getViews()
+    {
+        $blogViews = new BlogViews();
+        $blogViews->setPost($this);
+        $total = $blogViews->getTotalViews();
+        return $total;
     }
 
     /**
