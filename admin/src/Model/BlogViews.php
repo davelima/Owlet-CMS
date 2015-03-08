@@ -72,7 +72,7 @@ class BlogViews extends Base
      * @throws \Exception
      * @return number
      */
-    public function getTotalViews(\DateTime $initDate = null, \DateTime $finalDate = null)
+    public function getTotalViews(\DateTime $initDate = null, \DateTime $finalDate = null, $group = false)
     {
         if (! $this->post || ! $this->post instanceof Blog) {
             throw new \Exception("É necessário definir um post!");
@@ -82,17 +82,25 @@ class BlogViews extends Base
         
         if ($initDate) {
             $initDate = $initDate->format('Y-m-d H:i:s');
-            $and .= " timestamp >= '$initDate'";
+            $and .= " AND timestamp >= '$initDate'";
         }
         
         if ($finalDate) {
             $finalDate = $finalDate->format('Y-m-d H:i:s');
-            $and .= " timestamp <= '$initDate'";
+            $and .= " AND timestamp <= '$finalDate'";
         }
         
-        $query = \Lib\Data::customQuery("SELECT COUNT(id) AS total FROM $this WHERE post = '" . $this->getPost()->getId() . "'$and");
-        $count = $query->fetch(\PDO::FETCH_ASSOC);
-        return (int) $count['total'];
+        $group = ($group ? " GROUP BY year, month, day " : "");
+        $dateElements = ($group ? ", EXTRACT(YEAR FROM timestamp) AS year, EXTRACT(MONTH FROM timestamp) AS month, EXTRACT(DAY FROM timestamp) AS day, CONCAT(EXTRACT(YEAR FROM timestamp), '-', EXTRACT(MONTH FROM timestamp), '-', EXTRACT(DAY FROM timestamp)) AS date " : "");
+        
+        $query = \Lib\Data::customQuery("SELECT COUNT(*) AS total $dateElements FROM $this WHERE post = '" . $this->getPost()->getId() . "'$and $group");
+        if ($group) {
+            $count = $query->fetchAll(\PDO::FETCH_ASSOC);
+            return $count;
+        } else {
+            $count = $query->fetch(\PDO::FETCH_ASSOC);
+            return (int) $count['total'];
+        }
     }
 
     /**

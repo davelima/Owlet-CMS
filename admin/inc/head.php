@@ -25,6 +25,7 @@
 <script src="plugins/jqueryui/jquery-ui.min.js"></script>
 <script src="plugins/jquerymask/jquery.mask.min.js"></script>
 <script src="plugins/stepper/jquery.fs.stepper.min.js"></script>
+<script src="plugins/chartjs/chart.min.js"></script>
 <script src="js/devoops.js"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -36,8 +37,8 @@
 // Theming
 $themesObj = new Extensions\Themes();
 $currentTheme = $themesObj->getCurrentTheme();
-if($currentTheme != "default"){
-?>
+if ($currentTheme != "default") {
+    ?>
 <link href="themes/<?php echo $currentTheme;?>.css" rel="stylesheet">
 <?php
 }
