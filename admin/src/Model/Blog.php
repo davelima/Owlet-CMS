@@ -196,11 +196,11 @@ class Blog extends Base
      * @param \DateTime $finalDate            
      * @return number
      */
-    public function getViews(\DateTime $initDate = null, \DateTime $finalDate = null)
+    public function getViews(\DateTime $initDate = null, \DateTime $finalDate = null, $group = false)
     {
         $blogViews = new BlogViews();
         $blogViews->setPost($this);
-        $total = $blogViews->getTotalViews($initDate, $finalDate);
+        $total = $blogViews->getTotalViews($initDate, $finalDate, $group);
         return $total;
     }
 
